@@ -4,6 +4,7 @@ lsi: false
 pygments: false
 markdown: maruku
 permalink: /:title.html
+paginate: 1
 
 maruku:
   use_tex:    false
