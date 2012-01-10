@@ -3,18 +3,16 @@ layout: default
 title: Tanner's Blog
 ---
 
-{ %% for post in site.posts limit:5 %% }
+{% for post in site.posts limit:5 %}
 	<div class="post">
 		<div class="header">
 			<h1>{{ post.title }}</h1>
 			<p class="date">{{ post.date | date_to_string }}</p>
 		</div>
-		<p>Etsy tofu cupidatat sapiente, american apparel locavore bahn mi messenger bag banksy ex aliquip nihil keffiyeh. Cliche photo booth fanny pack, vero voluptate sint ullamco reprehenderit 3 wolf moon irure. <a href="#">Messenger</a> bag readymade adipisicing, trust fund american apparel assumenda cosby sweater mixtape. Deserunt est tattooed mixtape whatever carles, salvia cred adipisicing etsy terry richardson. Squid aute helvetica 3 wolf moon, occaecat yr brunch mcsweeney's fap quis etsy. Labore keytar thundercats laborum ex, locavore four loko vice lomo. Deserunt fixie incididunt etsy pitchfork.</p>
-		<p>Etsy letterpress consectetur, veniam artisan est voluptate. Lomo artisan sartorial voluptate, tofu elit jean shorts hoodie. Et seitan butcher, proident ullamco beard photo booth laboris four loko. Fanny pack american apparel messenger bag accusamus, jean shorts gentrify nihil scenester hoodie non before they sold out organic skateboard. Placeat jean shorts aesthetic chambray. Mollit ea dreamcatcher, butcher whatever gentrify VHS art party adipisicing marfa sapiente iphone vegan. Ullamco duis beard sapiente gentrify.</p>
-		<img src="http://placekitten.com/500/200">
+		<p>{{ post.content }}</p>
 		<div class="footer">
 			<a href="#" class="comment">0 comment(s)</a>
-			<p class="meta">Posted in <a href="#">Photography</a> | Tagged <a href="#">beach</a>, <a href="#">camera</a>, <a href="#">childhood</a>, <a href="#">dad</a>, <a href="#">develop</a>, <a href="#">experiment</a>, <a href="#">film</a>, <a href="#">pentax</a>, <a href="#">photography</a>, <a href="#">setting</a></p>
+			<p class="meta">Posted in {{ post.categories | array_to_sentence_string }} | Tagged {{ post.tags | array_to_sentence_string }}</p>
 		</div>
 	</div>
-{ %% endfor %% }
+{% endfor %}
