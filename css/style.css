@@ -199,16 +199,22 @@ img {
 
 .footer {
 	position: relative;
+	
+	height: 12px;
 }
 
 .footer a.comment {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
 	color: #666;
 	font-size: 12px;
 }
 
 .footer p.meta {
 	position: absolute;
-	top: 0;
+	bottom: 0;
 	right: 0;
 
 	padding: 0;
