@@ -9,7 +9,7 @@ title: Tanner's Blog
 			<a href="{{ post.url }}" class="title">{{ post.title }}</a>
 			<p class="date">{{ post.date | date_to_string }}</p>
 		</div>
-		<p>{{ post.content }}</p>
+		{{ post.content }}
 		<div class="footer">
 			<a href="#" class="comment">0 comment(s)</a>
 			<p class="meta">Posted in {{ post.categories | array_to_sentence_string }} | Tagged {{ post.tags | array_to_sentence_string }}</p>
