@@ -1,0 +1,8 @@
+---
+layout: default
+title: Test Post
+categories: Test
+tags: test post new
+---
+
+Blah blah blah
