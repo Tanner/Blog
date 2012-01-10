@@ -7,7 +7,7 @@ title: Tanner's Blog
 	<div class="post">
 		<div class="header">
 			<a href="{{ post.url }}" class="title">{{ post.title }}</a>
-			<p class="date">{{ post.date | date_to_string }}</p>
+			<p class="date">{{ post.date | date: "%B %d, %Y at %I:%M %p" }}</p>
 		</div>
 		{{ post.content }}
 		<div class="footer">
