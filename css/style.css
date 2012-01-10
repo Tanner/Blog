@@ -32,9 +32,6 @@ img {
 	background: #252525;
 	
 	-webkit-box-shadow: inset -2px 0px 1px #4a4a4a;
-	
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
 }
 
 #sidebar.icon {
@@ -117,9 +114,6 @@ img {
 	background: #f8f8f8;
 	
 	font-family: "Helvetica", sans-serif;
-	
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
 	
 	overflow-y: scroll;
 	overflow-x: none;
