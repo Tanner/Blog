@@ -3,7 +3,7 @@ auto: false
 lsi: false
 pygments: false
 markdown: maruku
-permalink: date
+permalink: /:title.html
 
 maruku:
   use_tex:    false
