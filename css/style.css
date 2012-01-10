@@ -114,9 +114,6 @@ img {
 	background: #f8f8f8;
 	
 	font-family: "Helvetica", sans-serif;
-	
-	overflow-y: scroll;
-	overflow-x: none;
 }
 
 .post {
