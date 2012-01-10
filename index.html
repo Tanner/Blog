@@ -18,8 +18,12 @@ title: Tanner's Blog
 {% endfor %}
 
 <div id="bottom">
-	{% if paginator.prev_page %}
-		<p id="prev"><a href="/page{{ paginator.prev_page }}">Previous</a></p>
+	{% if paginator.previous_page %}
+		{% if paginator.previous_page == 1 %}
+			<p id="prev"><a href="/">Previous</a></p>
+		{% else %}
+			<p id="prev"><a href="/page{{ paginator.previous_page }}">Previous</a></p>
+		{% endif %}
 	{% endif %}
 	<p id="footer">Copyright &copy; Tanner Smith 2011. Powered by Jekyll.</p>
 	{% if paginator.next_page %}
