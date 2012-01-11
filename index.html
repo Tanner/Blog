@@ -10,10 +10,6 @@ title: Tanner's Blog
 			<p class="date">{{ post.date | date: "%B %d, %Y at %I:%M %p" }}</p>
 		</div>
 		{{ post.content }}
-		<div class="footer">
-			<a href="#" class="comment">0 comment(s)</a>
-			<p class="meta">Posted in {{ post.categories | array_to_sentence_string }} | Tagged {{ post.tags | array_to_sentence_string }}</p>
-		</div>
 	</div>
 {% endfor %}
 

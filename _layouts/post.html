@@ -8,8 +8,4 @@ layout: default
 		<p class="date">{{ page.date | date: "%B %d, %Y at %I:%M %p" }}</p>
 	</div>
 	{{ content }}
-	<div class="footer">
-		<a href="#" class="comment">0 comment(s)</a>
-		<p class="meta">Posted in {{ page.categories | array_to_sentence_string }} | Tagged {{ page.tags | array_to_sentence_string }}</p>
-	</div>
 </div>

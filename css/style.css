@@ -225,26 +225,6 @@ img {
 	margin: 10px 0 10px 10px;
 }
 
-.footer {
-	position: relative;
-}
-
-.footer a.comment {
-	color: #666;
-	font-size: 12px;
-}
-
-.footer p.meta {
-	position: absolute;
-	top: 0;
-	right: 0;
-
-	padding: 0;
-
-	color: #666;
-	font-size: 12px;
-}
-
 #bottom {
 	position: relative;
 
