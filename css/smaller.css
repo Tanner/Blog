@@ -1,0 +1,17 @@
+body {
+	background: #fff !important;
+}
+
+#wrapper {
+	height: 100%;
+}
+
+#sidebar {
+	position: fixed;
+}
+
+#content {
+	height: auto;
+
+	overflow: visible;
+}

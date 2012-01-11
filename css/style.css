@@ -1,3 +1,6 @@
+@import url("normal.css") screen and (min-width: 1000px);
+@import url("smaller.css") screen and (max-width: 999px);
+
 * {
 	padding: 0;
 	margin: 0;
@@ -20,28 +23,7 @@ img {
 	border: 0;
 }
 
-#wrapper {
-	position: relative;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-
-	height: 90%;
-	width: 1000px;
-
-	min-height: 500px;
-	
-	margin-top: -45%;
-	margin-left: -500px;
-	
-	-webkit-border-radius: 10px;
-	
-	-webkit-box-shadow: 0 0 5px #333;
-}
-
 #sidebar {
-	position: relative;
-	position: absolute;
 	top: 0;
 	left: 0;
 
@@ -51,9 +33,6 @@ img {
 	background: #252525;
 	
 	-webkit-box-shadow: inset -2px 0px 1px #4a4a4a;
-	
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
 }
 
 #sidebar.icon {
@@ -129,19 +108,10 @@ img {
 	position: relative;
 
 	margin-left: 200px;
-	
-	height: 100%;
-	min-width: 500px;
-	
+		
 	background: #f8f8f8;
 	
 	font-family: "Helvetica", sans-serif;
-	
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	
-	overflow-y: scroll;
-	overflow-x: none;
 }
 
 .post {
@@ -206,6 +176,9 @@ img {
 .post img {
 	display: block;
 	
+	box-sizing: border-box;
+	max-width: 100%;
+
 	padding: 5px;
 	margin: 10px auto;
 	
