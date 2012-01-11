@@ -6,7 +6,7 @@ title: Tanner's Blog
 {% for post in paginator.posts %}
 	<div class="post">
 		<div class="header">
-			<a href=".{{ post.url }}" class="title">{{ post.title }}</a>
+			<a href="{{ site.baseurl }}{{ post.url }}" class="title">{{ post.title }}</a>
 			<p class="date">{{ post.date | date: "%B %d, %Y at %I:%M %p" }}</p>
 		</div>
 		{{ post.content }}
@@ -16,13 +16,13 @@ title: Tanner's Blog
 <div id="bottom">
 	{% if paginator.previous_page %}
 		{% if paginator.previous_page == 1 %}
-			<p id="prev"><a href="/">Previous</a></p>
+			<p id="prev"><a href="{{ site.baseurl }}">Previous</a></p>
 		{% else %}
-			<p id="prev"><a href="/page{{ paginator.previous_page }}">Previous</a></p>
+			<p id="prev"><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Previous</a></p>
 		{% endif %}
 	{% endif %}
 	<p id="footer">Copyright &copy; Tanner Smith 2011. Powered by Jekyll.</p>
 	{% if paginator.next_page %}
-		<p id="next"><a href="/page{{ paginator.next_page }}">Next</a></p>
+		<p id="next"><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next</a></p>
 	{% endif %}
 </div>
