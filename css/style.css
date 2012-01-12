@@ -35,7 +35,7 @@ img {
 	-webkit-box-shadow: inset -2px 0px 1px #4a4a4a;
 }
 
-#sidebar > .icon {
+#sidebar .icon {
 	height: 40px;
 	width: 40px;
 	
