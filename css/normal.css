@@ -1,34 +1,13 @@
 #wrapper {
-	position: relative;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-
-	height: 90%;
-	width: 1000px;
-
-	min-height: 500px;
-	
-	margin-top: -45%;
-	margin-left: -500px;
-	
-	-webkit-border-radius: 10px;
-	
-	-webkit-box-shadow: 0 0 5px #333;
+	height: 100%;
 }
 
 #sidebar {
-	position: absolute;
-
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	position: fixed;
 }
 
 #content {
-	height: 100%;
-	
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	height: auto;
 
-	overflow-y: scroll;
+	overflow: visible;
 }
