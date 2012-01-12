@@ -62,41 +62,7 @@ img {
 }
 
 #sidebar li {
-	position: relative;
-	display: block;
-	
-	margin-left: 20px;
-	
-	padding: 10px 0;
-	
-	line-height: 20px;
-	font-size: 20px;
-	
-	font-weight: bold;
-	
-	color: #fff;
-}
-
-#sidebar li a {
-	text-decoration: none;
-	
-	color: #fff;
-}
-
-#sidebar input[type="text"] {
-	content: "Search…";
-    display: block;
-    
-    height: 20px;
-    width: 125px;
-    
-    line-height: 20px;
-    
-    border: solid 1px #fff;
-}
-
-#sidebar input[type="text"]:focus {
-	outline: none;
+	list-style-type: none;
 }
 
 #excerpts {
