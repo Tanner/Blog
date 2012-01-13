@@ -122,12 +122,70 @@ img {
 	margin-left: 70px;
 
 	width: 300px;
+	height: 100%;
+
+	border-right: solid 1px #ccc;
+
+	background: #f7f6f1;
+
+	font-family: Helvetica, sans-serif;
+
+	overflow: scroll;
+}
+
+#excerpts .post-excerpt {
+	height: 90px;
+
+	padding: 15px;
+
+	border-bottom: solid 1px #e5e3de;
+
+	color: #888;
+}
+
+#excerpts .selected {
+	background: #f0efea;
+
+	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+#excerpts .post-excerpt .excerpt {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#excerpts .post-excerpt .header {
+	position: relative;
+}
+
+#excerpts .post-excerpt .header .title {
+	width: 200px;
+
+	display: block;
+
+	font-size: 16px;
+	font-weight: bold;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	color: #666;
+}
+
+#excerpts .post-excerpt .header .time {
+	position: absolute;
+
+	right: 0;
+	top: 0;
+
+	font-size: 12px;
 }
 
 #content {
 	position: relative;
 
-	margin-left: 400px;
+	margin-left: 371px;
 		
 	background: #f8f8f8;
 	
@@ -142,13 +200,13 @@ img {
 	border-bottom: solid #dcdcdc 1px;
 }
 
-.header {
+.post .header {
 	position: relative;
 	
 	padding: 0 0 5px 0;
 }
 
-.header > .title {
+.post .header .title {
 	font-size: 30px;
 	line-height: 30px;
 	
