@@ -63,8 +63,8 @@ img {
 }
 
 #sidebar .selected {
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-top: 4px;
+	margin-bottom: 4px;
 
 	border: solid rgb(254, 187, 0) 3px;
 
