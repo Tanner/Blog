@@ -133,6 +133,24 @@ img {
 	overflow: scroll;
 }
 
+#excerpts .date {
+	height: 20px;
+	line-height: 20px;
+
+	padding: 0 15px;
+
+	margin-top: -1px; /* remove preceding bottom border */
+
+	color: #828077;
+	font-size: 12px;
+	font-weight: bold;
+	
+	border-top: solid 1px #cac9c6;
+	border-bottom: solid 1px #cac9c6;
+
+	background-image: -webkit-linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
+}
+
 #excerpts .post-excerpt {
 	height: 90px;
 
