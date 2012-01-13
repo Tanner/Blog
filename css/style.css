@@ -68,6 +68,9 @@ img {
 	border: solid #ffc11f 3px;
 
 	-webkit-box-shadow: 0px 0px 5px #000;
+
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
 #sidebar .selected .inner-icon {
