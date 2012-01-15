@@ -21,7 +21,7 @@ module Jekyll
 			excerpts.each do |date, posts|
 				output += "<div class=\"date\">" + date.strftime("%A, %B %d, %Y") + "</div>";
 
-				posts.each do |post|
+				posts.sort.reverse.each do |post|
 					title = post.data["title"]
 					time = post.date.strftime("%I:%M %p")
 					content = excerpt(post.content, 150)
