@@ -4,7 +4,6 @@ lsi: false
 pygments: false
 markdown: maruku
 permalink: /:title.html
-paginate: 5
 baseurl: /blog
 
 maruku:

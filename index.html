@@ -14,15 +14,5 @@ title: Tanner's Blog
 {% endfor %}
 
 <div id="bottom">
-	{% if paginator.previous_page %}
-		{% if paginator.previous_page == 1 %}
-			<p id="prev"><a href="{{ site.baseurl }}">Previous</a></p>
-		{% else %}
-			<p id="prev"><a href="{{ site.baseurl }}/page{{ paginator.previous_page }}">Previous</a></p>
-		{% endif %}
-	{% endif %}
 	<p id="footer">Copyright &copy; Tanner Smith 2011. Powered by Jekyll.</p>
-	{% if paginator.next_page %}
-		<p id="next"><a href="{{ site.baseurl }}/page{{ paginator.next_page }}">Next</a></p>
-	{% endif %}
 </div>

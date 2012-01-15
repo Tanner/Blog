@@ -315,15 +315,3 @@ img {
 	
 	color: #666;
 }
-
-#bottom > #prev {
-	position: absolute;
-	top: 20px;
-	left: 20px;
-}
-
-#bottom > #next {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-}
