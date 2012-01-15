@@ -9,7 +9,9 @@ title: Tanner's Blog
 			<a href="{{ site.baseurl }}{{ post.url }}" class="title">{{ post.title }}</a>
 			<p class="date">{{ post.date | date: "%B %d, %Y at %I:%M %p" }}</p>
 		</div>
-		{{ post.content }}
+		<div class="body">
+			{{ post.content }}
+		</div>
 	</div>
 {% endfor %}
 
