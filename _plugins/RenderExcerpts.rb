@@ -4,7 +4,7 @@ module Jekyll
 			date = nil
 			excerpts = Hash.new
 
-			context.registers[:site].posts.sort.each do |post|
+			context.registers[:site].posts.each do |post|
 				if date.nil? or !(date.day == post.date.day and date.month == post.date.month and date.year == post.date.year)
 					date = post.date
 
