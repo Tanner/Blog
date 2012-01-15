@@ -3,7 +3,7 @@ layout: post
 title: Blog Post Title A
 categories: Photography
 tags: beach camera childhood dad develop experiment film photography setting
-date: August 15, 2011 4:30 PM
+date: August 15, 2011 4:50 PM
 ---
 
 Etsy tofu cupidatat sapiente, american apparel locavore bahn mi messenger bag banksy ex aliquip nihil keffiyeh. Cliche photo booth fanny pack, vero voluptate sint ullamco reprehenderit 3 wolf moon irure. <a href="#">Messenger</a> bag readymade adipisicing, trust fund american apparel assumenda cosby sweater mixtape. Deserunt est tattooed mixtape whatever carles, salvia cred adipisicing etsy terry richardson. Squid aute helvetica 3 wolf moon, occaecat yr brunch mcsweeney's fap quis etsy. Labore keytar thundercats laborum ex, locavore four loko vice lomo. Deserunt fixie incididunt etsy pitchfork.
