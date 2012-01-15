@@ -324,17 +324,13 @@ img {
 }
 
 #bottom {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-
-	width: 100%;
-
 	padding: 20px;
 	
 	text-align: center;
 	
 	font-size: 13px;
+
+	color: #858585;
 }
 
 #bottom a {
