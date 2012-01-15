@@ -32,8 +32,10 @@ module Jekyll
 						firstPost = false
 					end
 
+					link = context.registers[:site].config['baseurl'] + post.url
+
 					output += <<HTML
-<div class="post-excerpt#{selected}">
+<div class="post-excerpt#{selected}" id="#{link}">
 	<div class="header">
 		<span class="title">#{title}</span>
 		<span class="time">#{time}</span>
