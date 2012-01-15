@@ -17,6 +17,7 @@ module Jekyll
 			end
 			
 			output = ""
+			firstPost = true
 
 			excerpts.each do |date, posts|
 				output += "<div class=\"date\">" + date.strftime("%A, %B %d, %Y") + "</div>";
@@ -26,8 +27,13 @@ module Jekyll
 					time = post.date.strftime("%I:%M %p")
 					content = excerpt(post.content, 150)
 
+					selected = firstPost ? " selected" : ""
+					if firstPost
+						firstPost = false
+					end
+
 					output += <<HTML
-<div class="post-excerpt">
+<div class="post-excerpt#{selected}">
 	<div class="header">
 		<span class="title">#{title}</span>
 		<span class="time">#{time}</span>
