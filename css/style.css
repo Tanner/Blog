@@ -244,7 +244,7 @@ img {
 .post .header {
 	position: relative;
 	
-	padding: 0 0 12px 0;
+	padding: 0 0 15px 0;
 	
 	border-bottom: solid #dcdcdc 1px;
 }
@@ -274,7 +274,7 @@ img {
 }
 
 .post .body {
-	padding: 12px 0 0 0;
+	padding: 15px 0 0 0;
 }
 
 .post p {
