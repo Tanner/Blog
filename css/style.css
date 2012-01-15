@@ -234,16 +234,19 @@ img {
 
 .post {
 	position: relative;
-	
+
+	width: 500px;
+	margin: 0 auto;	
+
 	padding: 20px;
-	
-	border-bottom: solid #dcdcdc 1px;
 }
 
 .post .header {
 	position: relative;
 	
-	padding: 0 0 5px 0;
+	padding: 0 0 10px 0;
+	
+	border-bottom: solid #dcdcdc 1px;
 }
 
 .post .header .title {
@@ -270,8 +273,12 @@ img {
 	line-height: 12px;
 }
 
+.post .body {
+	padding: 10px 0 0 0;
+}
+
 .post p {
-	padding: 7.5px 0;
+	padding: 0 0 7.5px 0;
 	
 	font-size: 13px;
 }
@@ -307,13 +314,13 @@ img {
 .post img.left {
 	float: left;
 	
-	margin: 10px 10px 10px 0;
+	margin: 0 10px 10px 0;
 }
 
 .post img.right {
 	float: right;
 	
-	margin: 10px 0 10px 10px;
+	margin: 0 0 10px 10px;
 }
 
 #bottom {
