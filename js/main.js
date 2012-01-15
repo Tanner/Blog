@@ -12,4 +12,13 @@ function init() {
 		$(this).addClass("selected");
 		$(this).siblings().removeClass("selected");
 	});
+
+	// Disable selection - don't show selection cursor
+	$("#sidebar").bind("selectstart", function() {
+		return false;
+	});
+	
+	$("#excerpts").bind("selectstart", function() {
+		return false;
+	});
 }
