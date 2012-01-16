@@ -5,6 +5,7 @@ pygments: false
 markdown: maruku
 permalink: /:title.html
 baseurl: /blog
+exclude: lib
 
 maruku:
   use_tex:    false
