@@ -32,7 +32,11 @@ categories:
 - general
 - technology
 ---
-Today I posted on a [tweet](http://twitter.com/TannerLD/status/23920663883) on Twitter.<blockquote>I slightly cry every time I see an inflammatory post on a forum and it remains there not removed by administrators.</blockquote>What I should have added as well is that the post remains there while users respond to it, explaining to the original poster what the flaw is in their logic, while not considering at all the provocative nature of the post.
+Today I posted on a [tweet](http://twitter.com/TannerLD/status/23920663883) on Twitter.
+
+>I slightly cry every time I see an inflammatory post on a forum and it remains there not removed by administrators.
+
+What I should have added as well is that the post remains there while users respond to it, explaining to the original poster what the flaw is in their logic, while not considering at all the provocative nature of the post.
 
 Now I'm looking at this for two reasons.
 

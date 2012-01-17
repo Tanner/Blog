@@ -61,10 +61,12 @@ In others words, having a netbook is great for when I don't need a blown-out lap
 
 Now, I don't have much software loaded up on my netbook thus far due simply to the fact it is a small, portable, low powered device. Below is a list of some of the basic software/mods I have done to the netbook with Ubuntu.
 
-Software Installed:- [Pidgin](http://www.pidgin.im/)
+Software Installed:
+- [Pidgin](http://www.pidgin.im/)
 - [Skype](http://www.skype.com/intl/en-us/home)
 - [GnomeDo](http://do.davebsd.com/)
 - [Battery Status](http://www.webupd8.org/2010/05/battery-status-01-released-improved.html)
+
 I do use the Gnome window manager instead of the special Ubuntu Netbook window manager. The netbook windows manager just seemed slower and very anti-multitasking. Plus I was used to the default Gnome appearance.
 
 In the end, I'll take my netbook to class instead of my MacBook on somedays, because sometimes I don't really need all the bells and whistles that come with my MacBook for all the increases in size and weight. Life doesn't have to be as complicated and advanced. Sometimes, the simple things are better.

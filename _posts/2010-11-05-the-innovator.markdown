@@ -30,7 +30,11 @@ For me, when I hear the word "innovate" I think of old robotics jokes where we w
 
 Just to see what the actual definition of the word "innovate" is, I looked it up online at [dictionary.com](http://dictionary.reference.com/).
 
-The [definition](http://dictionary.reference.com/browse/innovator) of "innovate" is:<blockquote>to introduce something new; make changes in anything established.</blockquote>From this definition we can see that an innovator is someone who innovates, i.e. they introduce something new into the world never seen before. In <u>Born Digital</u>, the author lists several famous innovators over the years such as Mark Zuckerberg (creator of Facebook), Shawn Fanning (creator of Napster), and Chad Hurley (creator of YouTube). The book also lists a few teen innovators who I did not know who had created small companies that generated profit.
+The [definition](http://dictionary.reference.com/browse/innovator) of "innovate" is:
+
+>to introduce something new; make changes in anything established.<
+
+From this definition we can see that an innovator is someone who innovates, i.e. they introduce something new into the world never seen before. In <u>Born Digital</u>, the author lists several famous innovators over the years such as Mark Zuckerberg (creator of Facebook), Shawn Fanning (creator of Napster), and Chad Hurley (creator of YouTube). The book also lists a few teen innovators who I did not know who had created small companies that generated profit.
 
 A common trend which you may notice from those that I have stated is that all the innovators above have created a profit-inducing innovation. The thing about innovators is that they can be anybody who introduces something new.
 
