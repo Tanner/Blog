@@ -1,0 +1,20 @@
+--- 
+layout: post
+title: ENGL 1101 RSS
+tags: 
+- section-k
+- engl-1101
+- opml
+- georgia-tech
+- georgia
+- "1101"
+- rss
+- tech
+- english
+- gatech
+date: September 09, 2010, 10:47 AM
+categories: 
+- english-1101
+- general
+---
+For those in my ENGL 1101-K class, I updated the OPML file with all the RSS feeds for future use.You can view the post with the attachment [here](http://www.tanner-smith.com/2010/08/30/engl-1101-k-rss-blogs/).

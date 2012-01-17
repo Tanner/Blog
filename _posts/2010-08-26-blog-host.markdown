@@ -1,0 +1,10 @@
+--- 
+layout: post
+title: Blog Host
+tags: []
+
+date: August 08, 2010, 02:09 PM
+categories: 
+- general
+---
+Think I may use one of my servers for hosting this blog. Wordpress.com does not give me enough options. And I like to have options and the ability to customize whatever I want.
