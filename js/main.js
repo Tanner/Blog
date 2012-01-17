@@ -1,6 +1,8 @@
 var currentExcerpt = null;
 var excerpts = null;
 
+const MID_SCROLL_OFFSET = 100;
+
 $(document).ready(function(){
     init();
 })
@@ -44,7 +46,7 @@ function selectExcerpt(excerpt) {
 	});
 }
 
-key('j, down', function() {
+function next() {
 	if (currentExcerpt == null) {
 		return;
 	}
@@ -53,10 +55,14 @@ key('j, down', function() {
 	if (currentExcerptIndex < excerpts.length - 1) {
 		var nextExcerpt = excerpts.eq(currentExcerptIndex + 1);
 		selectExcerpt(nextExcerpt);
-	}
-});
 
-key('k, up', function() {
+		if (nextExcerpt.position().top + nextExcerpt.height() / 2 > $("#excerpts").height() / 2) {
+			$("#excerpts").scrollTop(nextExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
+		}
+	}
+}
+
+function previous() {
 	if (currentExcerpt == null) {
 		return;
 	}
@@ -65,5 +71,17 @@ key('k, up', function() {
 	if (currentExcerptIndex > 0) {
 		var prevExcerpt = excerpts.eq(currentExcerptIndex - 1);
 		selectExcerpt(prevExcerpt);
+
+		if (prevExcerpt.position().top + prevExcerpt.height() / 2 < $("#excerpts").height() / 2) {
+			$("#excerpts").scrollTop(prevExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
+		}
 	}
+}
+
+key('j, down', function() {
+	next();
+});
+
+key('k, up', function() {
+	previous();
 });
