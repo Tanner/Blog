@@ -20,11 +20,11 @@ module Jekyll
 			firstPost = true
 
 			excerpts.sort.reverse.each do |date, posts|
-				output += "<div class=\"date\">" + date.strftime("%A, %B %d, %Y") + "</div>";
+				output += "<div class=\"date\">" + date.strftime("%A, %B %e, %Y") + "</div>";
 
 				posts.sort.reverse.each do |post|
 					title = post.data["title"]
-					time = post.date.strftime("%I:%M %p")
+					time = post.date.strftime("%l:%M %p")
 					content = excerpt(post.content, 150)
 
 					selected = firstPost ? " selected" : ""
