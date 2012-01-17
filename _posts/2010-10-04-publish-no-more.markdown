@@ -39,8 +39,9 @@ It is very interesting as when the author of the ReadWriteWeb article looked int
 >- transitive verb
 > - to make generally known
 > - to make public announcement ofto disseminate to the publicto produce or release for distribution; specifically : printto issue the work of (an author)
->- intransitive verb1. to put out an edition
->2. to have one's work accepted for publication
+>- intransitive verb
+>    1. to put out an edition
+>    2. to have one's work accepted for publication
 
 [dictionary.reference.com](http://dictionary.reference.com/browse/publish)
 >- to issue (printed or otherwise reproduced textual or graphic material, computer software, etc.) for sale or distribution to the public.

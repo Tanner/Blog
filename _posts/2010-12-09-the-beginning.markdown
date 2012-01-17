@@ -36,4 +36,6 @@ But how is this the beginning? Well, in order to do amazing things, one must sub
 
 What does this bring me to? I am not sure. This is my last official required ENGL 1101 weekly post, though I never really had trouble with writing a post for the class. I will continue to blog here after next week, the official end of my first semester at Georgia Tech, is over.
 
-I cannot think of any quotes that I know of off the top of my head to close this post. Well, that is not entirely true. I can think of one..."Carpe, carpe diem, seize the day boys, make your lives extraordinary." - John Keating, <u>Dead Poets Society</u>
+I cannot think of any quotes that I know of off the top of my head to close this post. Well, that is not entirely true. I can think of one...
+
+"Carpe, carpe diem, seize the day boys, make your lives extraordinary." - John Keating, <u>Dead Poets Society</u>

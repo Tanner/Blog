@@ -24,7 +24,7 @@ On Tuesday while working on preparing for an interview for an ENGL 1101 project,
 
 After tweeting this my ENGL 1101 professor [tweeted back](http://twitter.com/#!/ktcrow/status/27859195502) asking why this was so and I [replied](http://twitter.com/#!/TannerLD/status/27859882441) as so.
 
-> \@ktcrow For me, when writing thoughts I am censored by the medium of writing. The process of writing is the middleman to record my thoughts.
+> &#64;ktcrow For me, when writing thoughts I am censored by the medium of writing. The process of writing is the middleman to record my thoughts.
 
 In end, the idea was interesting to me and I thought I might write a blog on it. So here I am. Have I said "tweet" enough?
 
