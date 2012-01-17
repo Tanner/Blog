@@ -262,11 +262,7 @@ img {
 }
 
 .header p.date {
-	position: absolute;
-	top: 0;
-	right: 0;
-
-	padding: 0;
+	padding: 10px 0 0 0;
 
 	color: #666;
 	font-size: 12px;
