@@ -39,7 +39,6 @@ function selectExcerpt(excerpt) {
 	excerpt.addClass("selected");
 	excerpt.siblings().removeClass("selected");
 
-	console.log("URL: "+excerpt.attr("id"));
 	$.get(excerpt.attr("id"), function(data) {
 		$('#content').html(data);
 	});
