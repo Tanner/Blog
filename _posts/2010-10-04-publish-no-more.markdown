@@ -18,7 +18,11 @@ categories:
 - english-1101
 - technology
 ---
-The Magazine Publishers of America (a.k.a. the MPA) is now no longer the MPA. For those who do not know, the Magazine Publishers of America is an industry association for magazine publishers.Now the MPA no longer stands for "Magazine Publishers of America", but "MPA - The Association of Magazine Media". Note that they dropped the word "publishers" out of the name.A press release from the MPA states that they are changing their name, tagline, and logo due to the statement they made below.
+The Magazine Publishers of America (a.k.a. the MPA) is now no longer the MPA. For those who do not know, the Magazine Publishers of America is an industry association for magazine publishers.
+
+Now the MPA no longer stands for "Magazine Publishers of America", but "MPA - The Association of Magazine Media". Note that they dropped the word "publishers" out of the name.
+
+A press release from the MPA states that they are changing their name, tagline, and logo due to the statement they made below.
 
 >MPA is underscoring the fact that magazine media content engages consumers across multiple platforms, including websites, tablets, smartphones, books, live events and more. ([Source](http://www.magazine.org/association/press/mpa_press_releases/new-mpa-name.aspx))
 

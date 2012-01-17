@@ -15,4 +15,10 @@ categories:
 - technology
 - quick-post
 ---
-Found this article somehow either via Twitter or my RSS feeds, but I found it interesting that a dog has picked up the ability to navigate using just echolocation. I've heard of people doing this with clicks of their tongues, but not any other animals. Interesting.To read more about the dog, click [here](http://laughingsquid.com/dog-born-with-no-eyes-gets-around-using-echolocation/).<object height="390" width="640"><param name="movie" value="http://www.youtube.com/v/NwU2neafCOA&rel=0&hl=en_US&feature=player_embedded&version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed allowfullscreen="true" src="http://www.youtube.com/v/NwU2neafCOA&rel=0&hl=en_US&feature=player_embedded&version=3" allowscriptaccess="always" type="application/x-shockwave-flash" height="390" width="640"></embed></object>Source: [LaughingSquid](http://laughingsquid.com/dog-born-with-no-eyes-gets-around-using-echolocation/)
+Found this article somehow either via Twitter or my RSS feeds, but I found it interesting that a dog has picked up the ability to navigate using just echolocation. I've heard of people doing this with clicks of their tongues, but not any other animals. Interesting.
+
+To read more about the dog, click [here](http://laughingsquid.com/dog-born-with-no-eyes-gets-around-using-echolocation/).
+
+<object height="390" width="640"><param name="movie" value="http://www.youtube.com/v/NwU2neafCOA&rel=0&hl=en_US&feature=player_embedded&version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed allowfullscreen="true" src="http://www.youtube.com/v/NwU2neafCOA&rel=0&hl=en_US&feature=player_embedded&version=3" allowscriptaccess="always" type="application/x-shockwave-flash" height="390" width="640"></embed></object>
+
+Source: [LaughingSquid](http://laughingsquid.com/dog-born-with-no-eyes-gets-around-using-echolocation/)

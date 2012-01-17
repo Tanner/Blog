@@ -51,4 +51,6 @@ categories:
 - Extracted Files Folder - Where extracted folders from compressed files in my Downloads folder go.
 - Download Folder - Where downloads exist.
 - Trash - The doomsday of files.
-So that is my dock.Inspired by: [Ajai Karthikeyan](http://www.ajaimk.com/2010/08/26/whats-on-your-dock/)
+So that is my dock.
+
+Inspired by: [Ajai Karthikeyan](http://www.ajaimk.com/2010/08/26/whats-on-your-dock/)

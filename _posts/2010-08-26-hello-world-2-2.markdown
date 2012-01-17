@@ -7,4 +7,6 @@ date: August 08, 2010, 02:55 PM
 categories: 
 - general
 ---
-For those of you who know programming, you'll get that tiny pun. If not, I am indeed saying hello to the entire world - it is the internet and all.I hope to get some posts up here about being born digital and random modern technological items I notice. In the meantime, feel free to read my [about page](http://tannerld.wordpress.com/about/).
+For those of you who know programming, you'll get that tiny pun. If not, I am indeed saying hello to the entire world - it is the internet and all.
+
+I hope to get some posts up here about being born digital and random modern technological items I notice. In the meantime, feel free to read my [about page](http://tannerld.wordpress.com/about/).
