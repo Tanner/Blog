@@ -13,7 +13,7 @@ tags:
 - free
 - georgia-tech
 - feedback
-date: August 08, 2011, 03:05 PM
+date: August 28, 2011, 03:05 PM
 categories: 
 - technology
 - college

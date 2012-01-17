@@ -11,7 +11,7 @@ tags:
 - back-to-the-future
 - project
 - marty-mcfly
-date: October 10, 2010, 08:53 AM
+date: October 27, 2010, 08:53 AM
 categories: 
 - quick-post
 - technology

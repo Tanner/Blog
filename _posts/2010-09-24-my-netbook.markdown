@@ -40,7 +40,7 @@ tags:
 - small
 - tiny
 - wannabe-laptop
-date: September 09, 2010, 08:40 AM
+date: September 24, 2010, 08:40 AM
 categories: 
 - technology
 - college

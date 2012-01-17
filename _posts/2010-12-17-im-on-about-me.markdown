@@ -12,7 +12,7 @@ tags:
 - social
 - college
 - biography
-date: December 12, 2010, 11:30 AM
+date: December 17, 2010, 11:30 AM
 categories: 
 - general
 - quick-post

@@ -12,7 +12,7 @@ tags:
 - dad
 - camera
 - analog
-date: May 05, 2011, 09:53 PM
+date: May 8, 2011, 09:53 PM
 categories: 
 - photography
 ---

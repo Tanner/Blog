@@ -19,7 +19,7 @@ tags:
 - wait
 - text
 - old-days
-date: September 09, 2010, 10:08 PM
+date: September 07, 2010, 10:08 PM
 categories: 
 - english-1101
 ---

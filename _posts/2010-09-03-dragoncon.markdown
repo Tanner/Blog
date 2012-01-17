@@ -28,7 +28,7 @@ tags:
 - program
 - pocket-program
 - mythbusters
-date: September 09, 2010, 09:22 AM
+date: September 03, 2010, 09:22 AM
 categories: 
 - general
 ---

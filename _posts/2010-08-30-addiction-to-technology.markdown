@@ -27,7 +27,7 @@ tags:
 - student
 - macbook
 - delay
-date: August 08, 2010, 09:55 AM
+date: August 30, 2010, 09:55 AM
 categories: 
 - english-1101
 ---

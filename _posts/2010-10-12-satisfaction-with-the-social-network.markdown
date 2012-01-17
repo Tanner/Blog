@@ -12,7 +12,7 @@ tags:
 - mark-zuckerberg
 - data
 - table
-date: October 10, 2010, 02:45 PM
+date: October 12, 2010, 02:45 PM
 categories: 
 - english-1101
 - technology

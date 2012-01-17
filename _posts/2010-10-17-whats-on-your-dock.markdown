@@ -27,7 +27,7 @@ tags:
 - dock
 - applications
 - tweetie
-date: October 10, 2010, 04:17 PM
+date: October 17, 2010, 04:17 PM
 categories: 
 - technology
 ---

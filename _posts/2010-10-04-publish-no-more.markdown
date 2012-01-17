@@ -13,7 +13,7 @@ tags:
 - work
 - college
 - entry
-date: October 10, 2010, 11:47 AM
+date: October 4, 2010, 11:47 AM
 categories: 
 - english-1101
 - technology

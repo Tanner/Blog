@@ -16,7 +16,7 @@ tags:
 - computer
 - macbook
 - dying
-date: September 09, 2010, 08:21 PM
+date: September 27, 2010, 08:21 PM
 categories: 
 - technology
 ---

@@ -17,7 +17,7 @@ tags:
 - georgia
 - tech
 - funny
-date: October 10, 2010, 11:55 PM
+date: October 8, 2010, 11:55 PM
 categories: 
 - college
 ---

@@ -24,7 +24,7 @@ tags:
 - the-social-network
 - network
 - hero
-date: October 10, 2010, 11:54 PM
+date: October 3, 2010, 11:54 PM
 categories: 
 - english-1101
 - college

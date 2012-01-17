@@ -13,7 +13,7 @@ tags:
 - talk
 - post
 - personality
-date: October 10, 2010, 10:02 AM
+date: October 22, 2010, 10:02 AM
 categories: 
 - english-1101
 - college

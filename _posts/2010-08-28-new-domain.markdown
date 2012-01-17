@@ -17,7 +17,7 @@ tags:
 - domain
 - website
 - smith
-date: August 08, 2010, 10:09 PM
+date: August 28, 2010, 10:09 PM
 categories: 
 - general
 ---

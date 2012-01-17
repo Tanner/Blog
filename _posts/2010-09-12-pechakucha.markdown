@@ -35,7 +35,7 @@ tags:
 - format
 - images
 - meetings
-date: September 09, 2010, 11:50 AM
+date: September 12, 2010, 11:50 AM
 categories: 
 - english-1101
 - technology

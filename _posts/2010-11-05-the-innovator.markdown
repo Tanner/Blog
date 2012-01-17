@@ -19,7 +19,7 @@ tags:
 - youtube
 - facebook
 - napster
-date: November 11, 2010, 09:32 AM
+date: November 5, 2010, 09:32 AM
 categories: 
 - english-1101
 - technology

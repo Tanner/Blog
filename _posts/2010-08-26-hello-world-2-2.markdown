@@ -3,7 +3,7 @@ layout: post
 title: Hello World!
 tags: []
 
-date: August 08, 2010, 02:55 PM
+date: August 26, 2010, 02:55 PM
 categories: 
 - general
 ---

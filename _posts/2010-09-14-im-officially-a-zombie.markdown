@@ -15,7 +15,7 @@ tags:
 - gatech
 - georgia-tech
 - defense-sock
-date: September 09, 2010, 01:42 PM
+date: September 14, 2010, 01:42 PM
 categories: 
 - college
 ---

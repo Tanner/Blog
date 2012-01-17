@@ -25,7 +25,7 @@ tags:
 - humans
 - zombies-vs-humans
 - record
-date: September 09, 2010, 11:17 PM
+date: September 12, 2010, 11:17 PM
 categories: 
 - college
 - technology

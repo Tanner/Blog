@@ -11,7 +11,7 @@ tags:
 - roll
 - rick
 - buy
-date: October 10, 2010, 09:11 PM
+date: October 1, 2010, 09:11 PM
 categories: 
 - technology
 ---

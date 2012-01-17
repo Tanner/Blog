@@ -19,7 +19,7 @@ tags:
 - work
 - technology
 - television
-date: September 09, 2010, 03:47 PM
+date: September 01, 2010, 03:47 PM
 categories: 
 - english-1101
 ---

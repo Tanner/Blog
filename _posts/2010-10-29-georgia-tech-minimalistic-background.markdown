@@ -11,7 +11,7 @@ tags:
 - gt
 - georgia-tech
 - white
-date: October 10, 2010, 12:57 PM
+date: October 29, 2010, 12:57 PM
 categories: 
 - quick-post
 - technology

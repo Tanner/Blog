@@ -24,7 +24,7 @@ tags:
 - foundation
 - electronic-frontier-foundation
 - information
-date: October 10, 2010, 10:39 AM
+date: October 24, 2010, 10:39 AM
 categories: 
 - english-1101
 - technology

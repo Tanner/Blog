@@ -14,7 +14,7 @@ tags:
 - flying
 - article
 - published
-date: September 09, 2010, 07:55 AM
+date: September 07, 2010, 07:55 AM
 categories: 
 - aviation
 ---

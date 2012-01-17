@@ -10,7 +10,7 @@ tags:
 - sonar
 - dog
 - location
-date: November 11, 2010, 04:33 PM
+date: November 02, 2010, 04:33 PM
 categories: 
 - technology
 - quick-post

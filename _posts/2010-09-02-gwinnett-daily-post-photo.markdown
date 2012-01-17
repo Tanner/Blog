@@ -24,7 +24,7 @@ tags:
 - photographer
 - pose
 - gwinett
-date: September 09, 2010, 03:59 PM
+date: September 02, 2010, 03:59 PM
 categories: 
 - general
 - aviation

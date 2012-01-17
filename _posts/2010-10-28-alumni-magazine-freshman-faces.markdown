@@ -13,7 +13,7 @@ tags:
 - article
 - tech
 - goals
-date: October 10, 2010, 11:31 PM
+date: October 28, 2010, 11:31 PM
 categories: 
 - technology
 - college

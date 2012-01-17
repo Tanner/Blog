@@ -13,7 +13,7 @@ tags:
 - organize
 - program
 - brain
-date: November 11, 2010, 07:30 AM
+date: November 8, 2010, 07:30 AM
 categories: 
 - technology
 - college

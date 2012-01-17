@@ -30,7 +30,7 @@ tags:
 - read
 - steve-dickerson
 - back-into
-date: October 10, 2010, 09:59 AM
+date: October 31, 2010, 09:59 AM
 categories: 
 - english-1101
 - general

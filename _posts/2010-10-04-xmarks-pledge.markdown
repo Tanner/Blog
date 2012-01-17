@@ -10,7 +10,7 @@ tags:
 - syncing
 - browsers
 - google
-date: October 10, 2010, 07:32 PM
+date: October 4, 2010, 07:32 PM
 categories: 
 - technology
 ---

@@ -19,7 +19,7 @@ tags:
 - picture
 - camera
 - set
-date: September 09, 2010, 09:01 PM
+date: September 25, 2010, 09:01 PM
 categories: 
 - technology
 ---

@@ -23,7 +23,7 @@ tags:
 - tape-players
 - vcr
 - curta
-date: September 09, 2010, 08:06 AM
+date: September 02, 2010, 08:06 AM
 categories: 
 - english-1101
 - technology

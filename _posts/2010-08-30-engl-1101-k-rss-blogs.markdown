@@ -17,7 +17,7 @@ tags:
 - technology
 - english
 - blog
-date: August 08, 2010, 09:09 AM
+date: August 30, 2010, 09:09 AM
 categories: 
 - english-1101
 - general

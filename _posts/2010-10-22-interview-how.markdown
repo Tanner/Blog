@@ -18,7 +18,7 @@ tags:
 - skill
 - language
 - word-choice
-date: October 10, 2010, 09:38 AM
+date: October 22, 2010, 09:38 AM
 categories: 
 - english-1101
 - technology

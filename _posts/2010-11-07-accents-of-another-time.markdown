@@ -13,7 +13,7 @@ tags:
 - writing
 - english
 - kansas
-date: November 11, 2010, 08:36 PM
+date: November 07, 2010, 08:36 PM
 categories: 
 - english-1101
 - quick-post

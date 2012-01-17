@@ -26,7 +26,7 @@ tags:
 - airforce
 - base
 - freshman
-date: October 10, 2010, 03:02 PM
+date: October 17, 2010, 03:02 PM
 categories: 
 - technology
 ---

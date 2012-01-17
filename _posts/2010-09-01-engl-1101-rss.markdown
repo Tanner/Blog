@@ -12,7 +12,7 @@ tags:
 - tech
 - english
 - gatech
-date: September 09, 2010, 10:47 AM
+date: September 01, 2010, 10:47 AM
 categories: 
 - english-1101
 - general

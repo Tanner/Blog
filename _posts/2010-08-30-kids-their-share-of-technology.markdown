@@ -17,7 +17,7 @@ tags:
 - technology
 - tech
 - "1331"
-date: August 08, 2010, 10:51 AM
+date: August 30, 2010, 10:51 AM
 categories: 
 - english-1101
 ---

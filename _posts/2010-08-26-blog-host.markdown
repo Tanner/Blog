@@ -3,7 +3,7 @@ layout: post
 title: Blog Host
 tags: []
 
-date: August 08, 2010, 02:09 PM
+date: August 26, 2010, 02:09 PM
 categories: 
 - general
 ---

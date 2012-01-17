@@ -3,7 +3,7 @@ layout: post
 title: Goals
 tags: []
 
-date: August 08, 2010, 02:58 PM
+date: August 26, 2010, 02:58 PM
 categories: 
 - english-1101
 ---

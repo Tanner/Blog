@@ -17,7 +17,7 @@ tags:
 - college
 - busy
 - work
-date: August 08, 2010, 07:01 PM
+date: August 26, 2010, 07:01 PM
 categories: 
 - english-1101
 ---

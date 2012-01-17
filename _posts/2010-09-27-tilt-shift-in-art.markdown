@@ -23,7 +23,7 @@ tags:
 - makezine
 - make
 - paintings
-date: September 09, 2010, 11:57 PM
+date: September 27, 2010, 11:57 PM
 categories: 
 - general
 - technology
