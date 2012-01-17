@@ -56,7 +56,9 @@ function next() {
 		var nextExcerpt = excerpts.eq(currentExcerptIndex + 1);
 		selectExcerpt(nextExcerpt);
 
-		if (nextExcerpt.position().top + nextExcerpt.height() / 2 > $("#excerpts").height() / 2) {
+		if (nextExcerpt.position().top + nextExcerpt.height() / 2 > $("#excerpts").height() / 2
+			|| nextExcerpt.position().top + nextExcerpt.height() / 2 <= 0) {
+			console.log($("#excerpts").scrollTop());
 			$("#excerpts").scrollTop(nextExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
 		}
 	}
@@ -72,7 +74,8 @@ function previous() {
 		var prevExcerpt = excerpts.eq(currentExcerptIndex - 1);
 		selectExcerpt(prevExcerpt);
 
-		if (prevExcerpt.position().top + prevExcerpt.height() / 2 < $("#excerpts").height() / 2) {
+		if (prevExcerpt.position().top + prevExcerpt.height() / 2 < $("#excerpts").height() / 2
+			|| prevExcerpt.position().top + prevExcerpt.height() / 2 >= $("excerpts").height()) {
 			$("#excerpts").scrollTop(prevExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
 		}
 	}
