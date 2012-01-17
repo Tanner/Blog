@@ -19,7 +19,7 @@ module Jekyll
 			output = ""
 			firstPost = true
 
-			excerpts.each do |date, posts|
+			excerpts.sort.reverse.each do |date, posts|
 				output += "<div class=\"date\">" + date.strftime("%A, %B %d, %Y") + "</div>";
 
 				posts.sort.reverse.each do |post|
