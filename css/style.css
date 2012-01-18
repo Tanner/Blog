@@ -284,7 +284,12 @@ img {
 }
 
 .post p {
-	padding: 0 0 7.5px 0;
+	padding: 0 0 10px 0;
+
+	line-height: 20px;
+	font-size: 15px;
+
+	color: #111;
 }
 
 .post ul, .post ol {
