@@ -35,6 +35,7 @@ function init() {
 
 	// Permalink stuff
 	$.address.strict(false);
+	$.address.crawlable(true);
 	$.address.externalChange(function(e) {
 		var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
