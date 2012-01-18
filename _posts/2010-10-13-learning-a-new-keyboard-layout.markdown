@@ -63,7 +63,7 @@ The results of the analyzer were interesting. Using the analyzer I can get the d
 
 Obviously the numbers stand out showing that Colemak requires my fingers to move less which would in some way or form improve my typing speed. There were a few other layouts listed, but I have never heard of them and the difference in distance traveled was only a few feet. A few feet isn't going to change my typing as much as going from the QWERTY layout to Colemak.
 
-If you want to see all the information that the analyzer outputted for both of my input texts, you can click [here](http://www.tanner-smith.com/wp-content/uploads/2010/10/Keyboard_Usage_Java.pdf) for the Java program results and [here](http://www.tanner-smith.com/wp-content/uploads/2010/10/Keyboard_Usage_Writing.pdf) for the essay results.
+If you want to see all the information that the analyzer outputted for both of my input texts, you can click [here](files/2010/10/Keyboard_Usage_Java.pdf) for the Java program results and [here](files/2010/10/Keyboard_Usage_Writing.pdf) for the essay results.
 
 What is my decision now that I have chosen to learn Colemak? Well, I have already installed the keyboard layout onto my MacBook, so that step is gone. Instead of just saying the next step is to learn Colemak, I'm going to say the next step is to find a OS X compatible keyboard tutor program. After that then it is to learn the layout step by step.
 

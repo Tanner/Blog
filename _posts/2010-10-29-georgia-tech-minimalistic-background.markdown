@@ -17,7 +17,7 @@ categories:
 - technology
 - college
 ---
-[![](http://www.tanner-smith.com/wp-content/uploads/2010/10/background-300x187.png "GT Desktop")](http://www.tanner-smith.com/wp-content/uploads/2010/10/background.png)
+[![](files/2010/10/background-300x187.png "GT Desktop")](files/2010/10/background.png)
 
 I created this minimalistic, black and white, Georgia Tech for myself a few weeks ago and there was some interest in it so I decided to share it.You can download it from Flickr [here](http://www.flickr.com/photos/tannerld/5126446612/).
 

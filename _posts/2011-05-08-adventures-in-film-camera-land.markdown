@@ -16,7 +16,7 @@ date: May 8, 2011, 09:53 PM
 categories: 
 - photography
 ---
-[![](http://www.tanner-smith.com/wp-content/uploads/2011/05/IMG_0018.jpg "Single Flower")](http://www.flickr.com/photos/tannerld/5701622434/in/set-72157626553274941)Some time ago one of my Dad's friends brought his old camera from his time in the Marines to our house to take a look at it. I looked at it and didn't know a thing about it, but knew I wanted to learn more about it. I like old things and this camera qualified as old.
+[![](files/2011/05/IMG_0018.jpg "Single Flower")](http://www.flickr.com/photos/tannerld/5701622434/in/set-72157626553274941)Some time ago one of my Dad's friends brought his old camera from his time in the Marines to our house to take a look at it. I looked at it and didn't know a thing about it, but knew I wanted to learn more about it. I like old things and this camera qualified as old.
 
 Months pass and I come home during spring break. I "rediscover" the camera as I re-explorer my home again. I tell Dad I want to learn how to use it. Before you know it, we discover that it is a Pentax SP II and that it needed a new battery for the light sensor. However, that problem was solved with a modern battery from RadioShack works fine. Load up some old film found in the suitcase for the camera and I'm off to take pictures!Two old rolls of film later and I've taken my first pictures with a film camera! Ta'da! Exciting isn't it?
 

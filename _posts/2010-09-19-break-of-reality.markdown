@@ -45,7 +45,7 @@ categories:
 - general
 - college
 ---
-[![](http://www.tanner-smith.com/wp-content/uploads/2010/09/BoR_cellos.jpg "Break of Reality Cellos")](http://www.tanner-smith.com/wp-content/uploads/2010/09/BoR_cellos.jpg)Yesterday I went to a free concert featuring "Break of Reality" at the Ferst Center for the Arts.
+[![](files/2010/09/BoR_cellos.jpg "Break of Reality Cellos")](files/2010/09/BoR_cellos.jpg)Yesterday I went to a free concert featuring "Break of Reality" at the Ferst Center for the Arts.
 
 I had only gotten an email by the Ferst Center for the Arts a day before I decided to go. It was first brought up by my neighbor on my hall who was hanging out in my room. I decided to go with him not only because I would have someone to go with, but because in college it seems as though when you have a plethora of opportunities prompted to you, you might as well take them rather than missing out and reminiscing on missing out later.
 

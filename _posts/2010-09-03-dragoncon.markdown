@@ -32,7 +32,7 @@ date: September 03, 2010, 09:22 AM
 categories: 
 - general
 ---
-[![](http://www.tanner-smith.com/wp-content/uploads/2010/09/dragonCon.jpg "Dragon Con Badge")](http://www.tanner-smith.com/wp-content/uploads/2010/09/dragonCon.jpg)
+[![](files/2010/09/dragonCon.jpg "Dragon Con Badge")](files/2010/09/dragonCon.jpg)
 
 Yesterday I bought a Dragon\*Con badge/pass/ticket thing. Not exactly sure on the terminology. I've never been to a convention unless you can count [Oshkosh AirVenture](http://www.airventure.org/).
 

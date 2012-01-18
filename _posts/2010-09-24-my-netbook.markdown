@@ -45,7 +45,7 @@ categories:
 - technology
 - college
 ---
-[![](http://www.tanner-smith.com/wp-content/uploads/2010/09/Netbok.jpg "Netbook")](http://www.tanner-smith.com/wp-content/uploads/2010/09/Netbok.jpg)I've never used a netbook before. They always been something of an inferno laptop to me. I saw it as a wannabe laptop. Too small, underpowered, and iffy design. In other words, not for me.
+[![](files/2010/09/Netbok.jpg "Netbook")](files/2010/09/Netbok.jpg)I've never used a netbook before. They always been something of an inferno laptop to me. I saw it as a wannabe laptop. Too small, underpowered, and iffy design. In other words, not for me.
 
 Or so I thought.
 
