@@ -4,6 +4,8 @@
 	
 	margin-before: 0;
 	margin-after: 0;
+
+	max-width: 100%;
 }
 
 html {
