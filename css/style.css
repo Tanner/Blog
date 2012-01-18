@@ -111,8 +111,6 @@ img {
 
 	padding: 3px;
 
-	text-indent: -500px;
-
 	-webkit-border-radius: 3px;
 	-webkit-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
 }
@@ -123,18 +121,72 @@ img {
 	border: 1px solid #59430a;
 }
 
-#avatar {
+#sidebar .inner-icon a {
+	display: block;
 	height: 100%;
 	width: 100%;
-	
-	background-image: url(../images/avatar.jpg) !important;
+
+	text-indent: -500px;
+	overflow: hidden;
+
 	background-size: 34px;
 	
-	-webkit-box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.15);
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
 	
 	overflow: hidden;
 
 	-webkit-border-radius: 1px;
+}
+
+#sidebar .inner-icon .avatar {
+	background-image: url(../images/avatar.jpg);
+}
+
+#sidebar .inner-icon .gt {
+	background-image: url(../images/gt.png);
+}
+
+#sidebar .inner-icon .contact {
+	background-image: url(../images/contact.png);
+}
+
+#sidebar .inner-icon .about {
+	background-image: url(../images/about.png);
+}
+
+#sidebar .ft {
+	width: 100%;
+	height: 40px;
+
+	background-image: -webkit-linear-gradient(bottom, #333 8%, #555 92%);
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#sidebar .ft a {
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+	text-indent: 500px;
+	overflow: hidden;
+
+	background: url('../images/rss.png') center center no-repeat;
+	background-size: 26px;
+}
+
+#sidebar .ft a:hover {
+	background: url('../images/rss-hover.png') center center no-repeat;
+}
+
+#sidebar .ft a:active {
+	background: url('../images/rss-active.png') center center no-repeat;
 }
 
 #excerpts {
@@ -277,7 +329,7 @@ img {
 	font-size: 13px;
 }
 
-.post a {
+.post p a {
 	text-decoration: underline;
 	
 	color: #666;
