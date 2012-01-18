@@ -37,6 +37,7 @@ function init() {
 	$.address.strict(false);
 	$.address.crawlable(true);
 	$.address.externalChange(function(e) {
+		e.value = e.value.substring(1);
 		var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
 		selectExcerpt($(".post-excerpt#" + postURL));
@@ -55,7 +56,7 @@ function selectExcerpt(excerpt) {
 
 	var postURL = excerpt.attr("id");
 
-	$.address.value(postURL.substring(6, postURL.length - 5));
+	$.address.value("/" + postURL.substring(6, postURL.length - 5));
 
 	$.get(postURL, function(data) {
 		$('#content').html(data);
