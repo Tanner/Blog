@@ -19,7 +19,7 @@ function init() {
 	excerpts = $(".post-excerpt");
 
 	excerpts.click(function() {
-		selectExcerpt($(this));
+		selectExcerpt($(this), false);
 	});
 
 	currentExcerpt = $(".post-exceprt:first");
@@ -40,15 +40,16 @@ function init() {
 		e.value = e.value.substring(1);
 		var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
-		selectExcerpt($(".post-excerpt#" + postURL));
+		selectExcerpt($(".post-excerpt#" + postURL), true);
 	});
 }
 
-function selectExcerpt(excerpt) {
+function selectExcerpt(excerpt, scroll) {
 	if (excerpt == null) {
 		return;
 	}
 
+	var lastSelectedExcerpt = currentExcerpt;
 	currentExcerpt = excerpt;
 
 	excerpt.addClass("selected");
@@ -61,6 +62,17 @@ function selectExcerpt(excerpt) {
 	$.get(postURL, function(data) {
 		$('#content').html(data);
 	});
+
+	// Scroll to excerpt
+	if (scroll == true) {
+		if (currentExcerpt.position().top + currentExcerpt.height() / 2 > $("#excerpts").height() / 2
+			|| currentExcerpt.position().top + currentExcerpt.height() / 2 <= 0) {
+			$("#excerpts").scrollTop(currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
+		} else if (currentExcerpt.position().top + currentExcerpt.height() / 2 < $("#excerpts").height() / 2
+			|| currentExcerpt.position().top + currentExcerpt.height() / 2 >= $("excerpts").height()) {
+			$("#excerpts").scrollTop(currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
+		}
+	}
 }
 
 function next() {
@@ -71,12 +83,7 @@ function next() {
 	var currentExcerptIndex = excerpts.index(currentExcerpt);
 	if (currentExcerptIndex < excerpts.length - 1) {
 		var nextExcerpt = excerpts.eq(currentExcerptIndex + 1);
-		selectExcerpt(nextExcerpt);
-
-		if (nextExcerpt.position().top + nextExcerpt.height() / 2 > $("#excerpts").height() / 2
-			|| nextExcerpt.position().top + nextExcerpt.height() / 2 <= 0) {
-			$("#excerpts").scrollTop(nextExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
-		}
+		selectExcerpt(nextExcerpt, true);
 	}
 }
 
@@ -88,12 +95,7 @@ function previous() {
 	var currentExcerptIndex = excerpts.index(currentExcerpt);
 	if (currentExcerptIndex > 0) {
 		var prevExcerpt = excerpts.eq(currentExcerptIndex - 1);
-		selectExcerpt(prevExcerpt);
-
-		if (prevExcerpt.position().top + prevExcerpt.height() / 2 < $("#excerpts").height() / 2
-			|| prevExcerpt.position().top + prevExcerpt.height() / 2 >= $("excerpts").height()) {
-			$("#excerpts").scrollTop(prevExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
-		}
+		selectExcerpt(prevExcerpt, true);
 	}
 }
 
