@@ -36,9 +36,7 @@ function init() {
 	// Permalink stuff
 	$.address.strict(false);
 	$.address.externalChange(function(e) {
-		console.log(e.value);
 		var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
-		console.log(postURL);
 
 		selectExcerpt($(".post-excerpt#" + postURL));
 	});
