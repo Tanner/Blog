@@ -264,6 +264,12 @@ img {
 	color: #666;
 }
 
+#excerpts a {
+	text-decoration: none;
+
+	color: #666;
+}
+
 #excerpts .post-excerpt .header .time {
 	position: absolute;
 

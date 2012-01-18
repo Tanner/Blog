@@ -34,10 +34,12 @@ module Jekyll
 
 					link = context.registers[:site].config['baseurl'] + post.url
 
+					ajaxLink = context.registers[:site].config['baseurl'] + "/#!" + post.url[0...(post.url.length - 5)]
+
 					output += <<HTML
 <div class="post-excerpt#{selected}" id="#{link}">
 	<div class="header">
-		<span class="title">#{title}</span>
+		<span class="title"><a href="#{ajaxLink}">#{title}</a></span>
 		<span class="time">#{time}</span>
 	</div>
 	<div class="excerpt">#{content}</div>
