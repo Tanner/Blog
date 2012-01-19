@@ -335,13 +335,13 @@ img {
 	font-size: 13px;
 }
 
-.post p a {
+.post .body a {
 	text-decoration: underline;
 	
 	color: #666;
 }
 
-.post p {
+.post p, .post li {
 	padding: 0 0 10px 0;
 
 	line-height: 28px;
@@ -353,10 +353,6 @@ img {
 .post ul, .post ol {
 	padding: 0 0 7.5px 0;
 	margin: 0 0 0 15px;
-}
-
-.post li {
-	padding: 0 0 2px 0;
 }
 
 .post blockquote {
