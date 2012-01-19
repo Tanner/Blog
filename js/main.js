@@ -37,10 +37,14 @@ function init() {
 	$.address.strict(false);
 	$.address.crawlable(true);
 	$.address.externalChange(function(e) {
-		e.value = e.value.substring(1);
-		var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
+		if (e.value != "") {
+			e.value = e.value.substring(1);
+			var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
-		selectExcerpt($(".post-excerpt#" + postURL), true);
+			selectExcerpt($(".post-excerpt#" + postURL), true);
+		} else {
+			selectExcerpt($(".post-excerpt:first"), true);
+		}
 	});
 }
 
