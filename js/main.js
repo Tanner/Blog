@@ -53,7 +53,6 @@ function selectExcerpt(excerpt, scroll) {
 		return;
 	}
 
-	var lastSelectedExcerpt = currentExcerpt;
 	currentExcerpt = excerpt;
 
 	excerpt.addClass("selected");
