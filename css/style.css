@@ -16,6 +16,8 @@ body {
 	height: 100%;
 	
 	background: #666;
+
+	min-width: 980px; /* 920px + 60px */
 }
 
 img {
