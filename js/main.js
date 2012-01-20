@@ -11,9 +11,14 @@ $(document).ready(function(){
 })
 
 function init() {
-	$("#sidebar li").click(function() {		
-		$(this).addClass("selected");
-		$(this).siblings().removeClass("selected");
+	$("#sidebar li").click(function() {
+		var page = $(this).find("a").attr("id");
+
+		if (page != "avatar") {
+			$.address.value("/page/" + page);
+		}
+
+		selectPage(page);
 	});
 
 	excerpts = $(".post-excerpt");
@@ -38,14 +43,46 @@ function init() {
 	$.address.crawlable(true);
 	$.address.externalChange(function(e) {
 		if (e.value != "") {
+			// Remove leading '/'
 			e.value = e.value.substring(1);
-			var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
-			selectExcerpt($(".post-excerpt#" + postURL), true);
+			if (e.value.indexOf("page/") != -1) {
+				// We've got a static page from the navbar
+				selectPage(e.value.substring(5));
+			} else {
+				// We've got a post from the excerpts bar
+				var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
+
+				selectExcerpt($(".post-excerpt#" + postURL), true);
+			}
 		} else {
 			selectExcerpt($(".post-excerpt:first"), true);
 		}
 	});
+}
+
+function selectPage(page) {
+	var navIcon = $("#sidebar li").find("a#" + page).parents("li");
+	navIcon.addClass("selected");
+	navIcon.siblings().removeClass("selected");
+
+	if (page == "avatar") {
+		if (currentExcerpt.length == 0) {
+			currentExcerpt = $(".post-excerpt:first");
+		}
+
+		selectExcerpt(currentExcerpt, true);
+	} else {
+		$.address.value("/page/" + page);
+
+		var url = "pages/" + page + ".html";
+
+		$.get(url, function(data) {
+			$('#content').html(data);
+		});
+
+		$(".post-excerpt.selected").removeClass("selected");
+	}
 }
 
 function selectExcerpt(excerpt, scroll) {
@@ -76,6 +113,8 @@ function selectExcerpt(excerpt, scroll) {
 			$("#excerpts").scrollTop(currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
 		}
 	}
+
+	$("#sidebar li:first").addClass("selected").siblings().removeClass("selected");
 }
 
 function next() {

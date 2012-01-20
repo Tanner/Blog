@@ -138,19 +138,19 @@ img {
 	-webkit-border-radius: 1px;
 }
 
-#sidebar .inner-icon .avatar {
+#sidebar .inner-icon #avatar {
 	background-image: url(../images/avatar.jpg);
 }
 
-#sidebar .inner-icon .gt {
+#sidebar .inner-icon #gt {
 	background-image: url(../images/gt.png);
 }
 
-#sidebar .inner-icon .contact {
+#sidebar .inner-icon #contact {
 	background-image: url(../images/contact.png);
 }
 
-#sidebar .inner-icon .about {
+#sidebar .inner-icon #about {
 	background-image: url(../images/about.png);
 }
 
