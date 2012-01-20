@@ -18,6 +18,8 @@ body {
 	background: #666;
 
 	min-width: 980px; /* 920px + 60px */
+
+	-webkit-text-size-adjust: 125%;
 }
 
 img {
@@ -244,7 +246,7 @@ img {
 
 #excerpts .post-excerpt .excerpt {
 	font-size: 12px;
-	line-height: 16px;
+	line-height: 130%;
 }
 
 #excerpts .post-excerpt .header {
@@ -335,6 +337,7 @@ img {
 	padding: 15px 0 0 0;
 
 	font-size: 13px;
+	line-height: 100%;
 }
 
 .post .body a {
