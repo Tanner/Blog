@@ -16,6 +16,10 @@ function init() {
 
 		if (page != "avatar") {
 			$.address.value("/page/" + page);
+
+			expandContent(true, true);
+		} else {
+			expandContent(false, true);
 		}
 
 		selectPage(page);
@@ -49,6 +53,8 @@ function init() {
 			if (e.value.indexOf("page/") != -1) {
 				// We've got a static page from the navbar
 				selectPage(e.value.substring(5));
+				
+				expandContent(true, false);
 			} else {
 				// We've got a post from the excerpts bar
 				var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
@@ -59,6 +65,29 @@ function init() {
 			selectExcerpt($(".post-excerpt:first"), true);
 		}
 	});
+}
+
+function expandContent(expand, animate) {
+	if (expand) {
+		if (!animate) {
+			$("#content").addClass("no-animate");
+			$("#excerpts").addClass("no-animate");
+		}
+
+		$("#content").addClass("expanded");
+		$("#excerpts").addClass("contracted");
+	} else {
+		if (!animate) {
+			$("#content").addClass("no-animate");
+			$("#excerpts").addClass("no-animate");
+		} else {
+			$("#content").removeClass("no-animate");
+			$("#excerpts").removeClass("no-animate");
+		}
+
+		$("#content").removeClass("expanded");
+		$("#excerpts").removeClass("contracted");
+	}
 }
 
 function selectPage(page) {
