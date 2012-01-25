@@ -62,6 +62,7 @@ function init() {
 			}
 		} else {
 			selectExcerpt($(".post-excerpt:first"), true);
+			showExcerpts(true, true);
 		}
 	});
 }
