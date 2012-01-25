@@ -17,9 +17,9 @@ function init() {
 		if (page != "avatar") {
 			$.address.value("/page/" + page);
 
-			expandContent(true, true);
+			showExcerpts(false, true);
 		} else {
-			expandContent(false, true);
+			showExcerpts(true, true);
 		}
 
 		selectPage(page);
@@ -53,13 +53,12 @@ function init() {
 			if (e.value.indexOf("page/") != -1) {
 				// We've got a static page from the navbar
 				selectPage(e.value.substring(5));
-				
-				expandContent(true, false);
 			} else {
 				// We've got a post from the excerpts bar
 				var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
 				selectExcerpt($(".post-excerpt#" + postURL), true);
+				showExcerpts(true, true);
 			}
 		} else {
 			selectExcerpt($(".post-excerpt:first"), true);
@@ -67,15 +66,15 @@ function init() {
 	});
 }
 
-function expandContent(expand, animate) {
-	if (expand) {
+function showExcerpts(show, animate) {
+	if (show) {
 		if (!animate) {
 			$("#content").addClass("no-animate");
 			$("#excerpts").addClass("no-animate");
 		}
 
-		$("#content").addClass("expanded");
-		$("#excerpts").addClass("contracted");
+		$("#content").addClass("contracted");
+		$("#excerpts").addClass("expanded");
 	} else {
 		if (!animate) {
 			$("#content").addClass("no-animate");
@@ -85,8 +84,8 @@ function expandContent(expand, animate) {
 			$("#excerpts").removeClass("no-animate");
 		}
 
-		$("#content").removeClass("expanded");
-		$("#excerpts").removeClass("contracted");
+		$("#content").removeClass("contracted");
+		$("#excerpts").removeClass("expanded");
 	}
 }
 
