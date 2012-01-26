@@ -398,7 +398,7 @@ article .body a {
 	color: #666;
 }
 
-article p, .post li {
+article p, article li {
 	padding: 0 0 10px 0;
 
 	line-height: 28px;
@@ -407,7 +407,7 @@ article p, .post li {
 	color: #403F38;
 }
 
-article ul, .post ol {
+article ul, article ol {
 	padding: 0 0 7.5px 0;
 	margin: 0 0 0 15px;
 }
