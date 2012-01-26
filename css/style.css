@@ -365,7 +365,7 @@ article header {
 	border-bottom: solid #dcdcdc 1px;
 }
 
-article header .title {
+article header h1 {
 	font-size: 34px;
 	line-height: 100%;
 	
@@ -377,7 +377,7 @@ article header .title {
 	font-weight: bolder;
 }
 
-header p.date {
+header time {
 	padding: 10px 0 0 0;
 
 	color: #666;
