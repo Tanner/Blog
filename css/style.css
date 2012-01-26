@@ -36,10 +36,6 @@ img {
 	border: 0;
 }
 
-.no-animate {
-	-webkit-transition-property: none !important;
-}
-
 #wrapper {
 	height: 100%;
 }

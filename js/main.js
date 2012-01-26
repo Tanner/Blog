@@ -17,9 +17,9 @@ function init() {
 		if (page != "avatar") {
 			$.address.value("/page/" + page);
 
-			showExcerpts(false, true);
+			showExcerpts(false);
 		} else {
-			showExcerpts(true, true);
+			showExcerpts(true);
 		}
 
 		selectPage(page);
@@ -67,33 +67,20 @@ function init() {
 				var postURL = postURLFormat.replace(/%s/g, e.value).replace(/-/g, "\\-");
 
 				selectExcerpt($(".post-excerpt#" + postURL), true);
-				showExcerpts(true, true);
+				showExcerpts(true);
 			}
 		} else {
 			selectExcerpt($(".post-excerpt:first"), true);
-			showExcerpts(true, true);
+			showExcerpts(true);
 		}
 	});
 }
 
-function showExcerpts(show, animate) {
+function showExcerpts(show) {
 	if (show) {
-		if (!animate) {
-			$("#content").addClass("no-animate");
-			$("#excerpts").addClass("no-animate");
-		}
-
 		$("#content").addClass("contracted");
 		$("#excerpts").addClass("expanded");
 	} else {
-		if (!animate) {
-			$("#content").addClass("no-animate");
-			$("#excerpts").addClass("no-animate");
-		} else {
-			$("#content").removeClass("no-animate");
-			$("#excerpts").removeClass("no-animate");
-		}
-
 		$("#content").removeClass("contracted");
 		$("#excerpts").removeClass("expanded");
 	}
