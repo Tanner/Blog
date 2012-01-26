@@ -133,12 +133,13 @@ function selectExcerpt(excerpt, scroll) {
 
 	// Scroll to excerpt
 	if (scroll == true) {
-		if (currentExcerpt.parent().position().top + currentExcerpt.position().top + currentExcerpt.height() / 2 > $("#excerpts").height() / 2
-			|| currentExcerpt.parent().position().top + currentExcerpt.position().top + currentExcerpt.height() / 2 <= 0) {
-			$("#excerpts").scrollTop(currentExcerpt.parent().position().top + currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
-		} else if (currentExcerpt.parent().position().top + currentExcerpt.position().top + currentExcerpt.height() / 2 < $("#excerpts").height() / 2
-			|| currentExcerpt.parent().position().top + currentExcerpt.position().top + currentExcerpt.height() / 2 >= $("excerpts").height()) {
-			$("#excerpts").scrollTop(currentExcerpt.parent().position().top + currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET, 0);
+		var excerptPosition = currentExcerpt.parent().position().top + currentExcerpt.position().top + currentExcerpt.height() / 2;
+		var newPosition = currentExcerpt.parent().position().top + currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET;
+
+		if (excerptPosition > $("#excerpts").height() / 2 || excerptPosition <= 0) {
+			$("#excerpts").scrollTop(newPosition, 0);
+		} else if (excerptPosition < $("#excerpts").height() / 2 || excerptPosition >= $("excerpts").height()) {
+			$("#excerpts").scrollTop(newPosition, 0);
 		}
 	}
 
