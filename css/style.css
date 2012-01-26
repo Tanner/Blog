@@ -40,7 +40,7 @@ img {
 	height: 100%;
 }
 
-#sidebar {
+nav {
 	top: 0;
 	left: 0;
 
@@ -54,19 +54,19 @@ img {
 	background: #333;
 }
 
-#sidebar *,
+nav *,
 #excerpts * {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	-webkit-user-select: none;
 	cursor: default !important;
 }
 
-#sidebar ul {
+nav ul {
 	display: inline;
 	font-family: "Helvetica", sans-serif;
 }
 
-#sidebar li {
+nav li {
 	margin: 4px 12px;
 
 	height: 46px;
@@ -77,12 +77,12 @@ img {
 	display: inline-block;
 }
 
-#sidebar li:first-child {
+nav li:first-child {
 	margin-top: 18px;
 	margin-bottom: 29px;
 }
 
-#sidebar li .icon {
+nav li .icon {
 	margin: 3px;
 }
 
@@ -91,7 +91,7 @@ img {
     from { -webkit-transform: scale(1.0) }
 }
 
-#sidebar li.selected {
+nav li.selected {
 	background: rgb(254, 187, 0);
 
 	-webkit-animation: SPRING .1s ease-in-out alternate;
@@ -100,7 +100,7 @@ img {
 	-webkit-border-radius: 5px;
 }
 
-#sidebar .icon {
+nav .icon {
 	height: 40px;
 	width: 40px;
 	
@@ -113,11 +113,11 @@ img {
 	-webkit-border-radius: 3px;
 }
 
-#sidebar .selected .icon {
+nav .selected .icon {
 	-webkit-box-shadow: 0 0 0 #000;
 }
 
-#sidebar .inner-icon {
+nav .inner-icon {
 	height: 34px;
 	width: 34px;
 
@@ -129,13 +129,13 @@ img {
 	-webkit-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
 }
 
-#sidebar .selected .inner-icon {
+nav .selected .inner-icon {
 	padding: 2px;
 
 	border: 1px solid #59430a;
 }
 
-#sidebar .inner-icon a {
+nav .inner-icon a {
 	display: block;
 	height: 100%;
 	width: 100%;
@@ -147,7 +147,7 @@ img {
 	-webkit-border-radius: 1px;
 }
 
-#sidebar .inner-icon .tooltip {
+nav .inner-icon .tooltip {
 	margin-left: 63px;
 	margin-top: 6px;
 
@@ -167,27 +167,27 @@ img {
 	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
-#sidebar .inner-icon .tooltip.visible {
+nav .inner-icon .tooltip.visible {
 	display: inline-block;
 }
 
-#sidebar .inner-icon #avatar {
+nav .inner-icon #avatar {
 	background-image: url(../images/avatar.jpg);
 }
 
-#sidebar .inner-icon #gt {
+nav .inner-icon #gt {
 	background-image: url(../images/gt.png);
 }
 
-#sidebar .inner-icon #contact {
+nav .inner-icon #contact {
 	background-image: url(../images/contact.png);
 }
 
-#sidebar .inner-icon #about {
+nav .inner-icon #about {
 	background-image: url(../images/about.png);
 }
 
-#sidebar .ft {
+nav .ft {
 	width: 100%;
 	height: 40px;
 
@@ -200,7 +200,7 @@ img {
 	border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-#sidebar .ft a {
+nav .ft a {
 	display: block;
 
 	margin-top: 8px;
@@ -215,11 +215,11 @@ img {
 	background: url('../images/rss-sheet.png') no-repeat 0px 0px;
 }
 
-#sidebar .ft a:hover {
+nav .ft a:hover {
 	background: url('../images/rss-sheet.png') no-repeat -24px 0px;
 }
 
-#sidebar .ft a:active {
+nav .ft a:active {
 	background: url('../images/rss-sheet.png') no-repeat -48px 0px;
 }
 
@@ -348,7 +348,7 @@ img {
 	margin-left: 371px !important;
 }
 
-.post {
+article {
 	position: relative;
 
 	width: 550px;
@@ -357,7 +357,7 @@ img {
 	padding: 40px 0 20px 0;
 }
 
-.post .header {
+article header {
 	position: relative;
 	
 	padding: 0 0 15px 0;
@@ -365,7 +365,7 @@ img {
 	border-bottom: solid #dcdcdc 1px;
 }
 
-.post .header .title {
+article header .title {
 	font-size: 34px;
 	line-height: 100%;
 	
@@ -377,7 +377,7 @@ img {
 	font-weight: bolder;
 }
 
-.header p.date {
+header p.date {
 	padding: 10px 0 0 0;
 
 	color: #666;
@@ -385,20 +385,20 @@ img {
 	line-height: 12px;
 }
 
-.post .body {
+article .body {
 	padding: 15px 0 0 0;
 
 	font-size: 13px;
 	line-height: 100%;
 }
 
-.post .body a {
+article .body a {
 	text-decoration: underline;
 	
 	color: #666;
 }
 
-.post p, .post li {
+article p, .post li {
 	padding: 0 0 10px 0;
 
 	line-height: 28px;
@@ -407,12 +407,12 @@ img {
 	color: #403F38;
 }
 
-.post ul, .post ol {
+article ul, .post ol {
 	padding: 0 0 7.5px 0;
 	margin: 0 0 0 15px;
 }
 
-.post blockquote {
+article blockquote {
 	margin: 10px 0 10px 15px;
 	padding-left: 15px;
 	
@@ -421,7 +421,7 @@ img {
 	border-left: 3px solid #ccc;
 }
 
-.post img {
+article img {
 	display: block;
 	
 	box-sizing: border-box;
@@ -434,13 +434,13 @@ img {
 	border: 1px solid #CCC;
 }
 
-.post img.left {
+article img.left {
 	float: left;
 	
 	margin: 0 10px 10px 0;
 }
 
-.post img.right {
+article img.right {
 	float: right;
 	
 	margin: 0 0 10px 10px;
