@@ -25,6 +25,15 @@ function init() {
 		selectPage(page);
 	});
 
+	$("#sidebar li").hover(
+		function() {
+			$(this).find("span.tooltip").addClass("visible");
+		},
+		function() {
+			$(this).find("span.tooltip").removeClass("visible");			
+		}
+	);
+
 	excerpts = $(".post-excerpt");
 
 	excerpts.click(function() {

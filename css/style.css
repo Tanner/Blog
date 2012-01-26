@@ -155,7 +155,7 @@ img {
 	margin-left: 63px;
 	margin-top: 6px;
 
-	display: inline-block;
+	display: none;
 	position: absolute;
 
 	padding: 3px 5px;
@@ -169,6 +169,10 @@ img {
 
 	text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar .inner-icon .visible {
+	display: inline-block;
 }
 
 #sidebar .inner-icon #avatar {
