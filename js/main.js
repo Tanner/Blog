@@ -137,9 +137,9 @@ function selectExcerpt(excerpt, scroll) {
 		var newPosition = currentExcerpt.parent().position().top + currentExcerpt.position().top + $("#excerpts").scrollTop() - $("#excerpts").height() / 2 + MID_SCROLL_OFFSET;
 
 		if (excerptPosition > $("#excerpts").height() / 2 || excerptPosition <= 0) {
-			$("#excerpts").scrollTop(newPosition, 0);
+			$("#excerpts").animate({ scrollTop: newPosition}, 100);
 		} else if (excerptPosition < $("#excerpts").height() / 2 || excerptPosition >= $("excerpts").height()) {
-			$("#excerpts").scrollTop(newPosition, 0);
+			$("#excerpts").animate({ scrollTop: newPosition}, 100);
 		}
 	}
 
