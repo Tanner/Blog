@@ -1,5 +1,6 @@
 var currentExcerpt = null;
 var excerpts = null;
+var allowExcerptKeys = false;
 
 /* Post format escaped for jQuery */
 var postURLFormat = "\\/blog\\/%s\\.html"
@@ -77,6 +78,8 @@ function init() {
 }
 
 function showExcerpts(show) {
+	allowExcerptKeys = show;
+
 	if (show) {
 		$("#content").addClass("contracted");
 		$("#excerpts").addClass("expanded");
@@ -143,7 +146,7 @@ function selectExcerpt(excerpt, scroll) {
 }
 
 function next() {
-	if (currentExcerpt == null) {
+	if (currentExcerpt == null || !allowExcerptKeys) {
 		return;
 	}
 
@@ -155,7 +158,7 @@ function next() {
 }
 
 function previous() {
-	if (currentExcerpt == null) {
+	if (currentExcerpt == null || !allowExcerptKeys) {
 		return;
 	}
 
