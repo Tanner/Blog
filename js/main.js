@@ -12,7 +12,7 @@ $(document).ready(function(){
 })
 
 function init() {
-	$("#sidebar li").click(function() {
+	$("nav li").click(function() {
 		var page = $(this).find("a").attr("id");
 
 		if (page != "avatar") {
@@ -26,7 +26,7 @@ function init() {
 		selectPage(page);
 	});
 
-	$("#sidebar li").hover(
+	$("nav li").hover(
 		function() {
 			$(this).find("span.tooltip").addClass("visible");
 		},
@@ -44,11 +44,11 @@ function init() {
 	currentExcerpt = $(".post-exceprt:first");
 
 	// Disable selection - don't show selection cursor
-	$("#sidebar").bind("selectstart", function() {
+	$("nav").bind("selectstart", function() {
 		return false;
 	});
 
-	$("#excerpts").bind("selectstart", function() {
+	$("nav").bind("selectstart", function() {
 		return false;
 	});
 
@@ -90,7 +90,7 @@ function showExcerpts(show) {
 }
 
 function selectPage(page) {
-	var navIcon = $("#sidebar li").find("a#" + page).parents("li");
+	var navIcon = $("nav li").find("a#" + page).parents("li");
 	navIcon.addClass("selected");
 	navIcon.siblings().removeClass("selected");
 
@@ -142,7 +142,7 @@ function selectExcerpt(excerpt, scroll) {
 		}
 	}
 
-	$("#sidebar li:first").addClass("selected").siblings().removeClass("selected");
+	$("nav li:first").addClass("selected").siblings().removeClass("selected");
 }
 
 function next() {
