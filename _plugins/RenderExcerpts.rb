@@ -55,7 +55,9 @@ HTML
 		end
 
 		def excerpt(string, length)
-			string = string.gsub(/<\/?[^>]*>/, "")
+			string.gsub!(/<\/?[^>]*>/, "")					# Remove HTML
+			string.gsub!(/&[#\w\d]*;/, "")					# Remove special codes
+			string = string.gsub(/\n/, " ").squeeze(" ")	# Remove carriage return
 
 			excerpt = string[0..length]
 
