@@ -202,24 +202,25 @@ img {
 
 #sidebar .ft a {
 	display: block;
-	width: 100%;
-	height: 100%;
 
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	margin-top: 8px;
+	margin-left: 23px;
+
+	width: 24px;
+	height: 24px;
 
 	text-indent: 500px;
 	overflow: hidden;
 
-	background: url('../images/rss.png') center center no-repeat;
-	background-size: 26px;
+	background: url('../images/rss-sheet.png') no-repeat 0px 0px;
 }
 
 #sidebar .ft a:hover {
-	background: url('../images/rss-hover.png') center center no-repeat;
+	background: url('../images/rss-sheet.png') no-repeat -24px 0px;
 }
 
 #sidebar .ft a:active {
-	background: url('../images/rss-active.png') center center no-repeat;
+	background: url('../images/rss-sheet.png') no-repeat -48px 0px;
 }
 
 #excerpts {
