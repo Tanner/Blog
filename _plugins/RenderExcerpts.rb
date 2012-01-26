@@ -20,6 +20,7 @@ module Jekyll
 			firstPost = true
 
 			excerpts.sort.reverse.each do |date, posts|
+				output += "<div class=\"section\">";
 				output += "<div class=\"date\">" + date.strftime("%A, %B %e, %Y") + "</div>";
 
 				posts.sort.reverse.each do |post|
@@ -46,6 +47,8 @@ module Jekyll
 </div>
 HTML
 				end
+
+				output += "</div>";
 			end
 
 			return output
