@@ -1,6 +1,8 @@
 @media only screen and (max-device-width: 1024px) {
 	body {
 		-webkit-text-size-adjust: 100%;
+		-moz-text-size-adjust: 100%;
+		text-size-adjust: 100%;
 	}
 }
 
@@ -28,8 +30,12 @@ body {
 	min-width: 980px; /* 920px + 60px */
 
 	-webkit-text-size-adjust: 125%;
+	-moz-text-size-adjust: 125%;
+	text-size-adjust: 125%;
 
 	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
 }
 
 img {
@@ -60,7 +66,13 @@ nav {
 nav *,
 #excerpts * {
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-moz-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+
 	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+
 	cursor: default !important;
 }
 
@@ -94,13 +106,30 @@ nav li .icon {
     from { -webkit-transform: scale(1.0) }
 }
 
+@-moz-keyframes SPRING {
+    to   { -moz-transform: scale(.9) }
+    from { -moz-transform: scale(1.0) }
+}
+
+@keyframes SPRING {
+    to   { transform: scale(.9) }
+    from { transform: scale(1.0) }
+}
+
 nav li.selected {
 	background: rgb(254, 187, 0);
 
 	-webkit-animation: SPRING .1s ease-in-out alternate;
+	-moz-animation: SPRING .1s ease-in-out alternate;
+	animation: SPRING .1s ease-in-out alternate;
 
 	-webkit-box-shadow: 0px 0px 3px #000;
+	-moz-box-shadow: 0px 0px 3px #000;
+	box-shadow: 0px 0px 3px #000;
+
 	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 }
 
 nav .icon {
@@ -113,11 +142,18 @@ nav .icon {
 	background: #fff;
 
 	-webkit-box-shadow: 0px 0px 3px #000;
+	-moz-box-shadow: 0px 0px 3px #000;
+	box-shadow: 0px 0px 3px #000;
+
 	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
 nav .selected .icon {
 	-webkit-box-shadow: 0 0 0 #000;
+	-moz-box-shadow: 0 0 0 #000;
+	box-shadow: 0 0 0 #000;
 }
 
 nav .inner-icon {
@@ -129,7 +165,12 @@ nav .inner-icon {
 	padding: 3px;
 
 	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
 	-webkit-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
 }
 
 nav .selected .inner-icon {
@@ -146,8 +187,12 @@ nav .inner-icon a {
 	background-size: 34px;
 	
 	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
 
 	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
 }
 
 nav .inner-icon .tooltip {
@@ -166,10 +211,16 @@ nav .inner-icon .tooltip {
 	font-size: 14px;
 
 	background: rgba(0, 0, 0, 0.6);
+
 	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
 
 	text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+
 	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
 nav .inner-icon .tooltip.visible {
@@ -197,6 +248,8 @@ nav .ft {
 	height: 40px;
 
 	background-image: -webkit-linear-gradient(bottom, #333 8%, #555 92%);
+	background-image: -moz-linear-gradient(bottom, #333 8%, #555 92%);
+	background-image: linear-gradient(bottom, #333 8%, #555 92%);
 
 	position: absolute;
 	bottom: 0;
@@ -230,9 +283,14 @@ nav .ft a:active {
 
 #excerpts-bar {
 	-webkit-transition: margin-left 0.3s ease-in-out;
+	-moz-transition: margin-left 0.3s ease-in-out;
+	transition: margin-left 0.3s ease-in-out;
+
 	margin-left: -231px;
 
 	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
 
 	position: fixed;
 	top: 0;
@@ -241,6 +299,9 @@ nav .ft a:active {
 
 #excerpts {
 	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+
 	top: 21px;
 	bottom: 0;
 
@@ -287,6 +348,8 @@ nav .ft a:active {
 	border-bottom: solid 1px #cac9c6;
 
 	background-image: -webkit-linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
+	background-image: -moz-linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
+	background-image: linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
 }
 
 #excerpts .date {
@@ -325,6 +388,8 @@ nav .ft a:active {
 	background: #e7e6e1;
 
 	-webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
 #excerpts .post-excerpt .excerpt {
@@ -346,6 +411,7 @@ nav .ft a:active {
 
 	white-space: nowrap;
 	overflow: hidden;
+
 	text-overflow: ellipsis;
 
 	color: #666;
@@ -379,6 +445,8 @@ nav .ft a:active {
 	font-family: "Helvetica", sans-serif;
 
 	-webkit-transition: margin-left 0.3s ease-in-out;
+	-moz-transition: margin-left 0.3s ease-in-out;
+	transition: margin-left 0.3s ease-in-out;
 }
 
 #content.contracted {
