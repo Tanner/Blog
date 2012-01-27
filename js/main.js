@@ -20,7 +20,13 @@ function init() {
 
 			showExcerpts(false);
 		} else {
-			showExcerpts(true);
+			if ($("#excerpts-bar").hasClass("expanded")) {
+				$("#excerpts").animate({ scrollTop: 0}, 150);
+
+				currentExcerpt = $(".post-excerpt:first");
+			} else {
+				showExcerpts(true);
+			}
 		}
 
 		selectPage(page);
@@ -41,7 +47,7 @@ function init() {
 		selectExcerpt($(this), false);
 	});
 
-	currentExcerpt = $(".post-exceprt:first");
+	currentExcerpt = $(".post-excerpt:first");
 
 	// Disable selection - don't show selection cursor
 	$("nav").bind("selectstart", function() {
