@@ -128,11 +128,13 @@ function selectPage(page) {
 		var url = "pages/" + page + ".html";
 
 		$.get(url, function(data) {
-			$('#content').html(data);
+			$("#content").html(data);
 		});
 
 		$(".post-excerpt.selected").removeClass("selected");
 	}
+
+	$("#content").scrollTop(0);
 }
 
 function selectExcerpt(excerpt, scroll) {
@@ -164,6 +166,8 @@ function selectExcerpt(excerpt, scroll) {
 			$("#excerpts").animate({ scrollTop: newPosition}, 150);
 		}
 	}
+	
+	$("#content").scrollTop(0);
 
 	$("nav li:first").addClass("selected").siblings().removeClass("selected");
 }
