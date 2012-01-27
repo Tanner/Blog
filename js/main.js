@@ -6,6 +6,7 @@ var allowExcerptKeys = false;
 var postURLFormat = "\\/blog\\/%s\\.html"
 
 const MID_SCROLL_OFFSET = 100;
+const TITLE_PREFIX = "Tanner's Blog - ";
 
 $(document).ready(function(){
     init();
@@ -65,6 +66,7 @@ function init() {
 	// Permalink stuff
 	$.address.strict(false);
 	$.address.crawlable(true);
+
 	$.address.externalChange(function(e) {
 		if (e.value != "") {
 			// Remove leading '/'
@@ -135,6 +137,7 @@ function selectPage(page) {
 
 		$.get(url, function(data) {
 			$("#content").html(data);
+			$.address.title(TITLE_PREFIX + $("#content article header h1").html());
 		});
 
 		$(".post-excerpt.selected").removeClass("selected");
@@ -158,7 +161,8 @@ function selectExcerpt(excerpt, scroll) {
 	$.address.value("/" + postURL.substring(6, postURL.length - 5));
 
 	$.get(postURL, function(data) {
-		$('#content').html(data);
+		$("#content").html(data);
+		$.address.title(TITLE_PREFIX + $("#content article header h1").html());
 	});
 
 	// Scroll to excerpt
