@@ -29,6 +29,8 @@ body {
 
 	min-width: 980px; /* 920px + 60px */
 
+	overflow-y: hidden;
+
 	-webkit-text-size-adjust: 125%;
 	-moz-text-size-adjust: 125%;
 	text-size-adjust: 125%;
