@@ -57,8 +57,11 @@
 			<a href="/blog/rss.xml">RSS</a>
 		</div>
 	</nav>
-	<div id="excerpts">
-		{% render_excerpts %}
+	<div id="excerpts-bar">
+		<div id="excerpts-top-date"></div>
+		<div id="excerpts">
+			{% render_excerpts %}
+		</div>
 	</div>
 	<div id="content">
 		{{ content }}

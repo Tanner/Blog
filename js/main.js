@@ -52,6 +52,10 @@ function init() {
 		return false;
 	});
 
+	$("#excerpts").bind("scroll", function() {
+		setExcerptsTopDate();
+	});
+
 	// Permalink stuff
 	$.address.strict(false);
 	$.address.crawlable(true);
@@ -77,16 +81,34 @@ function init() {
 	});
 }
 
+function setExcerptsTopDate() {
+	var sections = $(".section");
+	var edgeSection = null;
+	for (var i = 0; i < sections.size(); i++) {
+		if (sections.eq(i).position().top + sections.eq(i).outerHeight() > 0) {
+			edgeSection = sections.eq(i);
+
+			break;
+		}
+	}
+
+	$("#excerpts-top-date").removeClass("hidden");
+	edgeSection.addClass("edge").siblings().removeClass("edge");
+	$("#excerpts-top-date").html(edgeSection.children(".date").clone());
+}
+
 function showExcerpts(show) {
 	allowExcerptKeys = show;
 
 	if (show) {
 		$("#content").addClass("contracted");
-		$("#excerpts").addClass("expanded");
+		$("#excerpts-bar").addClass("expanded");
 	} else {
 		$("#content").removeClass("contracted");
-		$("#excerpts").removeClass("expanded");
+		$("#excerpts-bar").removeClass("expanded");
 	}
+
+	setExcerptsTopDate();
 }
 
 function selectPage(page) {
