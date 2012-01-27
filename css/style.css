@@ -528,6 +528,11 @@ article blockquote {
 	border-left: 3px solid #ccc;
 }
 
+article object, article iframe {
+	display: block;
+	margin: auto;
+}
+
 article img {
 	display: block;
 	
