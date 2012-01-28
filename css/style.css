@@ -212,6 +212,7 @@ nav .inner-icon .tooltip {
 	font-weight: bold;
 	font-size: 14px;
 
+	background: #555;
 	background: rgba(0, 0, 0, 0.6);
 
 	-webkit-border-radius: 2px;
@@ -245,10 +246,11 @@ nav .inner-icon #about {
 	background-image: url(../images/about.png);
 }
 
-nav .ft {
+nav .footer {
 	width: 100%;
 	height: 40px;
 
+	background: #444;
 	background-image: -webkit-linear-gradient(bottom, #333 8%, #555 92%);
 	background-image: -moz-linear-gradient(bottom, #333 8%, #555 92%);
 	background-image: linear-gradient(bottom, #333 8%, #555 92%);
@@ -260,7 +262,7 @@ nav .ft {
 	border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-nav .ft a {
+nav .footer a {
 	display: block;
 
 	margin-top: 8px;
@@ -275,11 +277,11 @@ nav .ft a {
 	background: url('../images/rss-sheet.png') no-repeat 0px 0px;
 }
 
-nav .ft a:hover {
+nav .footer a:hover {
 	background: url('../images/rss-sheet.png') no-repeat -24px 0px;
 }
 
-nav .ft a:active {
+nav .footer a:active {
 	background: url('../images/rss-sheet.png') no-repeat -48px 0px;
 }
 
@@ -349,6 +351,7 @@ nav .ft a:active {
 	border-top: solid 1px #cac9c6;
 	border-bottom: solid 1px #cac9c6;
 
+	background: #f2f1ed;
 	background-image: -webkit-linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
 	background-image: -moz-linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
 	background-image: linear-gradient(bottom, #EBEAE6 8%, #F9F8F5 50%);
