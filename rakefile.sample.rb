@@ -10,7 +10,7 @@ task :test => [:generate] do
 end
 
 desc 'deploy via rsync'
-task :deploy do
+task :deploy => [:generate] do
   puts 'DEPLOYING!'
   sh "rsync -rtzh --progress --delete _site/ user@domain.com:/var/www/site"
   puts 'DONE!'
