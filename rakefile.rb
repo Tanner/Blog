@@ -1,9 +1,10 @@
 desc 'nuke, build and compass'
 task :generate do
   sh 'rm -rf _site'
-  jekyll
+  sh 'time jekyll'
 end
 
-def jekyll
-  sh 'time jekyll'
+desc 'build and run test server'
+task :test => [:generate] do
+  sh 'jekyll --auto --server'
 end
