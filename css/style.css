@@ -561,6 +561,63 @@ article img.right {
 	margin: 0 0 10px 10px;
 }
 
+article ul#social {
+	list-style-type: none;
+
+	padding: 0;
+	margin: 0 auto;
+
+	width: auto;
+	text-align: center;
+}
+
+article ul#social li {
+	display: inline-block;
+
+	line-height: 0px;
+
+	padding: 5px 5px 15px 5px;
+}
+
+article ul#social a {
+	width: 32px;
+	height: 32px;
+
+	display: inherit;
+}
+
+article ul#social #twitter {
+	background-image: url(../images/icons/twitter.png);
+}
+
+article ul#social #facebook {
+	background-image: url(../images/icons/facebook.png);
+}
+
+article ul#social #googleplus {
+	background-image: url(../images/icons/google-plus.png);
+}
+
+article ul#social #lastfm {
+	background-image: url(../images/icons/lastfm.png);
+}
+
+article ul#social #flickr {
+	background-image: url(../images/icons/flickr.png);
+}
+
+article ul#social #github {
+	background-image: url(../images/icons/github.png);
+}
+
+article ul#social #linkedin {
+	background-image: url(../images/icons/linkedin.png);
+}
+
+article ul#social #youtube {
+	background-image: url(../images/icons/youtube.png);
+}
+
 #bottom {
 	padding: 20px;
 	
