@@ -508,6 +508,12 @@ article .body a {
 	color: #666;
 }
 
+article .body h1, article .body h2 {
+	color: #4c4b45;
+
+	padding: 10px 0 20px 0;
+}
+
 article p, article li {
 	padding: 0 0 10px 0;
 
