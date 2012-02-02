@@ -322,6 +322,8 @@ nav .footer a:active {
 
 	overflow-y: scroll;
 	overflow-x: hidden;
+
+	-webkit-overflow-scrolling: touch;
 }
 
 #excerpts-top-date {
@@ -442,6 +444,8 @@ nav .footer a:active {
 
 	height: 100%;
 	overflow: scroll;
+
+	-webkit-overflow-scrolling: touch;
 
 	margin-left: 70px;
 		
