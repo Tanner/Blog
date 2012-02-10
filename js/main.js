@@ -10,7 +10,7 @@ const TITLE_PREFIX = "Tanner's Blog - ";
 
 $(document).ready(function() {
     if (window.navigator && window.navigator.loadPurpose === "preview") {
-	    window.location.href = "http://localhost:4000/blog/preview.html"
+	    window.location.href = "http://www.tannersmith.me/blog/preview.html"
 	}
 
     init();
