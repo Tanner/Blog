@@ -8,7 +8,11 @@ var postURLFormat = "\\/blog\\/%s\\.html"
 const MID_SCROLL_OFFSET = 100;
 const TITLE_PREFIX = "Tanner's Blog - ";
 
-$(document).ready(function(){
+$(document).ready(function() {
+    if (window.navigator && window.navigator.loadPurpose === "preview") {
+	    window.location.href = "http://localhost:4000/blog/preview.html"
+	}
+
     init();
 })
 

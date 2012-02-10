@@ -1,0 +1,154 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+	margin-before: 0;
+	margin-after: 0;
+}
+
+html {
+	height: 100%;
+
+	background: #333;
+}
+
+body {
+	background-image: #333;
+}
+
+#wrapper ul {
+	display: inline;
+	font-family: "Helvetica", sans-serif;
+}
+
+#wrapper li {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin-left: -23px;
+	margin-top: -23px;
+
+	height: 46px;
+	width: 46px;
+
+	list-style-type: none;
+
+	display: inline-block;
+}
+
+#wrapper li .icon {
+	margin: 3px;
+}
+
+#wrapper li.selected {
+	background: rgb(254, 187, 0);
+
+	-webkit-box-shadow: 0px 0px 3px #000;
+	-moz-box-shadow: 0px 0px 3px #000;
+	box-shadow: 0px 0px 3px #000;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#wrapper .icon {
+	height: 40px;
+	width: 40px;
+	
+	margin-left: 15px;
+	margin-right: 15px;
+
+	background: #fff;
+
+	-webkit-box-shadow: 0px 0px 3px #000;
+	-moz-box-shadow: 0px 0px 3px #000;
+	box-shadow: 0px 0px 3px #000;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#wrapper .selected .icon {
+	-webkit-box-shadow: 0 0 0 #000;
+	-moz-box-shadow: 0 0 0 #000;
+	box-shadow: 0 0 0 #000;
+}
+
+#wrapper .inner-icon {
+	height: 34px;
+	width: 34px;
+
+	display: inline-block;
+
+	padding: 3px;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+
+	-webkit-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.05);
+}
+
+#wrapper .selected .inner-icon {
+	padding: 2px;
+
+	border: 1px solid #59430a;
+}
+
+#wrapper .inner-icon a {
+	display: block;
+	height: 100%;
+	width: 100%;
+
+	background-size: 34px;
+	
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+
+	-webkit-border-radius: 1px;
+	-moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+#wrapper .inner-icon .tooltip {
+	margin-left: 63px;
+	margin-top: 6px;
+
+	display: none;
+	position: absolute;
+
+	padding: 3px 5px;
+
+	max-width: none;
+
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+
+	background: #555;
+	background: rgba(0, 0, 0, 0.6);
+
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#wrapper .inner-icon .tooltip.visible {
+	display: inline-block;
+}
+
+#wrapper .inner-icon #avatar {
+	background-image: url(../images/avatar.jpg);
+}
