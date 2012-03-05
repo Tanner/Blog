@@ -1,0 +1,25 @@
+--- 
+layout: post
+title: Jekyll
+date: January 30, 2012, 02:20 PM
+---
+
+Last year in September, I stumbled upon [Octopress](http://octopress.org/), a neat piece of software that lets you create a static (HTML only) blog easily. I downloaded it, and created a little test site. It was pretty neat, but at the time I didn't see the point to create a static site. Why go static when Wordpress and other blogging platforms exist? Dispite that, I played with Octopress a bit, fiddling with settings and seeing what results they would produce, but I didn't like the theme that it came with and converting a theme idea I had to Octopress's theming system seeemd hard.
+
+Fast forward to this year, [Jekyll](http://jekyllrb.com/) entered the picture. Jekyll does the exact same thing as Octopress, but without all the nice, comfy, existing front-end. What did Jekyll come with? Nothing. The idea with Jekyll is that you build the site and Jekyll just assembles it all together. Cool! I could do anything I wanted with Jekyll...
+
+# Why switch? #
+Switching to a static site seems very odd today since there are scripting languages like PHP and Ruby which allow for dynamic websites created with Wordpress, Drupal, and other blog software. Why would I switch when there exists software like those which do the same thing plus much more?
+
+The main reason for me is that I don't particularly like databases. Databases and I don't get together. I never liked having data in one place and then the frontend in another. It was a bit of a hassle to backup, because I had to do backup both the database and the frontend to be consistent.
+
+Not only does Jekyll let me not have a database, it lets me have all my posts in a nice, easily-accessible format that any programming language can interpret.
+
+Another reason that makes using Wordpress for my blog kinda silly is that the server is doing all the work over and over again. Its a pretty boring job for the server to fetch the same posts or the same page over and over again. I think thats kinda silly and inefficient. Why not just make pages and content that won't change often static?
+
+# Starting Out #
+When, I first started out, I did what anyone would do - I Googled for documentation and tutorials on Jekyll. Luckily, Jekyll comes with [a fair bit](https://github.com/mojombo/jekyll/wiki) of very nice documentation. There are also several nice tutorials on installing Jekyll and even moving Wordpress posts over to Jekyll. [Paul Stamatiou's tutorial](http://paulstamatiou.com/how-to-wordpress-to-jekyll) is a very nice post that explains a fair bit about what he did when he moved to Jekyll. You would certainly want to keep his post on hand if you're working on converting a Wordpress blog over to Jekyll.
+
+That said, I don't want to explain too much on how exactly to install Jekyll or configuring it. I feel that this is very well documented throughout the internet and it shouldn't be too hard for any geek to get it up and running.
+
+That said, if you haven't noticed by now, Jekyll does entail quite a bit more work than normal blogs, i.e. Wordpress and the such. [Octopress](http://octopress.org/) however does provide a nice scaffolding structure which you can use for a site right out of the box.
