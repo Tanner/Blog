@@ -1,2 +1,5 @@
 _site/
 rakefile.rb
+
+*.sublime-project
+*.sublime-workspace
