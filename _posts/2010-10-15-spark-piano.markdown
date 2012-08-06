@@ -21,7 +21,7 @@ categories:
 - quick-post
 - technology
 ---
-<object height="390" width="640"><param name="movie" value="http://www.youtube.com/v/_WfszpzNAmw&rel=0&hl=en_US&feature=player_embedded&version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed allowfullscreen="true" src="http://www.youtube.com/v/_WfszpzNAmw&rel=0&hl=en_US&feature=player_embedded&version=3" allowscriptaccess="always" type="application/x-shockwave-flash" height="390" width="640"></embed></object>
+{% youtube _WfszpzNAmw %}
 
 Very neat "polyplasmic acrophone". I have no idea what that means, but in simple terms it seems to be a generic spark piano. The guys who made it plan to make more groups of the "instruments" together.
 

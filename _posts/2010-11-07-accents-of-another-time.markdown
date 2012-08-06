@@ -19,7 +19,7 @@ categories:
 - quick-post
 - general
 ---
-<object height="390" width="640"><param name="movie" value="http://www.youtube.com/v/dWe1b9mjjkM&hl=en_US&feature=player_embedded&version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed allowfullscreen="true" src="http://www.youtube.com/v/dWe1b9mjjkM&hl=en_US&feature=player_embedded&version=3" allowscriptaccess="always" type="application/x-shockwave-flash" height="390" width="640"></embed></object>
+{% youtube dWe1b9mjjkM %}
 
 It is always interesting to go over Shakespeare in high school and read his "ye olde English" way of writing. Why is it interesting? Reading writings from that century are interesting because it is different from ours \- the way writers wrote, formatted their text, words they used, how they spelt their words, etc...
 
