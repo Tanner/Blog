@@ -6,7 +6,7 @@ markdown: maruku
 permalink: /:title.html
 baseurl: /blog
 exclude: lib
-current_theme: reeder
+current_theme: network
 
 maruku:
   use_tex:    false
