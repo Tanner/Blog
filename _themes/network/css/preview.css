@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+	margin-before: 0;
+	margin-after: 0;
+}
+
+html {
+	height: 100%;
+
+	background: #333;
+}
+
+body {
+	background-image: #333;
+}
+
+#wrapper ul {
+	display: inline;
+	font-family: "Helvetica", sans-serif;
+}
+
+#wrapper li {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	margin-left: -322px; /* 23 * 14 */
+	margin-top: -322px; /* 23 * 14 */
+
+	height: 644px; /* 46 * 14 */
+	width: 644px; /* 46 * 14 */
+
+	list-style-type: none;
+
+	display: inline-block;
+}
+
+#wrapper li .icon {
+	margin: 42px; /* 3 * 14 */
+}
+
+#wrapper li.selected {
+	background: rgb(254, 187, 0);
+
+	-webkit-box-shadow: 0px 0px 42px #000; /* 3 * 14 */
+	-moz-box-shadow: 0px 0px 42px #000;
+	box-shadow: 0px 0px 42px #000;
+
+	-webkit-border-radius: 70px; /* 5 * 14 */
+	-moz-border-radius: 70px;
+	border-radius: 70px;
+}
+
+#wrapper .icon {
+	height: 560px; /* 40 * 14 */
+	width: 560px; /* 40 * 14 */
+	
+	margin-left: 210px; /* 15 * 14 */
+	margin-right: 210px; /* 15 * 14 */
+
+	background: #fff;
+
+	-webkit-box-shadow: 0px 0px 42px #000; /* 3 * 14 */
+	-moz-box-shadow: 0px 0px 42px #000;
+	box-shadow: 0px 0px 42px #000;
+
+	-webkit-border-radius: 42px; /* 3 * 14 */
+	-moz-border-radius: 42px;
+	border-radius: 42px;
+}
+
+#wrapper .selected .icon {
+	-webkit-box-shadow: 0 0 0 #000;
+	-moz-box-shadow: 0 0 0 #000;
+	box-shadow: 0 0 0 #000;
+}
+
+#wrapper .inner-icon {
+	height: 476px; /* 34 * 14 */
+	width: 476px; /* 34 * 14 */
+
+	display: inline-block;
+
+	padding: 42px; /* 3 * 14 */
+
+	-webkit-border-radius: 42px; /* 3 * 14 */
+	-moz-border-radius: 42px;
+	border-radius: 42px;
+
+	-webkit-box-shadow: 0 0 0px 14px rgba(0, 0, 0, 0.05); /* 1 * 14 */
+	-moz-box-shadow: 0 0 0px 14px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 0px 14px rgba(0, 0, 0, 0.05);
+}
+
+#wrapper .selected .inner-icon {
+	padding: 28px; /* 2 * 14 */
+
+	border: 14px solid #59430a; /* 1 * 14 */
+}
+
+#wrapper .inner-icon a {
+	display: block;
+	height: 100%;
+	width: 100%;
+
+	background-size: 476px; /* 34 * 14 */
+	
+	-webkit-box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.15); /* 5 * 14 */
+	-moz-box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.15);
+	box-shadow: inset 0 0 70px rgba(0, 0, 0, 0.15);
+
+	-webkit-border-radius: 14px; /* 1 * 14 */
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+}
+
+#wrapper .inner-icon #avatar {
+	background-image: url(../images/previewAvatar.jpg);
+}

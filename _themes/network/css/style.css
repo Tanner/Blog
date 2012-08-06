@@ -1,0 +1,310 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+	margin-before: 0;
+	margin-after: 0;
+
+	max-width: 100%;
+}
+
+html {
+	height: 100%;
+
+	background: #f5f5f5;
+}
+
+body {
+	height: 100%;
+	
+	background: #f5f5f5;
+
+	font-family: "Helvetica", sans-serif;
+
+	-webkit-text-size-adjust: 125%;
+	-moz-text-size-adjust: 125%;
+	text-size-adjust: 125%;
+
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+#wrapper {
+	min-height: 100%;
+
+	position: relative;
+}
+
+#header {
+	position: relative;
+	
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	font-size: 0;
+	
+	background: #3a3a3a;
+	color: #fff;
+}
+
+#header h1 {
+	font-size: 42px;
+	
+	display: inline-block;
+}
+
+nav {	
+	display: inline-block;
+	vertical-align: baseline;
+	
+	margin: 0 10px;
+
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-moz-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	
+	font-size: 15px;
+	font-weight: bold;
+	
+	cursor: default !important;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0 10px 0 0;
+
+	list-style-type: none;
+}
+
+nav li a {
+	color: #fff;
+}
+
+#network {
+	width: 100%;
+	height: 150px;
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+}
+
+header {
+	position: relative;
+	
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+	border-bottom: solid #dcdcdc 1px;
+}
+
+header h1, article header a {
+	font-size: 34px;
+	line-height: 100%;
+	
+	margin: 0;
+	padding: 0;
+
+	color: #4c4b45;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+header time {
+	display: block;
+	
+	margin: 10px 0 0 0;
+
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+}
+
+article {
+	padding: 10px 0 0 0;
+
+	font-size: 14px;
+	line-height: 24px;
+	
+	width: 65%;
+	box-sizing: border-box;
+	
+	margin: 0 auto;
+	padding: 15px;
+}
+
+article a {
+	text-decoration: underline;
+	
+	color: #666;
+}
+
+article h1, article h2 {
+	color: #4c4b45;
+
+	padding: 10px 0 10px 0;
+}
+
+article p, article li {
+	padding: 0 0 10px 0;
+
+	color: #403F38;
+}
+
+article ul, article ol {
+	padding: 0 0 7.5px 0;
+	margin: 0 0 0 15px;
+}
+
+article blockquote {
+	margin: 10px 0 10px 15px;
+	padding-left: 15px;
+	
+	font-size: 13px;
+	
+	border-left: 3px solid #ccc;
+}
+
+article object, article iframe {
+	display: block;
+	margin: auto;
+}
+
+article img {
+	display: block;
+	
+	box-sizing: border-box;
+	max-width: 100%;
+
+	padding: 5px;
+	margin: 10px auto;
+	
+	background: #eee;
+	border: 1px solid #CCC;
+}
+
+article img.left {
+	float: left;
+	
+	margin: 0 10px 10px 0;
+}
+
+article img.right {
+	float: right;
+	
+	margin: 0 0 10px 10px;
+}
+
+article ul#social {
+	list-style-type: none;
+
+	padding: 0;
+	margin: 0 auto;
+
+	width: auto;
+	text-align: center;
+}
+
+article ul#social li {
+	display: inline-block;
+
+	line-height: 0px;
+
+	padding: 5px 5px 15px 5px;
+}
+
+article ul#social a {
+	width: 32px;
+	height: 32px;
+
+	display: inherit;
+}
+
+article ul#social #twitter {
+	background-image: url(../images/icons/twitter.png);
+}
+
+article ul#social #facebook {
+	background-image: url(../images/icons/facebook.png);
+}
+
+article ul#social #googleplus {
+	background-image: url(../images/icons/google-plus.png);
+}
+
+article ul#social #lastfm {
+	background-image: url(../images/icons/lastfm.png);
+}
+
+article ul#social #flickr {
+	background-image: url(../images/icons/flickr.png);
+}
+
+article ul#social #github {
+	background-image: url(../images/icons/github.png);
+}
+
+article ul#social #linkedin {
+	background-image: url(../images/icons/linkedin.png);
+}
+
+article ul#social #youtube {
+	background-image: url(../images/icons/youtube.png);
+}
+
+#footer {
+	position: relative;
+	position: absolute;
+	bottom: 0;
+	
+	width: 100%;
+
+	padding: 8px 0;
+	
+	background: #0a73bc;
+	color: #fff;
+
+	margin: 0 auto;
+}
+
+#footer h3 {
+	margin-bottom: 10px;
+}
+
+#footer td {
+	padding-bottom: 3px;
+}
+
+#footer td.date {
+	padding-right: 15px;
+
+	text-align: right;
+}
+
+#footer a {
+	color: #fff;
+}
+
+#footer a:hover {	
+	text-decoration: underline;
+}
+
+#footer #copyright {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

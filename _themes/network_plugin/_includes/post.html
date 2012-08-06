@@ -1,0 +1,7 @@
+<article>
+	<header>
+		<h1>{{ post.title }}</h1>
+		<time pubdate datetime="{{ post.date | date: "%Y-%m-%e" }}">{{ post.date | date: "%A, %B %e, %Y at %l:%M %p" }}</time>
+	</header>
+	{{ post.content }}
+</article>
