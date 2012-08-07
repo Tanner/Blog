@@ -3,7 +3,7 @@ layout: static
 title: About Me
 ---
 
-<img src="images/profilePicture.jpg" alt="Picture of Myself" class="left"/>
+<img src="../images/profilePicture.jpg" alt="Picture of Myself" class="left"/>
 
 Hello! My name is Tanner Smith and I am a second year Computer Science major at Georgia Tech. Hence, therefore I identify as a student and a geek.
 
