@@ -7,6 +7,12 @@ Here are the courses I have taken as part of Georgia Tech’s Computer Science p
 
 Inspired by [Andrew Ash](http://www.andrewash.com/courses/).
 
+**Summer 2012**
+- CS 3750 - User Inteface Design
+- CS 4001 - Computing & Society
+- ARCH 4128 - Architecture, Design, & Material Culture
+- LCC 3403 - Technical Communication
+
 **Spring 2012**
 - CS 3240 - Languages and Computation
 - CS 2200 - Systems and Networks
@@ -18,6 +24,7 @@ Inspired by [Andrew Ash](http://www.andrewash.com/courses/).
 - CS 2340 - Objects and Design
 - EAS 1600 - Intro-Environmental Sciences
 - POL 1101 - Government of the U.S.
+- CS 1331 TA
 
 **Summer 2011**
 - ECON 2106 - Principles of Microeconomics
