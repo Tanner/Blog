@@ -1,74 +1,52 @@
 module Jekyll
-	class ArchiveGenerator < Generator
-		safe true
+  class ArchiveGenerator < Generator
+    safe true
 
-		def generate(site)
-			page = ArchivePage.new(site, site.posts)
-			site.pages << page
-		end
-	end
+    def group_by_year(posts)
+      years = []
+      posts_by_year = {}
 
-	class ArchivePage < Page
-		def initialize(site, posts)
-			@site = site
-			@posts = posts.sort.reverse
-			@dir = "/"
-			@name = "archive.html"
+      posts.reverse.each do |post|
+        key = Time.utc(post.date.year)
 
-			self.process(@name)
+        if posts_by_year.has_key?(key)
+          posts_by_year[key] << post
+        else
+          posts_by_year[key] = [post]
+          years << key
+        end
+      end
 
-			self.data = {
-				'layout' => 'default',
-				'type' => 'archive',
-				'title' => "Archive"
-			}
-
-			self.content = "<div id=\"archive\">";
-			self.content << "<h1>Archive</h1>";
-
-			currentYear = nil
-			currentMonth = nil
-			list = false
-
-			@posts.each do |post|
-				if (currentYear == nil || currentYear != post.date.year)
-					if (list)
-						self.content << "</ul>";
-					end
-
-					self.content << "<h2>" + post.date.year.to_s + "</h2>";
-					currentYear = post.date.year
-				end
-
-				if (currentMonth == nil || currentMonth != post.date.month)
-					if (list)
-						self.content << "</ul>";
-					end
-
-					self.content << "<h3>" + Date::MONTHNAMES[post.date.month] + "</h3>";
-					self.content << "<ul>";
-
-					list = true
-					currentMonth = post.date.month
-				end
-
-				self.content << "<li><a href=\"" + site.config["baseurl"] + post.url + "\">" + post.data["title"] + "</a></li>";
-			end
-
-			self.content << "</div>";
-		end
-	end
-	def render(layouts, site_payload)
-		payload = {
-			"content" => self.content,
-		}.deep_merge(site_payload)
-		do_layout(payload, layouts)
-	end
-
-	def to_liquid
-      self.data.deep_merge({
-                             "url" => self.url,
-                             "content" => self.content
-                           })
+      return [years, posts_by_year]
     end
+
+    def generate(site)
+      archive_data = group_by_year(site.posts)
+
+      years = archive_data[0]
+      posts_by_year = archive_data[1]
+
+      archives = ArchivePage.new(site, years, posts_by_year)
+      archives.render(site.layouts, site.site_payload)
+      archives.write(site.dest)
+
+      site.pages << archives
+    end
+  end
+
+  class ArchivePage < Page
+     def initialize(site, years, posts_by_year)
+      @site = site
+      @base = site.source
+      @dir = "/"
+      @name = "archive.html"
+      
+      self.process(@name)
+      self.read_yaml(File.join(@base, '_themes', 'network', '_layouts'), 'archive.html')
+      # array of Times, normalized to year and month
+      self.data['years'] = years
+      # hash keyed on normalized times, mapped to array of posts
+      self.data['posts_by_year'] = posts_by_year
+    end
+  end
 end

@@ -268,6 +268,40 @@ article ul#social #youtube {
 	background-image: url(../images/icons/youtube.png);
 }
 
+#archives h1 {
+	float: left;
+	padding-bottom: 0;
+}
+
+#archives article {
+	position: relative;
+
+	width: 100%;
+
+	padding: 10px;
+	padding-left: 100px;
+
+	margin: 0;
+
+	border-bottom: 1px dashed #AAA;
+}
+
+#archives article h1 {
+	padding: 0;
+
+	float: none;
+}
+
+#archives a {
+	text-decoration: none
+}
+
+#archives article time {
+	line-height: 25px;
+
+	color: #868686;
+}
+
 #footer {
 	position: relative;
 	position: absolute;
