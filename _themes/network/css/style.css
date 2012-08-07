@@ -255,6 +255,8 @@ article ul#social a {
 	height: 32px;
 
 	display: inherit;
+
+	border: 0;
 }
 
 article ul#social #twitter {
