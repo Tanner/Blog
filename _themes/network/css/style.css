@@ -328,44 +328,23 @@ article ul#social #youtube {
 }
 
 #footer {
-	position: relative;
-	position: absolute;
-	bottom: 0;
-	
 	width: 100%;
 
-	padding: 8px 0;
-	
-	background: #0a73bc;
-	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
 
-	margin: 0 auto;
-}
+	font-size: 14px;
+	text-align: center;
+	color: #403F38;
 
-#footer h3 {
-	margin-bottom: 10px;
-}
-
-#footer td {
-	padding-bottom: 3px;
-}
-
-#footer td.date {
-	padding-right: 15px;
-
-	text-align: right;
+	border-top: 1px dashed #AAA;
 }
 
 #footer a {
-	color: #fff;
+	color: #403F38;
+	border-bottom: 1px solid #403F38;
 }
 
-#footer a:hover {	
-	text-decoration: underline;
-}
-
-#footer #copyright {
-	position: absolute;
-	bottom: 0;
-	right: 0;
+#footer a:hover {
+	background: rgba(0, 0, 0, 0.1);
 }
