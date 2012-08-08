@@ -10,12 +10,14 @@
 
 html {
 	height: 100%;
+	width: 100%;
 
 	background: #f5f5f5;
 }
 
 body {
 	height: 100%;
+	width: 100%;
 	
 	background: #f5f5f5;
 
@@ -37,6 +39,7 @@ a {
 }
 
 #wrapper {
+	width: 100%;
 	min-height: 100%;
 
 	position: relative;
@@ -370,7 +373,7 @@ article ul#social #youtube {
 	background: rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: portrait)	 {
 	body {
 		-webkit-text-size-adjust: 200%;
 		text-size-adjust: 200%;
@@ -407,5 +410,53 @@ article ul#social #youtube {
 
 	#archives article {
 		padding-left: 150px;
+	}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: landscape) {
+	#header h1 a {
+		font-size: 70px;
+	}
+
+	nav {
+		margin: 0;
+		padding: 20px 0 10px 0;
+
+		font-size: 30px;
+	}
+
+	header h1 {
+		padding-left: 0;
+	}
+
+	article {
+		width: 100%;
+		padding: 20px;
+	}
+
+	article header {
+		margin-bottom: 30px;
+	}
+
+	article header h1 {
+		padding-top: 0;
+	}
+
+	article header h1 a {
+		font-size: 40px;
+	}
+
+	article header time {
+		font-size: 20px;
+
+		padding: 10px 0;
+	}
+
+	#archives h1 {
+		font-size: 30px;
+	}
+
+	#archives article {
+		padding-left: 125px;
 	}
 }
