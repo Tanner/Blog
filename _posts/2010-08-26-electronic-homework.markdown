@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Electronic\xC2\xA0Homework"
+title: "Electronic Homework"
 tags: 
 - web
 - try

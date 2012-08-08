@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Modernization of Public\xC2\xA0Transportation"
+title: "Modernization of Public Transportation"
 tags: 
 - technology
 - tech
