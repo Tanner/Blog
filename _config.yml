@@ -8,6 +8,10 @@ baseurl: /blog
 exclude: lib
 current_theme: network
 
+name: Tanner's Blog
+description: The personal blog for Tanner Smith.
+url: http://www.tannersmith.me
+
 maruku:
   use_tex:    false
   use_divs:   false
