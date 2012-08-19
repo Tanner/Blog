@@ -373,6 +373,38 @@ article ul#social #youtube {
 	background: rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (min-width: 720px) and (max-width: 1050px) {
+	article {
+		width: 100%;
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	#header h1 {
+		padding-left: 0;
+	}
+
+	#header {
+		position: relative;
+
+		height: 115px;
+	}
+
+	article {
+		width: 100%;
+		padding: 20px;
+	}
+
+	nav {
+		position: absolute;
+		left: 20px;
+		bottom: 20px;
+
+		margin: 0;
+	}
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 640px) and (orientation: portrait)	 {
 	body {
 		-webkit-text-size-adjust: 200%;
