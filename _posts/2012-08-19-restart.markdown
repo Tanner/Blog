@@ -1,0 +1,11 @@
+--- 
+layout: post
+title: Restart
+tags: 
+date: September 19, 2011 10:18 pm
+---
+Hey World!
+
+Another college semester starts and with the start I have decided to start blogging again. I will write posts about college life, technology, and anything else that happens to be on my mind.
+
+You can also see there is a different theme for the blog. This is because I am using a different blogging setup. There are probably still a few quirks for me to work out. If you find any, feel free to contact.
