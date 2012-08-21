@@ -4,7 +4,6 @@ lsi: false
 pygments: false
 markdown: maruku
 permalink: /:title.html
-baseurl: /blog
 exclude: lib source Blog.sublime-project Blog.sublime-workspace rakefile.rb rakefile.sample.rb
 current_theme: network
 
