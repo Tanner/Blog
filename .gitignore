@@ -3,3 +3,5 @@ rakefile.rb
 
 *.sublime-project
 *.sublime-workspace
+
+tracking.html
