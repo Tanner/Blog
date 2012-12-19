@@ -1,7 +1,7 @@
 
 --- 
 layout: post
-title: Dragon*Con
+title: Dragon\*Con
 tags: 
 - sc-state
 - south-carolina-state
