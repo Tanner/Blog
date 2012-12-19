@@ -42,7 +42,7 @@ module Jekyll
       @name = "archive.html"
       
       self.process(@name)
-      self.read_yaml(File.join(@base, '_themes', 'network', '_layouts'), 'archive.html')
+      self.read_yaml(File.join(@base, '_layouts'), 'archive.html')
       # array of Times, normalized to year and month
       self.data['years'] = years
       # hash keyed on normalized times, mapped to array of posts
