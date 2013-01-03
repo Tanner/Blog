@@ -147,8 +147,6 @@ header time {
 }
 
 article {
-	padding: 10px 0 0 0;
-
 	font-size: 14px;
 	line-height: 24px;
 	
@@ -157,7 +155,7 @@ article {
 
 	background: #FFF;
 	
-	margin: 0 auto;
+	margin: 50px auto 0 auto;
 	padding: 15px;
 }
 
