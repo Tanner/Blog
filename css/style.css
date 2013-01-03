@@ -12,14 +12,14 @@ html {
 	height: 100%;
 	width: 100%;
 
-	background: #f5f5f5;
+	background: #eceef1;
 }
 
 body {
 	height: 100%;
 	width: 100%;
 	
-	background: #f5f5f5;
+	background: #eceef1;
 
 	font-family: 'Verdana';
 
@@ -154,6 +154,8 @@ article {
 	
 	width: 65%;
 	box-sizing: border-box;
+
+	background: #FFF;
 	
 	margin: 0 auto;
 	padding: 15px;
