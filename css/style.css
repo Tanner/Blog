@@ -356,19 +356,16 @@ article ul#social #youtube {
 #footer {
 	width: 100%;
 
-	padding: 15px;
-	box-sizing: border-box;
+	padding: 40px 0;
 
-	font-size: 14px;
 	text-align: center;
-	color: #403F38;
-
-	border-top: 1px dashed #AAA;
+	font: bold 20px "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	color: #C3C9D2;
 }
 
 #footer a {
-	color: #403F38;
-	border-bottom: 1px solid #403F38;
+	color: #C3C9D2;
+	border-bottom: 1px solid #C3C9D2;
 }
 
 #footer a:hover {
