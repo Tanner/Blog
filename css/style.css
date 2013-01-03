@@ -54,7 +54,7 @@ a {
 	
 	font-size: 0;
 	
-	background: #3a3a3a;
+	background: #2c72d9;
 	color: #fff;
 }
 
@@ -66,7 +66,7 @@ a {
 }
 
 #header h1:hover {
-	background: #616161;
+	background: #1c52a2;
 }
 
 nav {	
@@ -103,7 +103,7 @@ nav li a {
 }
 
 nav li a:hover {
-	background: #616161;
+	background: #1c52a2;
 }
 
 #network {
