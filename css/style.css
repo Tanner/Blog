@@ -119,6 +119,10 @@ header h1, article header a {
 	font-weight: bolder;
 }
 
+article header a:hover {
+	border-bottom: 1px solid #4c4b45;
+}
+
 header time {
 	display: block;
 	
@@ -150,9 +154,11 @@ article h1 a {
 }
 
 article a {
-	border-bottom: 1px solid #666;
-	
-	color: #666;
+	color: #316bc0;
+}
+
+article a:hover {
+	border-bottom: 1px solid #316bc0;
 }
 
 article h1, article h2 {
