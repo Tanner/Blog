@@ -170,13 +170,17 @@ article a:hover {
 article h1, article h2 {
 	color: #4c4b45;
 
-	padding: 10px 0 10px 0;
+	padding: 0 0 10px 0;
 }
 
 article p, article li {
 	padding: 0 0 1em 0;
 
 	color: #403F38;
+}
+
+article p:last-child {
+	padding: 0;
 }
 
 article ul, article ol {
