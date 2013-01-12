@@ -119,6 +119,10 @@ header h1, article header a {
 	font-weight: bolder;
 }
 
+article header h1 {
+	padding: 0;
+}
+
 article header a:hover {
 	border-bottom: 1px solid #4c4b45;
 }
@@ -126,6 +130,7 @@ article header a:hover {
 header time {
 	display: block;
 	
+	padding-top: 10px;
 	margin: 0;
 
 	color: #949494;
