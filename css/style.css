@@ -21,8 +21,6 @@ body {
 	
 	background: #eceef1;
 
-	font-family: 'Verdana';
-
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
 	transform: translateZ(0);
@@ -52,6 +50,7 @@ a {
 	padding: 20px;
 	box-sizing: border-box;
 	
+	font-family: 'Cabin';
 	font-size: 0;
 	
 	background: #2c72d9;
@@ -110,6 +109,8 @@ header {
 
 	padding-bottom: 10px;
 	margin-bottom: 10px;
+
+	font-family: 'Cabin';
 	
 	border-bottom: solid #dcdcdc 1px;
 }
@@ -131,14 +132,15 @@ header time {
 	
 	margin: 0;
 
-	color: #666;
-	font-size: 12px;
-	line-height: 12px;
+	color: #949494;
+	font-size: 14px;
+	line-height: 14px;
 }
 
 article {
+	font-family: 'Open Sans';
 	font-size: 14px;
-	line-height: 24px;
+	line-height: 1.75em;
 	
 	width: 65%;
 	box-sizing: border-box;
@@ -172,7 +174,7 @@ article h1, article h2 {
 }
 
 article p, article li {
-	padding: 0 0 10px 0;
+	padding: 0 0 1em 0;
 
 	color: #403F38;
 }
