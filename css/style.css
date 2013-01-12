@@ -64,10 +64,6 @@ a {
 	padding-bottom: 5px;
 }
 
-#header h1:hover {
-	background: #1c52a2;
-}
-
 nav {	
 	vertical-align: baseline;
 	
@@ -98,10 +94,6 @@ nav li a {
 	padding: 5px;
 
 	color: #fff;
-}
-
-nav li a:hover {
-	background: #1c52a2;
 }
 
 header {
