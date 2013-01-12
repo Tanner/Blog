@@ -155,10 +155,6 @@ article a {
 	color: #666;
 }
 
-article a:hover {
-	background: rgba(0, 0, 0, 0.1);
-}
-
 article h1, article h2 {
 	color: #4c4b45;
 
@@ -353,10 +349,6 @@ article ul#social #youtube {
 	color: #A6AEBB;
 
 	border-bottom: 1px solid #C3C9D2;
-}
-
-#footer a:hover {
-	background: rgba(0, 0, 0, 0.1);
 }
 
 @media only screen and (min-width: 720px) and (max-width: 1050px) {
