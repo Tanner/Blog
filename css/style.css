@@ -358,7 +358,9 @@ article ul#social #youtube {
 
 #footer a {
 	color: #A6AEBB;
+}
 
+#footer a:hover {
 	border-bottom: 1px solid #C3C9D2;
 }
 
