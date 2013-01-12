@@ -345,12 +345,13 @@ article ul#social #youtube {
 	padding: 40px 0;
 
 	text-align: center;
-	font: bold 20px "Helvetica Neue", Helvetica, Arial, Sans-Serif;
-	color: #C3C9D2;
+	font: bold 14px "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	color: #A6AEBB;
 }
 
 #footer a {
-	color: #C3C9D2;
+	color: #A6AEBB;
+
 	border-bottom: 1px solid #C3C9D2;
 }
 
