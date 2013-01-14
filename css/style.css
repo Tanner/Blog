@@ -235,6 +235,10 @@ article#main blockquote {
 	border-left: 5px solid #2c72d9;
 }
 
+article#main blockquote + p {
+	padding-top: 1em;
+}
+
 article object, article iframe {
 	display: block;
 	margin: auto;
