@@ -230,7 +230,8 @@ article#main ul, article#main ol {
 
 article#main blockquote {
 	margin: 10px 35px 10px 50px;
-	padding-left: 15px;
+
+	padding: 10px 15px;
 	
 	border-left: 5px solid #2c72d9;
 }
