@@ -1,7 +1,7 @@
-<article>
-	<header>
-		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-		<time pubdate datetime="{{ post.date | date: "%Y-%m-%e" }}">{{ post.date | date: "%A, %B %e, %Y at %l:%M %p" }}</time>
-	</header>
-	{{ post.content }}
+<article id="main">
+  <header>
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <time pubdate datetime="{{ post.date | date: "%Y-%m-%e" }}">{{ post.date | date: "%A, %B %e, %Y" }}</time>
+  </header>
+  {{ post.content }}
 </article>
