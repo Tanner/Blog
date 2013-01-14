@@ -224,6 +224,10 @@ article ul, article ol {
 	margin: 0 0 0 20px;
 }
 
+article#main ul, article#main ol {
+	margin: 0 0 0 55px;
+}
+
 article blockquote {
 	margin: 10px 0 10px 15px;
 	padding-left: 15px;
