@@ -5,11 +5,12 @@ title: Archives
 
 <article>
     <header>
-        <h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
     </header>
     <div id="archives">
       {% for year in page.years %}
-        <h1>{{ year | date:"%Y" }}</h1>
+        <div class="year">
+          <h1>{{ year | date:"%Y" }}</h1>
           {% for post in page.posts_by_year[year] %}
             <article>
               <h1>
@@ -21,6 +22,7 @@ title: Archives
               </time>
             </article>
           {% endfor %}
+        </div>
       {% endfor %}
     </div>
 </article>

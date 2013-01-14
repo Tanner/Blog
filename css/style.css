@@ -308,22 +308,29 @@ article ul#social #youtube {
 	background-image: url(../images/icons/youtube.png);
 }
 
-#archives h1 {
-	float: left;
-	padding-bottom: 0;
+#archives .year {
+	position: relative;
+}
+
+#archives .year > h1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	padding: 10px 0;
+
+	z-index: 100;
 }
 
 #archives article {
 	position: relative;
 
-	width: 100%;
-
 	padding: 10px;
-	padding-left: 100px;
+	margin: 0 0 0 80px;
 
-	margin: 0;
+	width: -webkit-calc(100% - 80px);
 
-	border-bottom: 1px dashed #AAA;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 #archives article h1 {
