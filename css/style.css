@@ -50,7 +50,7 @@ a {
 	padding: 20px;
 	box-sizing: border-box;
 	
-	font-family: 'Cabin';
+	font-family: 'Cabin', sans-serif;
 	font-size: 0;
 	
 	background: #2c72d9;
@@ -139,7 +139,7 @@ header time {
 }
 
 article {
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.75em;
 	
