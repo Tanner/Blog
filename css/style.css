@@ -335,6 +335,12 @@ article ul#social #youtube {
 	border-bottom: 1px solid #e5e5e5;
 }
 
+#archives article:last-child {
+	padding-bottom: 0;
+
+	border-bottom: none;
+}
+
 #archives article h1 {
 	padding: 0;
 
