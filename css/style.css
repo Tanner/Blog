@@ -181,7 +181,12 @@ article {
 	background: #FFF;
 	
 	margin: 50px auto 0 auto;
-	padding: 35px;
+	padding: 35px 0;
+}
+
+article > * {
+	margin-left: 35px;
+	margin-right: 35px;
 }
 
 article h1 a {
