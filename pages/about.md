@@ -7,7 +7,7 @@ Hello! My name is Tanner Smith and I am an undergraduate Computer Science major 
 
 I love learning new things, aviation, and the history of computers.
 
-<img src="../images/profilePicture.jpg" alt="Picture of Myself" class="center"/>
+<img src="../images/cardiff.jpg" alt="Picture of Myself" class="fill"/>
 
 # Tools
 

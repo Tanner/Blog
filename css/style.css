@@ -269,9 +269,17 @@ article img {
 
 	padding: 5px;
 	margin: 10px auto;
+
+	margin-bottom: 20px;
 	
 	background: #eee;
 	border: 1px solid #CCC;
+}
+
+article img.fill {
+	padding: 0;
+
+	border: none;
 }
 
 article img.left {
