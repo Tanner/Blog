@@ -317,6 +317,8 @@ article ul#social #youtube {
 	top: 0;
 	left: 0;
 
+	font-weight: bold;
+
 	padding: 15px 0;
 
 	z-index: 100;
