@@ -280,8 +280,11 @@ article img {
 	border: 1px solid #CCC;
 }
 
-article img.fill {
+article#main img.fill {
 	padding: 0;
+
+	margin-left: 0;
+	margin-right: 0;
 
 	border: none;
 }
