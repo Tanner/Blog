@@ -7,6 +7,13 @@ Here are the courses I have taken as part of Georgia Tech’s Computer Science p
 
 Inspired by [Andrew Ash](http://www.andrewash.com/courses/).
 
+**Spring 2013**
+- CS 3220 - Processor Design
+- HPS 1040 – Health
+- CS 4251 - Computer Networking II
+- MATH 3215 - Probability and Statistics
+- CS 4641 - Machine Learning
+
 **Summer 2012**
 - CS 3750 - User Inteface Design
 - CS 4001 - Computing & Society
