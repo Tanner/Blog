@@ -317,7 +317,7 @@ article ul#social #youtube {
 	top: 0;
 	left: 0;
 
-	padding: 10px 0;
+	padding: 15px 0;
 
 	z-index: 100;
 }
@@ -325,7 +325,7 @@ article ul#social #youtube {
 #archives article {
 	position: relative;
 
-	padding: 10px;
+	padding: 15px;
 	margin: 0 0 0 80px;
 
 	width: -webkit-calc(100% - 80px);
