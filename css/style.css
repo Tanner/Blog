@@ -401,6 +401,8 @@ article ul#social #youtube {
 	text-align: center;
 	font: bold 14px "Helvetica Neue", Helvetica, Arial, Sans-Serif;
 	color: #A6AEBB;
+
+	text-shadow: 1px 1px 0 #FFF;
 }
 
 #footer a {
