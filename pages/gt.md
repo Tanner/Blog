@@ -14,6 +14,13 @@ Inspired by [Andrew Ash](http://www.andrewash.com/courses/).
 - MATH 3215 - Probability and Statistics
 - CS 4641 - Machine Learning
 
+**Fall 2012**
+- MATH 3012 - Combinatorics
+- CS 3510 - Design & Analysis of Algorithms
+- CS 3251 - Computer Networking I
+- CS 3210 - Operating System Design
+- CS 3790 - Introduction to Cognitive Science
+
 **Summer 2012**
 - CS 3750 - User Inteface Design
 - CS 4001 - Computing & Society
