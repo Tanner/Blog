@@ -228,13 +228,11 @@ article#main ul, article#main ol {
 	margin: 0 0 0 55px;
 }
 
-article blockquote {
-	margin: 10px 0 10px 15px;
+article#main blockquote {
+	margin: 10px 35px 10px 50px;
 	padding-left: 15px;
 	
-	font-size: 13px;
-	
-	border-left: 3px solid #ccc;
+	border-left: 5px solid #2c72d9;
 }
 
 article object, article iframe {
