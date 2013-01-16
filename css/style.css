@@ -194,12 +194,6 @@ article#main > * {
 	margin-right: 35px;
 }
 
-article h1 a {
-	font-size: 28px;
-
-	border: none;
-}
-
 article a {
 	color: #316bc0;
 }
