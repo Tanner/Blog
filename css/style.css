@@ -80,6 +80,7 @@ a {
 
 #header #words {
 	display: inline-block;
+	text-align: left;
 
 	position: relative;
 
@@ -90,20 +91,12 @@ a {
 }
 
 #header h1 {
-	position: absolute;
-	top: 0;
-	left: 0;
-
 	font-size: 42px;
 	line-height: 42px;
 	padding-bottom: 5px;
 }
 
 nav {
-	position: absolute;
-	left: 0;
-	bottom: 0;
-
 	vertical-align: baseline;
 	
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -463,10 +456,6 @@ article ul#social #youtube {
 	}
 
 	nav {
-		position: absolute;
-		left: 20px;
-		bottom: 20px;
-
 		margin: 0;
 	}
 }
