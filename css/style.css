@@ -136,8 +136,8 @@ nav li a {
 header {
 	position: relative;
 
-	padding-bottom: 10px;
-	margin-bottom: 10px;
+	padding-bottom: 1.5em;
+	margin-bottom: 1.2em;
 
 	font-family: 'Cabin';
 	
@@ -145,8 +145,8 @@ header {
 }
 
 header h1, article header a {
-	font-size: 34px;
-	line-height: 100%;
+	font-size: 32px;
+	line-height: 1.2em;
 	
 	margin: 0;
 	padding: 0;
@@ -171,7 +171,7 @@ header time {
 	margin: 0;
 
 	color: #949494;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 14px;
 }
 
