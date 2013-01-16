@@ -170,10 +170,10 @@ header time {
 
 article {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 1.75em;
+	font-size: 15px;
+	line-height: 2em;
 	
-	width: 960px;
+	width: 640px;
 	box-sizing: border-box;
 
 	background: #FFF;
@@ -202,7 +202,7 @@ article h1, article h2 {
 }
 
 article p, article li {
-	padding: 0 0 1em 0;
+	padding: 0 0 1.5em 0;
 
 	color: #403F38;
 }
@@ -450,9 +450,10 @@ article ul#social #youtube {
 		height: 115px;
 	}
 
-	article {
+	#main {
 		width: 100%;
 		padding: 20px;
+		margin: 0;
 	}
 
 	nav {
