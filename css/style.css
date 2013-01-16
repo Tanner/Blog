@@ -50,6 +50,8 @@ a {
 	padding: 20px;
 	box-sizing: border-box;
 	
+	text-align: center;
+
 	font-family: 'Cabin', sans-serif;
 	font-size: 0;
 	
@@ -58,8 +60,9 @@ a {
 }
 
 #header #content {
+	display: inline-block;
+
 	height: 80px;
-	width: 420px;
 
 	margin: 0 auto;
 }
@@ -76,9 +79,11 @@ a {
 }
 
 #header #words {
+	display: inline-block;
+
 	position: relative;
 
-	margin-left: 100px;
+	margin-left: 20px;
 	height: 80px;
 
 	width: 320px;
@@ -237,6 +242,8 @@ article#main blockquote {
 
 	border-left: 5px solid #2c72d9;
 }
+
+3LPxnzm6UL
 
 article#main blockquote + p {
 	padding-top: 1em;
