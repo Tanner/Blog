@@ -80,6 +80,7 @@ a {
 
 #header #words {
 	display: inline-block;
+	float: left;
 	text-align: left;
 
 	position: relative;
@@ -435,5 +436,23 @@ article ul#social #youtube {
 @media only screen and (max-width: 640px) {
 	article#main {
 		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#header #content {
+		height: 150px;
+	}
+
+	#header #me {
+		float: none;
+
+		margin: 0 auto;
+	}
+
+	#header #words {
+		text-align: center;
+
+		margin: 10px 0 0 0;
 	}
 }
