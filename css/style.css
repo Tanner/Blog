@@ -180,6 +180,8 @@ article {
 	
 	margin: 50px auto 0 auto;
 	padding: 35px 0;
+
+	-webkit-transition: margin 0.1s ease-in;
 }
 
 article#main > * {
@@ -428,4 +430,10 @@ article ul#social #youtube {
 
 #footer a:hover {
 	border-bottom: 1px solid #C3C9D2;
+}
+
+@media only screen and (max-width: 640px) {
+	article#main {
+		margin: 0;
+	}
 }
