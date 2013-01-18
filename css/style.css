@@ -59,19 +59,19 @@ a {
 	color: #fff;
 }
 
-#header #words:after {
+#words:after {
 	display: table;
 	content: '';
 	clear: both;
 }
 
-#header #content {
+#content {
 	display: inline-block;
 
 	margin: 0 auto;
 }
 
-#header #me {
+#me {
 	float: left;
 
 	background-image: url('http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=80');
@@ -84,7 +84,7 @@ a {
 	-webkit-transition: margin 0.2 linear;
 }
 
-#header #words {
+#words {
 	display: inline-block;
 	float: left;
 	text-align: left;
@@ -196,7 +196,7 @@ article {
 	-webkit-transition: margin 0.2s ease-in;
 }
 
-article#main > * {
+#main > * {
 	margin-left: 35px;
 	margin-right: 35px;
 }
@@ -230,11 +230,11 @@ article ul, article ol {
 	margin: 0 0 0 20px;
 }
 
-article#main ul, article#main ol {
+#main ul, #main ol {
 	margin: 0 0 0 55px;
 }
 
-article#main blockquote {
+#main blockquote {
 	margin: 10px 35px 10px 50px;
 
 	padding: 10px 15px;
@@ -244,7 +244,7 @@ article#main blockquote {
 	border-left: 5px solid #2c72d9;
 }
 
-article#main blockquote + p {
+#main blockquote + p {
 	padding-top: 1em;
 }
 
@@ -291,7 +291,7 @@ article img {
 	border: 1px solid #CCC;
 }
 
-article#main img.fill {
+#main img.fill {
 	padding: 0;
 
 	margin-left: 0;
@@ -312,7 +312,7 @@ article img.right {
 	margin: 0 0 10px 10px;
 }
 
-article ul#social {
+#social {
 	list-style-type: none;
 
 	line-height: 0;
@@ -324,7 +324,7 @@ article ul#social {
 	text-align: left;
 }
 
-article ul#social li {
+#social li {
 	display: inline-block;
 
 	line-height: 0px;
@@ -332,7 +332,7 @@ article ul#social li {
 	padding: 0;
 }
 
-article ul#social a {
+#social a {
 	width: 32px;
 	height: 32px;
 
@@ -341,35 +341,35 @@ article ul#social a {
 	border: 0;
 }
 
-article ul#social #twitter {
+#social #twitter {
 	background-image: url(../images/icons/twitter.png);
 }
 
-article ul#social #facebook {
+#social #facebook {
 	background-image: url(../images/icons/facebook.png);
 }
 
-article ul#social #googleplus {
+#social #googleplus {
 	background-image: url(../images/icons/google-plus.png);
 }
 
-article ul#social #lastfm {
+#social #lastfm {
 	background-image: url(../images/icons/lastfm.png);
 }
 
-article ul#social #flickr {
+#social #flickr {
 	background-image: url(../images/icons/flickr.png);
 }
 
-article ul#social #github {
+#social #github {
 	background-image: url(../images/icons/github.png);
 }
 
-article ul#social #linkedin {
+#social #linkedin {
 	background-image: url(../images/icons/linkedin.png);
 }
 
-article ul#social #youtube {
+#social #youtube {
 	background-image: url(../images/icons/youtube.png);
 }
 
@@ -457,28 +457,28 @@ article ul#social #youtube {
 		padding: 20px 5px;
 	}
 
-	#header #me {
+	#me {
 		float: none;
 
 		margin: 0 auto;
 	}
 
-	#header #words {
+	#words {
 		text-align: center;
 
 		margin: 10px 0 0 0;
 	}
 
-	article#main {
+	#main {
 		padding: 20px 0;
 	}
 
-	article#main > * {
+	#main > * {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
 
-	article#main header {
+	#main header {
 		padding-bottom: 1em;
 		margin-bottom: 0.3em;
 	}
