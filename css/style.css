@@ -451,6 +451,10 @@ article ul#social #youtube {
 }
 
 @media only screen and (max-width: 500px) {
+	#header {
+		padding: 20px 5px;
+	}
+
 	#header #me {
 		float: none;
 
@@ -461,5 +465,19 @@ article ul#social #youtube {
 		text-align: center;
 
 		margin: 10px 0 0 0;
+	}
+
+	article#main {
+		padding: 20px 0;
+	}
+
+	article#main > * {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	article#main header {
+		padding-bottom: 1em;
+		margin-bottom: 0.3em;
 	}
 }
