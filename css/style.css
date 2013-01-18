@@ -80,6 +80,8 @@ a {
 	height: 80px;
 
 	box-shadow: -5px -5px 0 rgba(0, 0, 0, 0.2);
+
+	-webkit-transition: margin 0.2 linear;
 }
 
 #header #words {
@@ -92,6 +94,8 @@ a {
 	margin-left: 20px;
 
 	width: 320px;
+
+	-webkit-transition: margin 0.2 linear;
 }
 
 #header h1 {
