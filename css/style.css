@@ -327,35 +327,35 @@ article img.right {
 	border: 0;
 }
 
-#social #twitter {
+#social-twitter {
 	background-image: url(../images/icons/twitter.png);
 }
 
-#social #facebook {
+#social-facebook {
 	background-image: url(../images/icons/facebook.png);
 }
 
-#social #googleplus {
+#social-googleplus {
 	background-image: url(../images/icons/google-plus.png);
 }
 
-#social #lastfm {
+#social-lastfm {
 	background-image: url(../images/icons/lastfm.png);
 }
 
-#social #flickr {
+#social-flickr {
 	background-image: url(../images/icons/flickr.png);
 }
 
-#social #github {
+#social-github {
 	background-image: url(../images/icons/github.png);
 }
 
-#social #linkedin {
+#social-linkedin {
 	background-image: url(../images/icons/linkedin.png);
 }
 
-#social #youtube {
+#social-youtube {
 	background-image: url(../images/icons/youtube.png);
 }
 
