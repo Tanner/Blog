@@ -8,17 +8,7 @@
 	max-width: 100%;
 }
 
-html {
-	height: 100%;
-	width: 100%;
-
-	background: #eceef1;
-}
-
-body {
-	height: 100%;
-	width: 100%;
-	
+html, body {
 	background: #eceef1;
 }
 
