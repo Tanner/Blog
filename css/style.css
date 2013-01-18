@@ -20,10 +20,6 @@ body {
 	width: 100%;
 	
 	background: #eceef1;
-
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	transform: translateZ(0);
 }
 
 img {
