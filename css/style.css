@@ -192,7 +192,7 @@ article a:hover {
 	border-bottom: 1px solid #316bc0;
 }
 
-article h1, article h2 {
+article h1, article h2, article h3 {
 	color: #4c4b45;
 
 	padding: 0 0 10px 0;
