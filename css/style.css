@@ -33,7 +33,7 @@ a {
 	position: relative;
 	
 	width: 100%;
-	padding: 20px;
+	padding: 40px 20px;
 	box-sizing: border-box;
 	
 	text-align: center;
@@ -43,6 +43,8 @@ a {
 	
 	background: #2c72d9;
 	color: #fff;
+
+	-webkit-transition: padding 0.2s ease-in;
 }
 
 #header h1 {
