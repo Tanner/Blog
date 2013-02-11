@@ -204,6 +204,10 @@ article p, article li {
 	color: #403F38;
 }
 
+article li {
+	padding: 0 0 0.5em 0;
+}
+
 article p:last-child {
 	padding: 0;
 }
