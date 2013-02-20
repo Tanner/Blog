@@ -52,7 +52,10 @@ The simple truth is that I expected his application to do perform the same that 
 
 Yes, it's only 140 characters of my life. But it makes me like Tweedle just a little bit less. Even more that the developer won't change it.[^3]
 
-Here's the take away: Design for your user's expectations, not your own. 
+Here's the take away: Design for your user's expectations, not your own.
+
+**Edit:**
+Apparently I've been blocked by TweedleApp on Twitter. That's nice.
 
 [^1]: [https://twitter.com/tweedleapp/status/303551694975926272](https://twitter.com/tweedleapp/status/303551694975926272)
 
