@@ -313,6 +313,11 @@ article hr {
 	border: none;
 }
 
+#main .footnotes {
+	overflow: hidden;
+	word-wrap: break-word;
+}
+
 #main .footnotes ol {
 	margin: 0 0 0 25px;
 	padding: 0;
