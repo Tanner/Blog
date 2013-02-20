@@ -272,6 +272,11 @@ article img.right {
 	margin: 0 0 10px 10px;
 }
 
+article hr {
+	border: none;
+	border-top: solid #dcdcdc 1px;
+}
+
 #main > * {
 	margin-left: 35px;
 	margin-right: 35px;
@@ -295,6 +300,10 @@ article img.right {
 	padding-top: 1em;
 }
 
+#main blockquote ul, #main blockquote ol {
+	margin: 0 0 0 20px;
+}
+
 #main img.fill {
 	padding: 0;
 
@@ -302,6 +311,19 @@ article img.right {
 	margin-right: 0;
 
 	border: none;
+}
+
+#main .footnotes ol {
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+#main .footnotes li p {
+	padding: 0;
+}
+
+#main .footnotes hr {
+	margin: 0 0 1.5em 0;
 }
 
 #social {
