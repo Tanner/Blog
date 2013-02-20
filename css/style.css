@@ -294,6 +294,8 @@ article hr {
 	background: #ebf2fb;
 
 	border-left: 5px solid #2c72d9;
+
+	-webkit-transition: margin 0.2s ease-in;
 }
 
 #main blockquote + p {
