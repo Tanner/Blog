@@ -5,25 +5,23 @@ date: February 21, 2013 5:01 pm
 ---
 Yesteray I wrote [a blog post](app-resuming-behavior.html) related to my Twitter application of choice on Android, Tweedle.
 
-To sum that post up, I had trouble using the application and told the developer about it. He gave his reasoning for doing it that way and I disagree with it as every other application in both Android and iOS function the exact opposite way. Even Google's documentation mentioned against doing it the way Tweedle currently behaves.
+To sum that post up, I had trouble using the application and told the developer about my problems. He dismissed my problems and defended the way the app was designed. I disagreed with his design decisions, as every other application in both Android and iOS behave in a different way. Even Google's documentation encourages developers against designing applications to function the way Tweedle does.
 
-After he ended our conversation about it[^1], I found I couldn't access Tweedle's tweets anymore. Twitter was giving me a authentication error, which after a bit of Googling turns out to be code for "you've been blocked".
+After he ended our conversation on Twitter[^1], I realized I wasnt able to access the @tweedleapp's tweets anymore. Twitter was giving me an "authentication error," which after a bit of Googling turns out to be code for "you've been blocked."
 
-I posted about [this on Twitter](https://twitter.com/TannerLD/status/304376679273476098) mentioning both the official Tweedle account and the developer's personal account. I saw nothing harsh about my suggestions or criticisms.
-
-The developer of Tweedle responded back saying this:
+I asked the developer [on Twitter](https://twitter.com/TannerLD/status/304376679273476098) why I had been blocked, mentioning both the official Tweedle account and the developer's personal account. His reply surprised me, because I don't see anything harsh about my suggestions or criticisms. This is what he said:
 
 > Its my application, not yours. I choose how it works. You were being hypercritical so I chose to not listen to it anymore.[^2]
 
 Ok. Yes, it is your application, you can do whatever you want with it. I respect that, but I have a problem when you decide that your application is different than all the other applications that exist and go against some basic user experience guidelines.
 
-I don't believe I was being hypercritical. I know I can be hypercritical about things, but I don't feel in [this case](https://twitter.com/TannerLD/status/303647019766009856), [this case](https://twitter.com/TannerLD/status/303722873133088768), or [this case](https://twitter.com/TannerLD/status/303549550189228032) that I was.
+I don't believe I was being hypercritical. I know I can be hypercritical about things, but I don't feel in [this case](https://twitter.com/TannerLD/status/303647019766009856), [this case](https://twitter.com/TannerLD/status/303722873133088768), [this case](https://twitter.com/TannerLD/status/303549550189228032), or [this case](https://twitter.com/TannerLD/status/298839435267670017) that I was.
 
 I was giving feedback because you [ask](https://twitter.com/tweedleapp/status/303717824248029185) [for](https://twitter.com/tweedleapp/status/302941606506553344) [feedback](https://twitter.com/tweedleapp/status/277944692476358656).
 
 Come on, you asked for people's opinions, and then you get mad at what they say. Seriously?
 
-As I was looking through trying to find my conversations with the Tweedle twitter account I found lots of harsh tweets and users complaining.
+As I was looking through trying to find my conversations with the Tweedle twitter account I found lots of harsh tweets and users complaining:
 
 > Man the dev of @tweedleapp is one class act. Highly recommend his app…. By uninstalling it. What a prick.[^3]
 
