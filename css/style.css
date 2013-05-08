@@ -338,19 +338,19 @@ article hr {
 	margin: 0 0 1.5em 0;
 }
 
-#social {
+ul#social {
 	list-style-type: none;
 
 	line-height: 0;
 
 	padding: 0 0 1.5em 0;
-	margin: 0 35px;
+	margin: 0;
 
 	width: auto;
-	text-align: left;
+	text-align: center;
 }
 
-#social li {
+ul#social li {
 	display: inline-block;
 
 	line-height: 0px;
@@ -358,10 +358,7 @@ article hr {
 	padding: 0;
 }
 
-#social a {
-	width: 32px;
-	height: 32px;
-
+ul#social a {
 	display: inherit;
 
 	border: 0;
