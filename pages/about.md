@@ -11,6 +11,6 @@ I love learning new things, aviation, and the history of computers.
 
 # Tools
 
-This blog is built and published by a [fork](https://github.com/Tanner/jekyll) of [Jekyll](http://jekyllrb.com/). Every post is written in [Markdown](http://daringfireball.net/projects/markdown/) using [Sublime Text 2](http://www.sublimetext.com/2).
+This blog is built and published by [Jekyll](http://jekyllrb.com/).
 
 I use my MacBook Pro to develop software, design web sites, do school work, and play.
