@@ -93,6 +93,10 @@ a {
 	-webkit-transition: margin 0.2 linear;
 }
 
+#hidden {
+	display: none;
+}
+
 nav {
 	vertical-align: baseline;
 	
