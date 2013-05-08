@@ -367,38 +367,6 @@ article hr {
 	border: 0;
 }
 
-#social-twitter {
-	background-image: url(../images/icons/twitter.png);
-}
-
-#social-facebook {
-	background-image: url(../images/icons/facebook.png);
-}
-
-#social-googleplus {
-	background-image: url(../images/icons/google-plus.png);
-}
-
-#social-lastfm {
-	background-image: url(../images/icons/lastfm.png);
-}
-
-#social-flickr {
-	background-image: url(../images/icons/flickr.png);
-}
-
-#social-github {
-	background-image: url(../images/icons/github.png);
-}
-
-#social-linkedin {
-	background-image: url(../images/icons/linkedin.png);
-}
-
-#social-youtube {
-	background-image: url(../images/icons/youtube.png);
-}
-
 #archives .year {
 	position: relative;
 }
