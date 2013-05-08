@@ -10,6 +10,12 @@ task :serve do
   sh 'jekyll serve --watch'
 end
 
+desc 'build and run test server with drafts'
+task :preview do
+  sh 'rm -rf _site'
+  sh 'jekyll serve --watch --drafts'
+end
+
 desc 'deploy via rsync'
 task :deploy do
   puts 'DEPLOYING!'
