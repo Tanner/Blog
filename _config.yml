@@ -8,9 +8,3 @@ exclude: [lib source Blog.sublime-project Blog.sublime-workspace rakefile.rb rak
 name: Tanner's Blog
 description: The personal blog for Tanner Smith.
 url: http://www.tannersmith.me
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_dir:    images/latex
-  png_url:    /images/latex
