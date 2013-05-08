@@ -68,7 +68,8 @@ a {
 #me {
 	float: left;
 
-	background-image: url('http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=80');
+	background-image: url('http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=256');
+	background-size: contain;
 
 	width: 80px;
 	height: 80px;
