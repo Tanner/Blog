@@ -3,7 +3,7 @@ lsi: false
 pygments: false
 markdown: maruku
 permalink: /:title.html
-exclude: [lib, source, Blog.sublime-project, Blog.sublime-workspace, rakefile.rb, rakefile.sample.rb]
+exclude: [lib, originals, old_themes, rakefile.rb, rakefile.sample.rb]
 
 name: Tanner's Blog
 description: The personal blog for Tanner Smith.
