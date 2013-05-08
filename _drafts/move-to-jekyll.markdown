@@ -1,7 +1,6 @@
 --- 
 layout: post
 title: Moving to Jekyll
-date: January 30, 2012, 02:20 PM
 ---
 
 <a href="files/2012/03/new_site_1440.png"><img src="files/2012/03/new_site_550.png" title="New Site Design"></a>
