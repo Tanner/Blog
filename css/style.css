@@ -368,35 +368,32 @@ ul#social a.adn:before {
 	content:"\03b1";
 }
 
-#archives .year {
-	position: relative;
+#archives .year:first-child > h1 {
+	padding: 0 0 15px 0;
 }
 
 #archives .year > h1 {
-	position: absolute;
-	top: 0;
-	left: 0;
-
 	font-weight: bold;
 
 	padding: 15px 0;
 
-	z-index: 100;
+	text-align: center;
+	font-size: 32px;
 }
 
 #archives article {
-	position: relative;
+	padding: 0 0 15px 0;
+	margin: 0;
 
-	padding: 15px;
-	margin: 0 0 0 80px;
-
-	width: -webkit-calc(100% - 80px);
-
-	border-bottom: 1px solid #e5e5e5;
+	text-align: center;
 }
 
 #archives article:last-child {
-	padding-bottom: 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+#archives .year:last-child article:last-child {
+	padding: 0;
 
 	border-bottom: none;
 }
@@ -416,9 +413,8 @@ ul#social a.adn:before {
 }
 
 #archives article time {
-	line-height: 25px;
-
 	color: #868686;
+	display: block;
 }
 
 #footer {
@@ -476,6 +472,10 @@ ul#social a.adn:before {
 	#main header {
 		padding-bottom: 1em;
 		margin-bottom: 0.3em;
+	}
+
+	#archives .year:first-child > h1 {
+		padding: 15px 0;
 	}
 
 	#main blockquote {
