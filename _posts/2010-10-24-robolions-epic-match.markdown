@@ -26,4 +26,4 @@ Just a small blast from the past of an epic match from the 2008 FIRST Robotics C
 
 The game for that year was to score points by hurdling the large balls over the overpass in the middle of the field or by making laps around the field track. Our robot is the one with the forks and the pool noodles to knock the balls off. You can see more videos of it [here](http://www.youtube.com/watch?v=JwrjoERLYAc&feature=related) and [here](http://www.youtube.com/watch?v=7bthV5P_87I&feature=related).
 
-[![](files/2010/10/232_small-177x300.jpg "Longshot Profile")](files/2010/10/232_small.jpg)
+[![](/files/2010/10/232_small-177x300.jpg "Longshot Profile")](/files/2010/10/232_small.jpg)

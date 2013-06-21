@@ -21,7 +21,7 @@ date: October 8, 2010, 11:55 PM
 categories: 
 - college
 ---
-[![](files/2010/10/5063923180_db70bf67f2.jpg "2010 Mini 500")](files/2010/10/5063923180_db70bf67f2.jpg)Today was the 2010 Mini 500 competition at Georgia Tech.
+[![](/files/2010/10/5063923180_db70bf67f2.jpg "2010 Mini 500")](/files/2010/10/5063923180_db70bf67f2.jpg)Today was the 2010 Mini 500 competition at Georgia Tech.
 
 What is the Mini 500? The Mini 500 is a [Georgia Tech tradition](http://en.wikipedia.org/wiki/Georgia_Tech_traditions) in which student clubs and organizations race mini tricycles for Homecoming. Racers are not allowed to change the bike structure in any way, though they are allowed to add extra parts to the bike. Racers must start and finish with all the original parts of the bike, even if it means carrying a wheel or two. For more information on the Mini 500 inside Georgia Tech, click [here](http://www.gatech.edu/mini500/).
 

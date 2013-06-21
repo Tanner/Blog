@@ -15,7 +15,7 @@ categories:
 ---
 Updated to the newest SpeedTest.
 
-Net iPhone app and I accidentally found some "easter eggs".[![](files/2010/09/Mobile-Photo-Sep-14-2010-2-48-25-PM-200x300.jpg "OOKLA")](files/2010/09/Mobile-Photo-Sep-14-2010-2-48-25-PM.jpg)To access the easter egg, drag down on the speed dial after you run a speed test. The message will change several times until it no longer exists.
+Net iPhone app and I accidentally found some "easter eggs".[![](/files/2010/09/Mobile-Photo-Sep-14-2010-2-48-25-PM-200x300.jpg "OOKLA")](/files/2010/09/Mobile-Photo-Sep-14-2010-2-48-25-PM.jpg)To access the easter egg, drag down on the speed dial after you run a speed test. The message will change several times until it no longer exists.
 
 The messages go in this order:
 - OOKLA The cat we named our company after (seriously)
