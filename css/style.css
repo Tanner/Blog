@@ -364,10 +364,6 @@ ul#social a {
 	border: 0;
 }
 
-ul#social a.adn:before {
-	content:"\03b1";
-}
-
 #archives .year:first-child > h1 {
 	padding: 0 0 15px 0;
 }
