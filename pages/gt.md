@@ -7,6 +7,12 @@ Here are the courses I have taken as part of Georgia Tech’s Computer Science p
 
 Inspired by [Andrew Ash](http://www.andrewash.com/courses/).
 
+### Fall - 2013
+- CS 4460 - Introduction to Information Visualization
+- CS 3451 - Computer Graphics
+- CS 4235 - Introduction to Information Security 
+- CS 4911 - Computing for Good
+
 ### Spring 2013
 - CS 3220 - Processor Design
 - HPS 1040 – Health
