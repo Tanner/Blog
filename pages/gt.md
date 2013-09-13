@@ -28,7 +28,7 @@ Inspired by [Andrew Ash](http://www.andrewash.com/courses/).
 - CS 3790 - Introduction to Cognitive Science
 
 ### Summer 2012
-- CS 3750 - User Inteface Design
+- CS 3750 - User Interface Design
 - CS 4001 - Computing & Society
 - ARCH 4128 - Architecture, Design, & Material Culture
 - LCC 3403 - Technical Communication
