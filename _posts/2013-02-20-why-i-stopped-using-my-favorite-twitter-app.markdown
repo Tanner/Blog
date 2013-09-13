@@ -3,7 +3,7 @@ layout: post
 title: Why I Stopped Using My Favorite Twitter App
 date: February 21, 2013 5:01 pm
 ---
-Yesteray I wrote [a blog post](app-resuming-behavior.html) related to my Twitter application of choice on Android, Tweedle.
+Yesterday I wrote [a blog post](app-resuming-behavior.html) related to my Twitter application of choice on Android, Tweedle.
 
 To sum that post up, I had trouble using the application and told the developer about my problems. He dismissed my problems and defended the way the app was designed. I disagreed with his design decisions, as every other application in both Android and iOS behave in a different way. Even Google's documentation encourages developers against designing applications to function the way Tweedle does.
 
