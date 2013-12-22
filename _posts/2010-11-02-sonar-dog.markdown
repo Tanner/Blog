@@ -19,6 +19,6 @@ Found this article somehow either via Twitter or my RSS feeds, but I found it in
 
 To read more about the dog, click [here](http://laughingsquid.com/dog-born-with-no-eyes-gets-around-using-echolocation/).
 
-{% youtube NwU2neafCOA %}
+[Watch on YouTube](http://www.youtube.com/watch?v=NwU2neafCOA)
 
 Source: [LaughingSquid](http://laughingsquid.com/dog-born-with-no-eyes-gets-around-using-echolocation/)
