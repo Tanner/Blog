@@ -6,7 +6,7 @@ permalink: /:year/:month/:day/:title/
 exclude: [lib, originals, old_themes, rakefile.rb, rakefile.sample.rb]
 include: [.htaccess]
 
-baseurl: /Blog
+baseurl: 
 name: Tanner's Blog
 description: The personal blog for Tanner Smith.
 url: http://www.tannersmith.me
