@@ -11,6 +11,6 @@ I love learning new things, aviation, and the history of computers.
 
 # Tools
 
-This blog is built and published by [Jekyll](http://jekyllrb.com/).
+This blog is built and published by [Jekyll](http://jekyllrb.com/). See my blog's source on [GitHub](https://github.com/Tanner/Blog)!
 
 I use my MacBook Pro to develop software, design web sites, do school work, and play.
