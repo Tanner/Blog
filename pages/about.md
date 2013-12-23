@@ -3,7 +3,7 @@ layout: static
 title: About Me
 ---
 
-Hello! My name is Tanner Smith and I am an undergraduate Computer Science major at the Georgia Institute of Technology in Atlanta, Georgia. I like, among many other things, Coldplay, The Shins, Foo Fighters, and Doctor who.
+Hello! My name is Tanner Smith. I graduated from the [Georgia Institute of Technology](http://www.gatech.edu) with a bachelor's degree in [computer science](http://www.cc.gatech.edu). I like, among many other things, Coldplay, The Shins, Foo Fighters, and Doctor who.
 
 I love learning new things, aviation, and the history of computers.
 
