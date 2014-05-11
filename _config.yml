@@ -5,3 +5,4 @@ include: [.htaccess]
 name: Tanner's Blog
 description: The personal blog for Tanner Smith.
 url: http://www.tannersmith.me
+baseurl: ""
