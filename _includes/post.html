@@ -1,7 +1,15 @@
-<article id="main">
+<article id="main" class="content">
 	<header>
 		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 		<time pubdate datetime="{{ post.date | date: "%Y-%m-%e" }}">{{ post.date | date: "%A, %B %e, %Y" }}</time>
 	</header>
 	{{ post.content }}
 </article>
+
+<div id="comment" class="content">
+	<header>
+		<h2>Let me know what you thought.</h2>
+	</header>
+	<a href="https://twitter.com/intent/tweet?screen_name=tannerld" class="twitter-mention-button" data-lang="en" data-size="large">Tweet to @tannerld</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>

@@ -138,7 +138,9 @@ header {
 	margin-bottom: 1.2em;
 
 	font-family: 'Cabin';
+}
 
+article header {
 	border-bottom: solid #dcdcdc 1px;
 }
 
@@ -173,7 +175,21 @@ header time {
 	line-height: 14px;
 }
 
-article {
+div#comment header {
+	padding-bottom: 12px;
+	margin-bottom: 0;
+}
+
+div#comment header h2 {
+	font-size: 28px;
+	line-height: 1.0em;
+
+	color: #82817d;
+
+	padding: 0;
+}
+
+article, div#comment {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	line-height: 2em;
@@ -282,7 +298,7 @@ article hr {
 	border-top: solid #dcdcdc 1px;
 }
 
-#main > * {
+.content > * {
 	margin-left: 35px;
 	margin-right: 35px;
 }
@@ -434,7 +450,7 @@ ul#social a {
 }
 
 @media only screen and (max-width: 640px) {
-	article#main {
+	.content {
 		margin: 0;
 	}
 }
@@ -460,7 +476,7 @@ ul#social a {
 		padding: 20px 0;
 	}
 
-	#main > * {
+	.content > * {
 		margin-left: 10px;
 		margin-right: 10px;
 	}
