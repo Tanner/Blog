@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	
+
 	margin-before: 0;
 	margin-after: 0;
 
@@ -31,16 +31,16 @@ a {
 
 #header {
 	position: relative;
-	
+
 	width: 100%;
 	padding: 40px 20px;
 	box-sizing: border-box;
-	
+
 	text-align: center;
 
 	font-family: 'Cabin', sans-serif;
 	font-size: 0;
-	
+
 	background: #2370b1;
 	color: #fff;
 
@@ -99,7 +99,7 @@ a {
 
 nav {
 	vertical-align: baseline;
-	
+
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	-moz-tap-highlight-color: rgba(0,0,0,0);
 	tap-highlight-color: rgba(0,0,0,0);
@@ -107,10 +107,10 @@ nav {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	
+
 	font-size: 18px;
 	font-weight: bold;
-	
+
 	cursor: default !important;
 }
 
@@ -138,14 +138,14 @@ header {
 	margin-bottom: 1.2em;
 
 	font-family: 'Cabin';
-	
+
 	border-bottom: solid #dcdcdc 1px;
 }
 
 header h1, article header a {
 	font-size: 32px;
 	line-height: 1.2em;
-	
+
 	margin: 0;
 	padding: 0;
 
@@ -164,7 +164,7 @@ article header a:hover {
 
 header time {
 	display: block;
-	
+
 	padding-top: 10px;
 	margin: 0;
 
@@ -177,12 +177,12 @@ article {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	line-height: 2em;
-	
+
 	width: 640px;
 	box-sizing: border-box;
 
 	background: #FFF;
-	
+
 	margin: 50px auto 0 auto;
 	padding: 35px 0;
 
@@ -203,7 +203,7 @@ article h1, article h2, article h3 {
 	padding: 0 0 10px 0;
 }
 
-article p, article li {
+article p, article li, article #twitter-widget-0 {
 	padding: 0 0 1.5em 0;
 
 	color: #403F38;
@@ -252,7 +252,7 @@ article td {
 
 article img {
 	display: block;
-	
+
 	box-sizing: border-box;
 	max-width: 100%;
 
@@ -260,20 +260,20 @@ article img {
 	margin: 10px auto;
 
 	margin-bottom: 20px;
-	
+
 	background: #eee;
 	border: 1px solid #CCC;
 }
 
 article img.left {
 	float: left;
-	
+
 	margin: 0 10px 10px 0;
 }
 
 article img.right {
 	float: right;
-	
+
 	margin: 0 0 10px 10px;
 }
 
@@ -295,7 +295,7 @@ article hr {
 	margin: 10px 35px 10px 50px;
 
 	padding: 10px 15px;
-	
+
 	background: #ebf2fb;
 
 	border-left: 5px solid #2c72d9;
