@@ -266,7 +266,7 @@ article td {
 	border: 1px solid #000;
 }
 
-article img {
+article p:not(.fill) img {
 	display: block;
 
 	box-sizing: border-box;
@@ -281,13 +281,13 @@ article img {
 	border: 1px solid #CCC;
 }
 
-article img.left {
+article p:not(.fill) img.left {
 	float: left;
 
 	margin: 0 10px 10px 0;
 }
 
-article img.right {
+article p:not(.fill) img.right {
 	float: right;
 
 	margin: 0 0 10px 10px;
@@ -327,8 +327,8 @@ article hr {
 	margin: 0 0 0 20px;
 }
 
-#main img.fill {
-	padding: 0;
+#main p.fill {
+	padding: 0 0 1.5em 0;
 
 	margin-left: 0;
 	margin-right: 0;

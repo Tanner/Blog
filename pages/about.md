@@ -7,7 +7,8 @@ Hello! My name is Tanner Smith. I graduated from the [Georgia Institute of Techn
 
 I love learning new things, aviation, and the history of computers.
 
-<img src="../images/cardiff.jpg" alt="Picture of Myself" class="fill"/>
+![Me in Cardiff](../images/cardiff.jpg)
+{: .fill}
 
 # Tools
 
