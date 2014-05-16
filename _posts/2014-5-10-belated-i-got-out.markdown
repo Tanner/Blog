@@ -6,7 +6,7 @@ date: May 10, 2014 8:04 PM
 
 This is a _really_ late post, but I finally got out (read: graduated in December) from the <a href="http://www.gatech.edu">Georgia Institute of Technology</a> with a bachelor's degree in <a href="http://www.cc.gatech.edu">Computer Science</a>.[^1]
 
-My concentrations (or "<a href="http://www.cc.gatech.edu/future/undergraduates/threads">threads</a>" as college calls them) were <a href="http://www.cc.gatech.edu/future/undergraduates/bscs/threads/sysarch">Platforms</a> (later renamed "Systems and Architecture") and <a href="http://www.cc.gatech.edu/future/undergraduates/bscs/threads/infointernetworks">Information Internetworks</a>.[^2]
+My concentrations (or "[threads](http://www.cc.gatech.edu/future/undergraduates/threads)" as the college calls them) were [Platforms](http://www.cc.gatech.edu/future/undergraduates/bscs/threads/sysarch) (later renamed "Systems and Architecture") and [Information Internetworks](http://www.cc.gatech.edu/future/undergraduates/bscs/threads/infointernetworks).[^2]
 
 I now work at Apple as a Software Engineer and I love my job. It's awesome.
 
