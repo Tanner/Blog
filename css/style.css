@@ -175,21 +175,12 @@ header time {
 	line-height: 14px;
 }
 
-div#comment header {
-	padding-bottom: 12px;
-	margin-bottom: 0;
+.content > * {
+	margin-left: 35px;
+	margin-right: 35px;
 }
 
-div#comment header h2 {
-	font-size: 28px;
-	line-height: 1.0em;
-
-	color: #82817d;
-
-	padding: 0;
-}
-
-article, div#comment {
+.content {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	line-height: 2em;
@@ -203,6 +194,24 @@ article, div#comment {
 	padding: 35px 0;
 
 	-webkit-transition: margin 0.2s ease-in;
+}
+
+div#comment {
+	background: #2370b1;
+}
+
+div#comment header {
+	padding-bottom: 12px;
+	margin-bottom: 0;
+}
+
+div#comment header h2 {
+	font-size: 28px;
+	line-height: 1.0em;
+
+	color: #fff;
+
+	padding: 0;
 }
 
 article a {
@@ -296,11 +305,6 @@ article p:not(.fill) img.right {
 article hr {
 	border: none;
 	border-top: solid #dcdcdc 1px;
-}
-
-.content > * {
-	margin-left: 35px;
-	margin-right: 35px;
 }
 
 #main ul, #main ol {
