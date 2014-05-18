@@ -27,6 +27,8 @@ a {
 	min-height: 100%;
 
 	position: relative;
+
+	font-family: 'Open Sans', sans-serif;
 }
 
 #header {
@@ -181,7 +183,6 @@ header time {
 }
 
 .content {
-	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
 	line-height: 2em;
 
@@ -196,10 +197,6 @@ header time {
 	-webkit-transition: margin 0.2s ease-in;
 }
 
-div#comment {
-	background: #2370b1;
-}
-
 div#comment header {
 	padding-bottom: 12px;
 	margin-bottom: 0;
@@ -209,7 +206,7 @@ div#comment header h2 {
 	font-size: 28px;
 	line-height: 1.0em;
 
-	color: #fff;
+	color: #4c4b45;
 
 	padding: 0;
 }
@@ -340,6 +337,19 @@ article hr {
 	border: none;
 }
 
+#read-more {
+	display: block;
+
+	padding: 20px;
+	margin: 50px auto 0 auto;
+
+	width: calc(640px/4);
+
+	text-align: center;
+
+	background: #2370b1;
+}
+
 #main .footnotes {
 	overflow: hidden;
 	word-wrap: break-word;
@@ -428,8 +438,13 @@ article hr {
 }
 
 @media only screen and (max-width: 640px) {
-	.content {
+	.content:not(#comment) {
 		margin: 0;
+	}
+
+	.content#comment {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
