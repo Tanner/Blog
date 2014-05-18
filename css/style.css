@@ -358,32 +358,6 @@ article hr {
 	margin: 0 0 1.5em 0;
 }
 
-ul#social {
-	list-style-type: none;
-
-	line-height: 0;
-
-	padding: 0 0 1.5em 0;
-	margin: 0;
-
-	width: auto;
-	text-align: center;
-}
-
-ul#social li {
-	display: inline-block;
-
-	line-height: 0px;
-
-	padding: 0;
-}
-
-ul#social a {
-	display: inherit;
-
-	border: 0;
-}
-
 #archives .year:first-child > h1 {
 	padding: 0 0 15px 0;
 }
