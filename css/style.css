@@ -204,7 +204,7 @@ div#comment header {
 
 div#comment header h2 {
 	font-size: 28px;
-	line-height: 1.0em;
+	line-height: 1.2em;
 
 	color: #4c4b45;
 
@@ -472,11 +472,6 @@ article hr {
 	.content > * {
 		margin-left: 15px;
 		margin-right: 15px;
-	}
-
-	#main header {
-		padding-bottom: 1em;
-		margin-bottom: 0.3em;
 	}
 
 	#archives .year:first-child > h1 {
