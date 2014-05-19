@@ -70,6 +70,12 @@ a {
 #me {
 	float: left;
 
+	-webkit-transition: margin 0.2 linear;
+}
+
+#me a {
+	display: inline-block;
+
 	background-image: url('http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=256');
 	background-size: contain;
 
@@ -77,8 +83,6 @@ a {
 	height: 80px;
 
 	box-shadow: -5px -5px 0 rgba(0, 0, 0, 0.2);
-
-	-webkit-transition: margin 0.2 linear;
 }
 
 #words {
