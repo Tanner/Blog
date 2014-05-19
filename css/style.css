@@ -102,10 +102,6 @@ a {
 nav {
 	vertical-align: baseline;
 
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-moz-tap-highlight-color: rgba(0,0,0,0);
-	tap-highlight-color: rgba(0,0,0,0);
-
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
@@ -450,7 +446,7 @@ article hr {
 
 @media only screen and (max-width: 500px) {
 	#header {
-		padding: 20px 5px;
+		padding: 30px 5px;
 	}
 
 	#me {
@@ -463,6 +459,14 @@ article hr {
 		text-align: center;
 
 		margin: 10px 0 0 0;
+	}
+
+	#words h1 {
+		margin: 10px 0;
+	}
+
+	nav li {
+		margin-right: 15px;
 	}
 
 	#main {
