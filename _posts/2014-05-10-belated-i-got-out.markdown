@@ -10,7 +10,7 @@ I now work at Apple as a Software Engineer and I love my job. It's awesome.
 
 I'm happy to be out of college and working in the quote on quote real world, but it's also sad at the same time. I'll miss a lot of things of course; I did live there for the past three-ish years of my life (and more if you count growing up in Georgia).
 
-There are a lot of fun things about Georgia Tech such as [The Whistle](http://en.wikipedia.org/wiki/Georgia_Tech_traditions#The_Whistle), [Buzz](https://en.wikipedia.org/wiki/Buzz_(mascot), and some of the food options there (*cough* Highland Bakery *cough*). It is certainly something I've missed since I've moved to California; there's no homework to think about and overall not too much you have to think about when you're not at work (that means weekends are free).
+There are a lot of fun things about Georgia Tech such as [The Whistle](http://en.wikipedia.org/wiki/Georgia_Tech_traditions#The_Whistle), [Buzz](https://en.wikipedia.org/wiki/Buzz_(mascot)), and some of the food options there (*cough* Highland Bakery *cough*). It is certainly something I've missed since I've moved to California; there's no homework to think about and overall not too much you have to think about when you're not at work (that means weekends are free).
 
 So, yeah. That's really it. I'm done with college, now moving on with more exciting things in life (like bills and 401k's).
 
