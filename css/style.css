@@ -438,8 +438,14 @@ article hr {
 }
 
 @media only screen and (max-width: 640px) {
-	.content:not(#comment) {
+	.content:not(#comment, .intro) {
 		margin: 0;
+	}
+
+	.content.intro {
+		margin-top: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.content#comment {
