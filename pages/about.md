@@ -3,15 +3,24 @@ layout: static
 title: About Me
 ---
 
-Hello! My name is Tanner Smith. I graduated from the [Georgia Institute of Technology](http://www.gatech.edu) with a bachelor's degree in [computer science](http://www.cc.gatech.edu). I like, among many other things, Coldplay, The Shins, Foo Fighters, and Doctor who.
+Hello! I'm Tanner. I enjoy engineering, aviation, a good laugh, and learning new things.
 
-I love learning new things, aviation, and the history of computers.
+# Living
+I grew up in Suwanee, GA and moved to Atlanta, GA for college. I now live in Sunnyvale, CA.
 
-![Me in Cardiff](../images/cardiff.jpg)
-{: .fill}
+# Education
+I graduated from Peachtree Ridge High School in Duluth, GA in 2010. After that I attended the Georgia Institute of Technology where I [graduated]({% post_url 2014-05-10-belated-i-got-out %}) in Fall 2013 with a BS in Computer Science.
+
+# Work
+I started working at Apple in Spring 2014 as a Software Engineer.
+
+# Watching
+I watch a fair amount of TV shows and movies. I enjoy science-fiction, adventure, and comedies.
+
+My favorite TV shows include Seinfeld and Firefly. My favorite movies are The Time Machine, Her, Up, and Airplane!.
+
+# Reading
+I enjoy reading, however I have not read as much lately as I would like to.
 
 # Tools
-
-This blog is built and published by [Jekyll](http://jekyllrb.com/). See my blog's source on [GitHub](https://github.com/Tanner/Blog)!
-
-I use my MacBook Pro to develop software, design web sites, do school work, and play.
+This blog is built by [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com). See my blog's source in it's [GitHub Repository](https://github.com/Tanner/Blog)!
