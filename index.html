@@ -3,8 +3,21 @@ layout: default
 title: Tanner's Blog
 ---
 
-{% for post in site.posts limit:5 %}
-	{% include post.html %}
-{% endfor %}
+<article id="main" class="content">
+	<div id="archives">
+		<div class="year">
+			{%for post in site.posts limit:5 %}
+				<article>
+					<h1>
+						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:65 }}</a>
+					</h1>
+					<time datetime="{{ post.time }}">
+						<span>{{ post.date | date:"%b %d %Y" }}</span>
+					</time>
+				</article>
+			{% endfor %}
+		</div>
+	</div>
+</article>
 
 {% include read_more.html %}
