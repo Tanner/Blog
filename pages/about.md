@@ -17,10 +17,10 @@ I started working at Apple in Spring 2014 as a Software Engineer.
 # Watching
 I watch a fair amount of TV shows and movies. I enjoy science-fiction, adventure, and comedies.
 
-My favorite TV shows include Seinfeld and Firefly. My favorite movies are The Time Machine, Her, Up, and Airplane!.
+My favorite TV shows include _Seinfeld_ and _Firefly_. My favorite movies are _The Time Machine_, _Her_, _Up_, and _Airplane!_.
 
 # Reading
-I enjoy reading, however I have not read as much lately as I would like to.
+I enjoy reading, however I have not read many books recently.
 
 # Tools
-This blog is built by [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com). See my blog's source in it's [GitHub Repository](https://github.com/Tanner/Blog)!
+This blog is built by [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com). See my blog's source in its [GitHub Repository](https://github.com/Tanner/Blog)!
