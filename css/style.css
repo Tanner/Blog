@@ -438,19 +438,17 @@ article hr {
 }
 
 @media only screen and (max-width: 640px) {
-	.content:not(#comment, .intro) {
+	.content:not(.no-collapse) {
 		margin: 0;
 	}
 
-	.content.intro {
-		margin-top: 0;
+	.content.no-collapse {
 		margin-left: 0;
 		margin-right: 0;
 	}
 
-	.content#comment {
-		margin-left: 0;
-		margin-right: 0;
+	.content.no-collapse.intro {
+		margin-bottom: 50px;
 	}
 }
 
