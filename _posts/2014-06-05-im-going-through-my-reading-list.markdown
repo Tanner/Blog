@@ -17,7 +17,8 @@ I am proud to say I am pretty good at inbox zero though!
 
 Sometimes I remember why I put a site in the list, sometimes I don't. Some things I find are things I don't really need to read again (another way to use ice and vinegar to clean your garbage disposal).
 
-So here's a list of things that I've currently opened in my tabs :
+So here's a list of things that I've currently opened in my tabs:
+
  - Alex Payne's ["The Case Against Everything Buckets"](https://al3x.net/2009/01/31/against-everything-buckets.html)
  - [Tomas Carnecky](https://caurea.org)
  - [Mark Boulton](http://www.markboulton.co.uk)
