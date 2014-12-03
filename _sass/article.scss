@@ -120,11 +120,15 @@ article {
   }
 
   ul, ol {
-    padding: 0 0 7.5px 0;
+    padding: 0 0 1.0em 0;
     margin: 0 0 0 55px;
 
     li {
       padding: 0 0 0.5em 0;
+
+      & > ul {
+        padding: 0;
+      }
     }
   }
 
@@ -157,6 +161,8 @@ article {
   }
 
   hr {
+    margin: 1.5em 0;
+
     border: none;
     border-top: solid #dcdcdc 1px;
   }
@@ -179,6 +185,18 @@ article {
     ul, ol {
       margin: 0 0 0 20px;
     }
+  }
+
+  pre {
+    border-radius: 0.25em;
+
+    margin-bottom: 1.5em;
+
+    padding: 10px 15px;
+
+    background: #ecebfb;
+
+    color: #333;
   }
 
   .footnotes {
