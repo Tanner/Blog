@@ -1,0 +1,52 @@
+#archives {
+  .year {
+    &:first-child > h1 {
+      padding: 0 0 15px 0;
+    }
+
+    & > h1 {
+      font-weight: bold;
+
+      padding: 15px 0;
+
+      text-align: center;
+      font-size: 32px;
+    }
+
+    &:last-child article:last-child {
+      padding: 0;
+
+      border-bottom: none;
+    }
+  }
+
+  article {
+    padding: 0 0 15px 0;
+    margin: 0;
+
+    text-align: center;
+
+    &:last-child {
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    h1 {
+      padding: 0;
+
+      float: none;
+
+      a {
+        font-size: 21px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    time {
+      color: #868686;
+      display: block;
+    }
+  }
+}

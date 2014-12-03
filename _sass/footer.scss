@@ -1,0 +1,19 @@
+#footer {
+  width: 100%;
+
+  padding: 40px 0;
+
+  text-align: center;
+  font: bold 14px "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+  color: #A6AEBB;
+
+  text-shadow: 1px 1px 0 #FFF;
+
+  a {
+    color: #A6AEBB;
+
+    &:hover {
+      border-bottom: 1px solid #C3C9D2;
+    }
+  }
+}

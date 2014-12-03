@@ -1,0 +1,55 @@
+---
+---
+
+@import 'header';
+
+$background-color: #eceef1;
+
+* {
+	padding: 0;
+	margin: 0;
+
+	margin-before: 0;
+	margin-after: 0;
+
+	max-width: 100%;
+}
+
+html, body {
+	background: $background-color;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+#wrapper {
+	width: 100%;
+	min-height: 100%;
+
+	position: relative;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	line-height: 2em;
+}
+
+#hidden {
+	display: none;
+}
+
+@import 'article';
+
+@import 'read_more';
+
+@import 'comment';
+
+@import 'footer';
+
+@import 'media_queries';

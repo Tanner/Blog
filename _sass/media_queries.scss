@@ -1,0 +1,63 @@
+@media only screen and (max-width: 640px) {
+  .content {
+    &:not(.no-collapse) {
+      margin: 0;
+    }
+
+    &.no-collapse {
+      margin-left: 0;
+      margin-right: 0;
+
+      &.intro {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #header {
+    padding: 30px 5px;
+
+    #content {
+      #me {
+        float: none;
+
+        margin: 0 auto;
+      }
+
+      #words {
+        text-align: center;
+
+        margin: 10px 0 0 0;
+
+        h1 {
+          margin: 10px 0;
+        }
+      }
+
+      nav {
+        li {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  article {
+    padding: 20px 0;
+
+    blockquote {
+      margin: 0 10px;
+    }
+  }
+
+  .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #archives .year:first-child > h1 {
+    padding: 15px 0;
+  }
+}

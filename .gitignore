@@ -1,2 +1,3 @@
 _site/
 rakefile.rb
+.sass-cache

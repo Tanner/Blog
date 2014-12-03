@@ -1,0 +1,99 @@
+$background-color: #2370b1;
+$avatar: "http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=256";
+
+#header {
+  position: relative;
+
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+
+  text-align: center;
+
+  font-family: 'Cabin', sans-serif;
+  font-size: 0;
+
+  background: $background-color;
+  color: #fff;
+
+  -webkit-transition: padding 0.2s ease-in;
+
+  #content {
+    display: inline-block;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 42px;
+      line-height: 42px;
+      padding-bottom: 10px;
+    }
+
+    #words:after {
+      display: table;
+      content: '';
+      clear: both;
+    }
+
+    #me {
+      float: left;
+
+      -webkit-transition: margin 0.2 linear;
+
+      a {
+        display: inline-block;
+
+        background-image: url($avatar);
+        background-size: contain;
+
+        width: 80px;
+        height: 80px;
+
+        box-shadow: -5px -5px 0 rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    #words {
+      display: inline-block;
+      float: left;
+      text-align: left;
+
+      position: relative;
+
+      margin-left: 20px;
+
+      width: 320px;
+
+      -webkit-transition: margin 0.2 linear;
+
+      nav {
+        vertical-align: baseline;
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+
+        font-size: 18px;
+        font-weight: bold;
+
+        cursor: default !important;
+
+        li {
+          display: inline-block;
+          margin: 0 2px 0 0;
+
+          list-style-type: none;
+
+          &:last-child {
+            margin: 0;
+          }
+
+          a {
+            padding: 5px;
+
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
