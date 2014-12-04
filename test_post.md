@@ -44,8 +44,14 @@ We really should be finding a better example than `NSLog`.
 
 # Header 1
 
+There shall be text here.
+
 ## Header 2
 
+Text here.
+
 ### Header 3
+
+And maybe some more here.
 
 [^1]: But I must state that this code is too simple.
