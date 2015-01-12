@@ -118,6 +118,10 @@ article {
 
       & > ul {
         padding: 0;
+
+        & > li {
+          padding: 0;
+        }
       }
     }
   }
