@@ -1,11 +1,15 @@
 $background-color: #2370b1;
 $avatar: "http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=256";
 
+$avatar-shadow-offset: 5px;
+
 #header {
   position: relative;
 
   width: 100%;
   padding: 40px 20px;
+  padding-bottom: 40px - $avatar-shadow-offset;
+
   box-sizing: border-box;
 
   text-align: center;
@@ -50,7 +54,7 @@ $avatar: "http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=
         width: 80px;
         height: 80px;
 
-        box-shadow: -5px -5px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: (-$avatar-shadow-offset) (-$avatar-shadow-offset) 0 rgba(0, 0, 0, 0.2);
       }
     }
 
