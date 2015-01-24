@@ -13,6 +13,8 @@ $avatar: "http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=
   font-family: 'Cabin', sans-serif;
   font-size: 0;
 
+  line-height: 0;
+
   background: $background-color;
   color: #fff;
 
@@ -65,6 +67,11 @@ $avatar: "http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=
 
       -webkit-transition: margin 0.2 linear;
 
+      h1 {
+        font-size: 48px;
+        line-height: 48px;
+      }
+
       nav {
         vertical-align: baseline;
 
@@ -74,6 +81,8 @@ $avatar: "http://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=
 
         font-size: 18px;
         font-weight: bold;
+
+        line-height: 22px;
 
         cursor: default !important;
 
