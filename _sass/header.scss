@@ -22,8 +22,6 @@ $avatar-shadow-offset: 5px;
   background: $background-color;
   color: #fff;
 
-  -webkit-transition: padding 0.2s ease-in;
-
   #content {
     display: inline-block;
     margin: 0 auto;
@@ -42,8 +40,6 @@ $avatar-shadow-offset: 5px;
 
     #me {
       float: left;
-
-      -webkit-transition: margin 0.2 linear;
 
       a {
         display: inline-block;
@@ -68,8 +64,6 @@ $avatar-shadow-offset: 5px;
       margin-left: 20px;
 
       width: 320px;
-
-      -webkit-transition: margin 0.2 linear;
 
       h1 {
         font-size: 48px;

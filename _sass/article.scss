@@ -8,8 +8,6 @@
   padding: 35px 35px;
 
   border-radius: 2px;
-
-  -webkit-transition: padding 0.2s ease-in;
 }
 
 article {
@@ -174,8 +172,6 @@ article {
     background: #ebf2fb;
 
     border-left: 5px solid #2c72d9;
-
-    -webkit-transition: margin 0.2s ease-in;
 
     & + p {
       padding-top: 1em;
