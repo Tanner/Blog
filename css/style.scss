@@ -1,55 +1,45 @@
 ---
 ---
 
-@import 'header';
-
-$background-color: #eceef1;
-
 * {
-	padding: 0;
-	margin: 0;
-
-	margin-before: 0;
-	margin-after: 0;
-
 	max-width: 100%;
 }
 
 html, body {
-	background: $background-color;
+	width: 100%;
+	height: 100%;
 }
 
 img {
 	border: 0;
 }
 
-a {
-	text-decoration: none;
-
-	color: #fff;
-}
-
 #wrapper {
-	width: 100%;
+	display: flex;
+
 	min-height: 100%;
 
-	position: relative;
+	font-family: 'Helvetica Neue', sans-serif;
 
-	font-family: 'Open Sans', sans-serif;
-	font-size: 15px;
-	line-height: 2em;
+	line-height: 20px;
+
+	a {
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
 }
 
 #hidden {
 	display: none;
 }
 
+@import 'header';
+
 @import 'article';
 
-@import 'read_more';
-
-@import 'comment';
-
-@import 'footer';
+@import 'archive';
 
 @import 'media_queries';

@@ -1,10 +1,7 @@
-<article class="content">
-	<header>
+<article class="article">
+	<header class="header">
 		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-		<time pubdate datetime="{{ post.date | date: "%Y-%m-%e" }}">{{ post.date | date: "%A, %B %e, %Y" }}</time>
+		<time pubdate datetime="{{ post.date | date: "%Y-%m-%e" }}">{{ post.date | date: "%b %e" }}</time>
 	</header>
-	{{ post.content }}
+	{{ post.content | markdownify }}
 </article>
-
-{% include read_more.html %}
-{% include comment.html %}

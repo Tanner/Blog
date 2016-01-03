@@ -1,7 +1,7 @@
 --- 
 layout: post
 title: Learning a new Keyboard Layout
-tags: 
+tags:
 - qwerty
 - dvorak
 - colemak
@@ -18,7 +18,7 @@ tags:
 - program
 - tutor
 date: October 13, 2010, 04:16 PM
-categories: 
+categories:
 - general
 - technology
 ---

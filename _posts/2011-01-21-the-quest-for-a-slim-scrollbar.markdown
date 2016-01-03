@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: The Quest for a Slim Scrollbar
-tags: 
+tags:
 - ios
 - chrome
 - scroll
@@ -10,7 +10,7 @@ tags:
 - smaller
 - quest
 date: January 21, 2011, 12:02 PM
-categories: 
+categories:
 - technology
 ---
 For a while now, I have been wishing for a smaller scrollbar on my main browser Chrome. I am not sure why I wanted one, but I just did. Having such a large waste of space seemed kind of odd to me. I began my quest for a slimmer scrollbar over the winter break and have tried a few different things since then and this is a summary of what I tried.
@@ -23,4 +23,12 @@ The second extension I tried was called [Simple Scrollbars](https://chrome.googl
 
 The last extension I tried was called [elementary scrollbars](https://chrome.google.com/webstore/detail/jfichaompnhpmlpjhcjebedbgaeoeple). In the picture featured, it looked exactly like an iOS scrollbar - perfect, yeah? Well, almost. The scrollbar was good - it was thin, nice, and out of the way.
 
-You can see a mashup.comparison image of both scrollbars below (elementary scrollbars on the left).[![](/files/2011/01/scrollbar_comparison_normal.jpg "Scrollbar Comparison Normal")](/files/2011/01/scrollbar_comparison_normal.jpg)But the elementary scrollbar extension and the Simple Scrollbar extension both had one flaw - they looked out-of-place on non-white backgrounds. Take a look at the image to see for yourself (elementary scrollbars on the left).[![](/files/2011/01/scrollbar_comparison_dark.jpg "Scrollbar Comparison Dark")](/files/2011/01/scrollbar_comparison_dark.jpg)So, wrapping this up - which am I going with? I am not sure as all the scrollbars (or lack there of) have their pros and cons. Perhaps I shall find an answer with some more explorations or just stick with the OS X/Chrome default.
+You can see a mashup.comparison image of both scrollbars below (elementary scrollbars on the left).
+
+[![](/files/2011/01/scrollbar_comparison_normal.jpg "Scrollbar Comparison Normal")](/files/2011/01/scrollbar_comparison_normal.jpg)
+
+But the elementary scrollbar extension and the Simple Scrollbar extension both had one flaw - they looked out-of-place on non-white backgrounds. Take a look at the image to see for yourself (elementary scrollbars on the left).
+
+[![](/files/2011/01/scrollbar_comparison_dark.jpg "Scrollbar Comparison Dark")](/files/2011/01/scrollbar_comparison_dark.jpg)
+
+So, wrapping this up - which am I going with? I am not sure as all the scrollbars (or lack there of) have their pros and cons. Perhaps I shall find an answer with some more explorations or just stick with the OS X/Chrome default.

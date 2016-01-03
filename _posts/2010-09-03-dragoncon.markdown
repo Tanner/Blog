@@ -1,8 +1,7 @@
-
---- 
+---
 layout: post
-title: Dragon\*Con
-tags: 
+title: Dragon*Con
+tags:
 - sc-state
 - south-carolina-state
 - lines
@@ -29,7 +28,7 @@ tags:
 - pocket-program
 - mythbusters
 date: September 03, 2010, 09:22 AM
-categories: 
+categories:
 - general
 ---
 [![](/files/2010/09/dragonCon.jpg "Dragon Con Badge")](/files/2010/09/dragonCon.jpg)

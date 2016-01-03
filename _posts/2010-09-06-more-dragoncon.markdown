@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: More Dragon*Con
-tags: 
+tags:
 - magazine
 - season-guide
 - season
@@ -22,7 +22,7 @@ tags:
 - sonic
 - artie-nielsen
 date: September 06, 2010, 12:04 AM
-categories: 
+categories:
 - general
 ---
 Today I attended Dragon\*Con for the second day. I really did not have much in mind to do other than peruse around and eventually find a fez (cause you know - fezes are cool). Though I did not find a fez, I did buy a few other Doctor Who related items such as the 11th Doctor's sonic screwdriver, the Doctor Who magazine, and the Doctor Who season guide. Nifty.

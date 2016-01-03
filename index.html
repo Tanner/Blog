@@ -3,26 +3,6 @@ layout: default
 title: Tanner's Blog
 ---
 
-<article id="main" class="content intro no-collapse">
-	<p>I'm a Software Engineer at Apple who enjoys engineering, aviation, and a good laugh. Learn more <a href="/pages/about.html">about me</a>.</p>
-	<p>I blog every now and then. Check out some things I've written about recently.</p>
-</article>
-
-<article id="main" class="content">
-	<div id="archives">
-		<div class="year">
-			{%for post in site.posts limit:5 %}
-				<article>
-					<h1>
-						<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate:65 }}</a>
-					</h1>
-					<time datetime="{{ post.time }}">
-						<span>{{ post.date | date:"%b %d %Y" }}</span>
-					</time>
-				</article>
-			{% endfor %}
-		</div>
-	</div>
-</article>
-
-{% include read_more.html %}
+{% for post in site.posts limit:5 %}
+	{% include post.html %}
+{% endfor %}

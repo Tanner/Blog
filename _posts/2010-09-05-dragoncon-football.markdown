@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Dragon*Con & Football
-tags: 
+tags:
 - television-show
 - peachtree
 - street
@@ -31,7 +31,7 @@ tags:
 - win
 - flickr
 date: September 05, 2010, 09:11 AM
-categories: 
+categories:
 - general
 ---
 Yesterday I went to my first day at Dragon\*Con.

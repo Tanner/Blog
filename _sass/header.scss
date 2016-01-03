@@ -1,106 +1,65 @@
-$background-color: #2370b1;
-$avatar: "https://www.gravatar.com/avatar/54da22b08b09b35cae64a1e434dcba56.png?s=256";
+.info-header {
+  $background-color: #3498DB;
 
-$avatar-shadow-offset: 5px;
+  $font-color: #FFF;
 
-#header {
-  position: relative;
+  flex-basis: 250px;
 
-  width: 100%;
-  padding: 40px 20px;
-  padding-bottom: 40px - $avatar-shadow-offset;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  padding: 30px;
 
   box-sizing: border-box;
 
-  text-align: center;
+  background-color: $background-color;
 
-  font-family: 'Cabin', sans-serif;
-  font-size: 0;
+  color: $font-color;
 
-  line-height: 0;
+  section {
+    &:not(:last-child) {
+      padding-bottom: 30px;
+    }
 
-  background: $background-color;
-  color: #fff;
+    a {
+      color: $font-color;
 
-  #content {
-    display: inline-block;
-    margin: 0 auto;
+      font-weight: bold;
 
-    h1 {
-      font-size: 42px;
-      line-height: 42px;
+      &:visited {
+        color: $font-color;
+      }
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0;
+
       padding-bottom: 10px;
     }
 
-    #words:after {
-      display: table;
-      content: '';
-      clear: both;
-    }
+    p {
+      margin: 0;
 
-    #me {
-      float: left;
-
-      a {
-        display: inline-block;
-
-        background-image: url($avatar);
-        background-size: contain;
-
-        width: 80px;
-        height: 80px;
-
-        box-shadow: (-$avatar-shadow-offset) (-$avatar-shadow-offset) 0 rgba(0, 0, 0, 0.2);
-      }
-    }
-
-    #words {
-      display: inline-block;
-      float: left;
-      text-align: left;
-
-      position: relative;
-
-      margin-left: 20px;
-
-      width: 320px;
-
-      h1 {
-        font-size: 48px;
-        line-height: 48px;
-      }
-
-      nav {
-        vertical-align: baseline;
-
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-
-        font-size: 18px;
-        font-weight: bold;
-
-        line-height: 22px;
-
-        cursor: default !important;
-
-        li {
-          display: inline-block;
-          margin: 0 2px 0 0;
-
-          list-style-type: none;
-
-          &:last-child {
-            margin: 0;
-          }
-
-          a {
-            padding: 5px;
-
-            color: #fff;
-          }
-        }
-      }
+      padding-bottom: 10px;
     }
   }
+}
+
+.info-header-background {
+  background-color: #3498DB;
+
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  bottom: -88px;
+
+  width: 250px;
+
+  z-index: -1;
+}
+
+.content {
+  padding: 30px;
 }

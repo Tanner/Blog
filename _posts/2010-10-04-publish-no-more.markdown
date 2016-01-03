@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Publish No More
-tags: 
+tags:
 - copyright
 - literature
 - publishing
@@ -14,7 +14,7 @@ tags:
 - college
 - entry
 date: October 4, 2010, 11:47 AM
-categories: 
+categories:
 - english-1101
 - technology
 ---
@@ -31,11 +31,13 @@ You can read more on the press release [here](http://www.magazine.org/associatio
 It is very interesting as when the author of the ReadWriteWeb article looked into the topic, he found that in dictionaries, an item which you publish does not include digital media such as a blog article. So I decided to look into several different definitions from several large dictionaries myself.
 
 [Wiktionary](http://en.wiktionary.org/wiki/publish)
+
 >- (intransitive): To issue a medium (e.g. publication).
 >- (transitive): To issue something (usually printed work) for sale and distribution.
 >- (transitive): To announce to the public.
 
 [Merriam-Webster](http://www.merriam-webster.com/dictionary/publish)
+
 >- transitive verb
 > - to make generally known
 > - to make public announcement ofto disseminate to the publicto produce or release for distribution; specifically : printto issue the work of (an author)
@@ -44,6 +46,7 @@ It is very interesting as when the author of the ReadWriteWeb article looked int
 >    2. to have one's work accepted for publication
 
 [dictionary.reference.com](http://dictionary.reference.com/browse/publish)
+
 >- to issue (printed or otherwise reproduced textual or graphic material, computer software, etc.) for sale or distribution to the public.
 >- to issue newspapers, books, computer software, etc.; engage in publishing: The new house will start to publish next month.
 

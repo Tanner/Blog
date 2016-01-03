@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: The Innovator
-tags: 
+tags:
 - ifroggy
 - ifroggy-network
 - x-plane
@@ -20,7 +20,7 @@ tags:
 - facebook
 - napster
 date: November 5, 2010, 09:32 AM
-categories: 
+categories:
 - english-1101
 - technology
 ---
@@ -32,7 +32,7 @@ Just to see what the actual definition of the word "innovate" is, I looked it up
 
 The [definition](http://dictionary.reference.com/browse/innovator) of "innovate" is:
 
->to introduce something new; make changes in anything established.<
+>to introduce something new; make changes in anything established.
 
 From this definition we can see that an innovator is someone who innovates, i.e. they introduce something new into the world never seen before. In <u>Born Digital</u>, the author lists several famous innovators over the years such as Mark Zuckerberg (creator of Facebook), Shawn Fanning (creator of Napster), and Chad Hurley (creator of YouTube). The book also lists a few teen innovators who I did not know who had created small companies that generated profit.
 

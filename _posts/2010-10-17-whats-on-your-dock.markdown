@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Whats on your Dock?
-tags: 
+tags:
 - first
 - dropbox
 - mailplane
@@ -28,10 +28,13 @@ tags:
 - applications
 - tweetie
 date: October 17, 2010, 04:17 PM
-categories: 
+categories:
 - technology
 ---
-[![](/files/2010/10/dock-1024x81.png "Dock")](/files/2010/10/dock.png)I have wanted to do this post after reading [Ajai's post](http://www.ajaimk.com/2010/08/26/whats-on-your-dock/) about it, but have always been too busy to do it or have forgotten about it when doing other posts. So here I am typing up this post during CS 1331 lecture.
+[![](/files/2010/10/dock-1024x81.png "Dock")](/files/2010/10/dock.png)
+
+I have wanted to do this post after reading [Ajai's post](http://www.ajaimk.com/2010/08/26/whats-on-your-dock/) about it, but have always been too busy to do it or have forgotten about it when doing other posts. So here I am typing up this post during CS 1331 lecture.
+
 - Finder
 - [Mailplane](http://mailplaneapp.com/) - Trial version for a replacement GMail client. Not really sure if I'd spend money for it yet.
 - [Google Chrome](http://www.google.com/chrome/intl/en/landing_chrome_mac.html?hl=en)
@@ -52,6 +55,7 @@ categories:
 - Extracted Files Folder - Where extracted folders from compressed files in my Downloads folder go.
 - Download Folder - Where downloads exist.
 - Trash - The doomsday of files.
+
 So that is my dock.
 
 Inspired by: [Ajai Karthikeyan](http://www.ajaimk.com/2010/08/26/whats-on-your-dock/)

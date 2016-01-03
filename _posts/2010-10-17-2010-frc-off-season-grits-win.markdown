@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: 2010 FRC Off-Season GRITS Win
-tags: 
+tags:
 - first
 - poof
 - pwm
@@ -27,10 +27,12 @@ tags:
 - base
 - freshman
 date: October 17, 2010, 03:02 PM
-categories: 
+categories:
 - technology
 ---
-[![](/files/2010/10/grits-300x225.jpg "GRITS")](/files/2010/10/grits.jpg)Yesterday, I woke up at 4:00 AM to drive down to Warner Robins for the 2nd Annual GA FIRST Regional Invitational Tournament and Showcase or for short, GRITS. GRITS is an off-season event for the FIRST Robotics Competition which I was a part of throughout my four years of high school.
+[![](/files/2010/10/grits-300x225.jpg "GRITS")](/files/2010/10/grits.jpg)
+
+Yesterday, I woke up at 4:00 AM to drive down to Warner Robins for the 2nd Annual GA FIRST Regional Invitational Tournament and Showcase or for short, GRITS. GRITS is an off-season event for the FIRST Robotics Competition which I was a part of throughout my four years of high school.
 
 Last year, my high school team won the event with the help of a local team from North Gwinnett. Over the yeas we have developed a friendship with North Gwinnett as they are the closest team next to us and we've both developed great robots over the past few years. This year, however, we were against them all the way up to the finals.
 

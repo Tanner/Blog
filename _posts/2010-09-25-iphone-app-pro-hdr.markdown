@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: "iPhone App: Pro HDR"
-tags: 
+tags:
 - college
 - ios
 - app
@@ -20,7 +20,7 @@ tags:
 - camera
 - set
 date: September 25, 2010, 09:01 PM
-categories: 
+categories:
 - technology
 ---
 About a week or two ago, I broke down and bought the [Pro HDR](http://itunes.apple.com/us/app/pro-hdr/id347104281?mt=8) iPhone application.
@@ -31,4 +31,6 @@ The use of the application is quite easy. On start-up you are prompted with crea
 
 Overall, the application works quite nicely. There are some instances where the image obviously looks modified by HDR, but some instances the image looks quite nice. The Auto HDR function does take a bit longer to run as the application iterates through all the exposure options for the device's camera where as the Manual HDR just takes two taps and two button clicks to create the image. In reality it is like six to eight seconds for the Auto HDR to run and about four seconds for the Manual HDR to run.
 
-Below is one of my favorite "HDR" images I have created thus far. You can view all my other HDR videos on my Flickr account [here](http://www.flickr.com/photos/tannerld/sets/72157624909083649/).[![](/files/2010/09/5013845092_86d30d3aeb.jpg "Love HDR")](http://www.flickr.com/photos/tannerld/5013845092/in/set-72157624909083649/)
+Below is one of my favorite "HDR" images I have created thus far. You can view all my other HDR videos on my Flickr account [here](http://www.flickr.com/photos/tannerld/sets/72157624909083649/).
+
+[![](/files/2010/09/5013845092_86d30d3aeb.jpg "Love HDR")](http://www.flickr.com/photos/tannerld/5013845092/in/set-72157624909083649/)

@@ -2,12 +2,10 @@
 layout: default
 ---
 
-<article class="content">
-	<header>
+<article class="article">
+	<header class="header">
 		<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
-		<time pubdate datetime="{{ page.date | date: "%Y-%m-%e" }}">{{ page.date | date: "%A, %B %e, %Y" }}</time>
+		<time pubdate datetime="{{ page.date | date: "%Y-%m-%e" }}">{{ page.date | date: "%b %e" }}</time>
 	</header>
 	{{ content }}
 </article>
-
-{% include comment.html %}

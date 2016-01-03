@@ -1,7 +1,7 @@
---- 
+---
 layout: post
 title: Cross That Off the Bucket List
-tags: 
+tags:
 - cross
 - crosscountry
 - fly
@@ -17,10 +17,12 @@ tags:
 - usa
 - country
 date: October 15, 2010, 11:31 AM
-categories: 
+categories:
 - general
 - aviation
 ---
-[![](/files/2010/10/things_completion.png "Cross Country Cross Off")](/files/2010/10/things_completion.png)I was adding something to the [Things](http://culturedcode.com/things/) to-do list application's "Someday" list when I noticed I still had "Fly Across the Country" on the list. Seeing as I have [already completed](http://airborne.revenir.org/) this item on my Bucket List, I crossed it off.
+[![](/files/2010/10/things_completion.png "Cross Country Cross Off")](/files/2010/10/things_completion.png)
+
+I was adding something to the [Things](http://culturedcode.com/things/) to-do list application's "Someday" list when I noticed I still had "Fly Across the Country" on the list. Seeing as I have [already completed](http://airborne.revenir.org/) this item on my Bucket List, I crossed it off.
 
 One down, a lot more to go...
