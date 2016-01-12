@@ -1,8 +1,7 @@
 Owner: Tanner Smith
 Site: tannersmith.me
 Twitter: @tannerld
-Location: Sunnyvale, CA
+Location: Redwood City, CA
 
 Last Update: Check here: https://github.com/tanner/blog
 Software: Jekyll
-
