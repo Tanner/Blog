@@ -3,24 +3,33 @@ layout: static
 title: About Me
 ---
 
-Hello! I'm Tanner. I enjoy engineering, aviation, a good laugh, and learning new things.
+Hi there! My name is Tanner Smith.
 
-## Living
-I grew up in Suwanee, GA and moved to Atlanta, GA for college. I now live in Redwood City, CA.
+I'm originally from Atlanta, GA, but I currently live in Redwood City, CA.[^1][^2]
 
-## Education
-I graduated from Peachtree Ridge High School in Duluth, GA in 2010. After that I attended the Georgia Institute of Technology where I [graduated]({% post_url 2014-05-10-belated-i-got-out %}) in Fall 2013 with a BS in Computer Science.
+I'm a software engineer at <a href="http://www.apple.com/">Apple</a> in Cupertino, CA.
 
-## Work
-I started working at Apple in Spring 2014 as a Software Engineer.
+I'm never really sure what else to put on an about page. What do people want to know about me?
 
-## Watching
-I watch a fair amount of TV shows and movies. I enjoy science-fiction, adventure, and comedies.
+I could tell you about hobbies. I enjoy computers[^3], aviation, and cooking. Speaking of aviation, I got my pilot's license _just_ after I got my driver's license. I was so close!
 
-My favorite TV shows include _Seinfeld_ and _Firefly_. My favorite movies are _The Time Machine_, _Her_, _Up_, and _Airplane!_.
+TV shows are good to talk about. I could tell you genres I think I like, but I'll just list a few. My favorite TV shows include _Doctor Who_, _Seinfeld_, _Firefly_, _House of Cards_. I think my favorite movie might be _Airplane!_.
 
-## Reading
-I enjoy reading, however I have not read many books recently.
+I went to school at the Georgia Institute of Technology (aka "Georgia Tech"[^4]) and graduated in the Fall of 2013 with a BS in Computer Science. [Buzz](https://en.wikipedia.org/wiki/Buzz_(mascot)) is awesome.
 
-## Tools
-This blog is built by [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com). See my blog's source in its [GitHub Repository](https://github.com/Tanner/Blog)!
+I think that's everything I can think of for an about page for now.
+
+If I missed something or you want to know something, feel free to [tweet me](https://twitter.com/tannerld)!
+
+### Obligatory Stuff
+This blog is built by [Jekyll](http://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com).
+
+You can see its source and its history in the [GitHub repo](https://github.com/Tanner/Blog). Don't judge, CSS is weird.
+
+All rights are reserved on my content (2016).[^5]
+
+[^1]: It has a great climate, I [hear](https://en.wikipedia.org/wiki/Redwood_City,_California#Motto).
+[^2]: I had to look up the syntax for footnotes again just for that joke.
+[^3]: That should be a given.
+[^4]: Not "Georgia Tech University".
+[^5]: [Yada-yada...](https://en.wikipedia.org/wiki/The_Yada_Yada)
