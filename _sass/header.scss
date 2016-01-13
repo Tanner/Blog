@@ -1,6 +1,4 @@
 .info-header {
-  $background-color: #3498DB;
-
   $font-color: #FFF;
 
   flex-basis: 250px;
@@ -11,8 +9,6 @@
   padding: 30px;
 
   box-sizing: border-box;
-
-  background-color: $background-color;
 
   color: $font-color;
 
@@ -43,21 +39,6 @@
       padding-bottom: 10px;
     }
   }
-}
-
-.info-header-background {
-  background-color: #3498DB;
-
-  position: fixed;
-
-  top: 0;
-  left: 0;
-
-  bottom: -88px;
-
-  width: 250px;
-
-  z-index: -1;
 }
 
 .content {

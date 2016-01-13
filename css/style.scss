@@ -10,6 +10,10 @@ html, body {
 	height: 100%;
 }
 
+html {
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPoAAAABCAYAAAD3ubPnAAAABGdBTUEAALGPC/xhBQAAABhJREFUKBVjNJlx+z/DKBgNgdEQGNYhAABbjQKoHukimQAAAABJRU5ErkJggg==') top left repeat-y;
+}
+
 img {
 	border: 0;
 }
