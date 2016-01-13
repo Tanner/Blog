@@ -1,14 +1,16 @@
 @media screen and (max-width: 500px) {
+  html {
+    background: none;
+  }
+
   #wrapper {
     flex-direction: column;
   }
 
   .info-header {
     flex-basis: auto;
-  }
 
-  .info-header-background {
-    display: none;
+    background-color: #3498DB;
   }
 
   .content {
