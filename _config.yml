@@ -6,5 +6,5 @@ url: http://www.tannersmith.me
 baseurl: ""
 markdown: kramdown
 
-name: Tanner's Blog
+title: Tanner's Blog
 description: The personal blog for Tanner Smith.
