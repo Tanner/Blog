@@ -37,11 +37,13 @@
     }
 
     blockquote {
-      padding: 30px;
+      padding: 10px 0 10px 10px;
 
-      margin-bottom: 10px;
+      margin: 0 0 10px 0;
 
-      background: #ECF0F1;
+      border-left: solid 5px #ECF0F1;
+
+      font-style: italic;
     }
 
     .header {
