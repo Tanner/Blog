@@ -1,0 +1,120 @@
+---
+layout: post
+title: "Podcasts"
+date: May 10, 2016
+---
+
+I love listening to podcasts. I listen to them on my way to and from work. There's always an interesting topic or conversation in my collection of podcasts. I thought I'd go over all the podcasts I listen to and list my favorites.
+
+My podcast client of choice is [Overcast](https://overcast.fm). I use Smart Speed and the general speed increase heavily. Most podcasts I listen to have Smart Speed on and are sped up ~1.6x on top of that.[^0]
+
+After going through Overcast, the total count of podcasts I'm subscribed to comes to 66. 😳
+
+I knew it was high, but that's a lot.
+
+Without further ado, here are the podcasts I listen to:
+
+ - The Awkward Human Survival Guide
+ - Canvas
+ - Connected
+ - Cortex
+ - Good Job, Brain!
+ - Mac Power Users
+ - The Rebound
+ - Remaster
+ - Ruminate Podcasts
+ - Serial
+ - Still Untitled: The Adam Savage Project
+ - Stuff You Should Know
+ - Welcome to Night Vale
+ - 99% Invisible
+ - Accidental Tech Podcast
+ - The Allusionist
+ - Analog(ue)
+ - Anecdote Podcast
+ - Awesome Etiquette
+ - B-Sides
+ - Back to Work
+ - Built in Motion - Life and Engineering
+ - Causality
+ - Clockwise
+ - Core Intuition
+ - Criminal
+ - Everything Sounds
+ - Geek Fit
+ - Getting There
+ - The Heart
+ - Hello Internet
+ - Inquisitive
+ - Iterate
+ - The Journal by Kevin Rose
+ - LGBTQ Tech Podcast
+ - Liftoff
+ - Material
+ - Myke at the Movies
+ - Pitch
+ - Radio Diaries
+ - Reconcilable Differences
+ - Refresh
+ - Robot or Not?
+ - Sextless Marriage
+ - Song Exploder
+ - Surprisingly Awesome
+ - The Talk Show With John Gruber
+ - Technical Difficulties
+ - Techtonic[^4]
+ - The Tesla Show
+ - The Tinycast
+ - Top Four
+ - The Truth
+ - Tuner
+ - Turing-Incomplete
+ - Under the Radar
+ - Upgrade
+ - V3
+ - Welcome to Macintosh
+ - What I Watched Last Night
+ - Your Daily Lex
+
+Here are also podcasts that I'm trying out, i.e. downloaded an episode but not subscribed:
+
+ - Millennial
+ - Open Ended
+ - The Titanium Physicists Podcasts
+ - The Uncertain Hour
+
+After listing all of those, I'm out of breath. 😅
+
+Some of them are no longer publishing, e.g. Inquisitive[^1]. Others haven't published in a few months or longer, but haven't been declared dead.
+
+My [top four](https://www.relay.fm/topfour)[^2] podcasts would probably have to be:
+
+1. Good Job, Brain!
+2. 99% Invisible
+3. Back to Work
+4. Stuff You Should Know
+
+_Good Job, Brain!_ is my favorite because Ryan and I listen to it while making dinner on Friday nights. It's fun, hilarious, and full of facts. We even own the barnyard buzzers they use now.
+
+_99% Invisible_ is a great podcast about all sorts of things. Sometimes it's a building that has a backstory that no one knows about or a thing that people see everyday, but don't think about. The show is very well produced and just awesome.
+
+_Back to Work_ is hosted by Merlin Mann and Dan Benjamin where they talk about all sorts of things. Productivity and communication are listed as the top two things they talk about in the description, but they talk about those and more. I'm never really sure what to expect from it, but I always enjoy the show.
+
+_Stuff You Should Know_ is another show about facts and diving into things you probably didn't know (heh).[^3] It's a great show made in Atlanta with hosts that are not afraid to chuckle.
+
+Other good podcasts include:
+
+ - Awesome Etiquette
+ - Material
+ - Liftoff
+ - Hello Internet
+
+If any of those eight have a new episode, I'll generally listen to those first before getting to the rest.
+
+I suggest you download at least one episode of those eight and give it a shot. You never know, you might end up subscribing.
+
+[^0]: Exceptions are 99% Invisible because Roman Mars has an awesome voice and any music-related podcast.
+[^1]: Relay FM uses the word "retired": https://www.relay.fm/inquisitive
+[^2]: And I'll actually list four.
+[^3]: I'm sensing a trend.
+[^4]: They have awesome intro music.
