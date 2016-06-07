@@ -3,6 +3,8 @@ layout: static
 title: About Me
 ---
 
+<video src="/files/me.mov" autoplay muted height="250"></video>
+
 Hi there! My name is Tanner Smith.
 
 I'm originally from Atlanta, GA, but I currently live in Redwood City, CA.[^1][^2]
