@@ -2,3 +2,4 @@ _site/
 rakefile.rb
 .sass-cache
 .jekyll-metadata
+.bundle
