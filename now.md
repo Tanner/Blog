@@ -5,16 +5,16 @@ title: Now
 
 Hey, this is stuff I'm doing now. Well, not _right_ now, but pretty recently.[^1]
 
-I'm not sure if I want this to be a bullet listed or not.
+I think I'll keep this a bulleted list.
 
-I'm currently reading _[Surely You're Joking, Mr. Feynman!](http://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041/ref=asap_bc?ie=UTF8)_. It's pretty good so far - an easy read.
+I'm still reading _[Surely You're Joking, Mr. Feynman!](http://www.amazon.com/Surely-Feynman-Adventures-Curious-Character/dp/0393316041/ref=asap_bc?ie=UTF8)_. I haven't read it recently though.
 
-I'm also training for a 5K, which I've never done before.
+I'm trying to get into a routine of drawing again, but that's hard.
 
-I might start up a podcast, we'll see how that goes.
+I'm planning a trip to New York.
 
-I'm also embarrassed at the small number of items I have on this list. 😕
+I'm working hard at work.
 
-This page was last updated on June 27th.
+This page was last updated on October 25th.
 
 [^1]: Inspired by [Mike Sivers](https://sivers.org/nowff)
