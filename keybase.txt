@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tannerld
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tannersmith.me
+  * I am tannerld (https://keybase.io/tannerld) on keybase.
+  * I have a public key ASCEXu4Vap76JgnPqWoAXjYN35LktDaiJ3-xRnyD753KnQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019505b0c7442ce618b7b963f239ae2420b2ce0897ee5421ef266df0b0bb6d57910a",
+            "host": "keybase.io",
+            "kid": "0120845eee156a9efa2609cfa96a005e360ddf92e4b436a2277fb1467c83ef9dca9d0a",
+            "uid": "a4b31964c206a799461f35f325073800",
+            "username": "tannerld"
+        },
+        "service": {
+            "hostname": "tannersmith.me",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1482201335,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1482201315,
+        "hash": "89f4ea3222e6f3113edee6741186087de2ff10d1c92d6644bdf56d237e9f733f9db444a3f7823f7ff116331e1ffde395480b9b9579f1c50feb56c295c8fa481d",
+        "seqno": 768387
+    },
+    "prev": "630b325354f9cc14cecfea29f4221730f10597884adf14c47506e3ec898718ab",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEghF7uFWqe+iYJz6lqAF42Dd+S5LQ2oid/sUZ8g++dyp0Kp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOTUwNWIwYzc0NDJjZTYxOGI3Yjk2M2YyMzlhZTI0MjBiMmNlMDg5N2VlNTQyMWVmMjY2ZGYwYjBiYjZkNTc5MTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODQ1ZWVlMTU2YTllZmEyNjA5Y2ZhOTZhMDA1ZTM2MGRkZjkyZTRiNDM2YTIyNzdmYjE0NjdjODNlZjlkY2E5ZDBhIiwidWlkIjoiYTRiMzE5NjRjMjA2YTc5OTQ2MWYzNWYzMjUwNzM4MDAiLCJ1c2VybmFtZSI6InRhbm5lcmxkIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ0YW5uZXJzbWl0aC5tZSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE4In0sImN0aW1lIjoxNDgyMjAxMzM1LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0ODIyMDEzMTUsImhhc2giOiI4OWY0ZWEzMjIyZTZmMzExM2VkZWU2NzQxMTg2MDg3ZGUyZmYxMGQxYzkyZDY2NDRiZGY1NmQyMzdlOWY3MzNmOWRiNDQ0YTNmNzgyM2Y3ZmYxMTYzMzFlMWZmZGUzOTU0ODBiOWI5NTc5ZjFjNTBmZWI1NmMyOTVjOGZhNDgxZCIsInNlcW5vIjo3NjgzODd9LCJwcmV2IjoiNjMwYjMyNTM1NGY5Y2MxNGNlY2ZlYTI5ZjQyMjE3MzBmMTA1OTc4ODRhZGYxNGM0NzUwNmUzZWM4OTg3MThhYiIsInNlcW5vIjoxMSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEBkdq0r2s6VGfcmNXZOIdMHRQm+OmNsgxZYWQ24eJG54R6owJqrAUIi3k6f7VGYJiUkLcHV3Ehi9/L47Wlqq/oHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQg5e6+UzYdplyna52BMVFeZaedMT+EDP4XY5Oh2HyDXiqjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tannerld
+
+==================================================================
