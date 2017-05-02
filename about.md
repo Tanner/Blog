@@ -5,7 +5,7 @@ title: About Me
 
 <script src="https://cdn.apple-livephotoskit.com/lpk/1/livephotoskit.js"></script>
 
-<div style="padding-bottom: 10px;">
+<div style="padding-bottom: 10px; max-width: none;">
   <div data-live-photo data-photo-src="/files/me.jpg" data-video-src="/files/me.mov" style="width: 333px; height: 250px;"></div>
 </div>
 
