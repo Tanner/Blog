@@ -13,4 +13,6 @@ http://superuser.com/questions/268985/remove-audio-from-video-file-with-ffmpeg).
 
 I think the result is nice. I might rotate out the video periodically just to make things exciting.
 
+*Update:* Now with [LivePhotosKit JS](https://developer.apple.com/reference/livephotoskitjs/) it's legit!
+
 [^1]: Turns out cropping video seems like an otherwise hard problem.

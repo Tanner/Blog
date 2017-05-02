@@ -3,7 +3,11 @@ layout: static
 title: About Me
 ---
 
-<video src="/files/me.mov" autoplay muted height="250"></video>
+<script src="https://cdn.apple-livephotoskit.com/lpk/1/livephotoskit.js"></script>
+
+<div style="padding-bottom: 10px;">
+  <div data-live-photo data-photo-src="/files/me.jpg" data-video-src="/files/me.mov" style="width: 333px; height: 250px;"></div>
+</div>
 
 Hi there! My name is Tanner Smith.
 

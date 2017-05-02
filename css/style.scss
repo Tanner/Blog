@@ -40,6 +40,14 @@ img {
 	display: none;
 }
 
+div[data-live-photo] {
+	max-width: none;
+
+	* {
+		max-width: none;
+	}
+}
+
 @import 'header';
 
 @import 'article';
