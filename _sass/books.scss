@@ -1,0 +1,40 @@
+#books {
+  .book {
+    padding: 10px 0;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    header {
+      display: flex;
+
+      padding: 5px 5px 5px 0;
+
+      .emoji {
+        display: flex;
+
+        flex-shrink: 0;
+
+        justify-content: space-between;
+        align-items: center;
+
+        padding-right: 10px;
+
+        width: 50px;
+      }
+
+      .title {
+        color: #3A99D8;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      .author {
+        color: #3A99D8;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+    }
+  }
+}

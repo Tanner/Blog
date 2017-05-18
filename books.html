@@ -1,0 +1,50 @@
+---
+layout: static
+title: Books
+---
+
+<div>
+  <p>Listed here are books I've read and what I thought of them.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+  <p>They're sorted from most recently read to oldest.</p>
+  <div id="books">
+    {% assign books = site.books | sort: "value" | reverse %}
+    {% for book in books %}
+      <div class="book">
+        <header>
+          <div class="emoji">
+            <span class="rating">
+          		{% if book.rating == "positive" %}
+              👍🏼
+              {% elsif book.rating == "negative" %}
+              👎🏼
+              {% else %}
+              🤷🏼‍♂️
+              {% endif %}
+            </span>
+            <span class="medium">
+          		{% if book.medium == "book" %}
+              📖
+              {% elsif book.medium == "audio" %}
+              🎧
+              {% else %}
+              📄
+              {% endif %}
+            </span>
+          </div>
+          <div>
+            <span class="title">{{ book.title }}</span> by <span class="author">{{ book.author }}</span>
+          </div>
+        </header>
+        <div>
+          {{ book.content }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="footnotes"><ol>
+    <li class="footnote" id="fn:1">
+        <p>No, I'm not going to link to them or anything. Pick your own provider and find the book there.<a href="#fnref:1" title="return to article"> ↩</a><p>
+    </li>
+</ol></div>

@@ -1,10 +1,12 @@
 destination: ./_site
 permalink: /:year/:month/:day/:title/
-exclude: [lib, originals, old_themes, rakefile.rb, rakefile.sample.rb, Makefile]
+exclude: [lib, originals, old_themes, rakefile.rb, rakefile.sample.rb, Makefile, Gemfile.lock]
 include: [.htaccess]
 url: http://www.tannersmith.me
 baseurl: ""
 markdown: kramdown
+collections:
+- books
 
 title: Tanner's Blog
 description: The personal blog for Tanner Smith.
