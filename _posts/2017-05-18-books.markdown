@@ -1,0 +1,13 @@
+---
+layout: post
+title: Books
+date: May 18, 2017
+---
+
+Recently I've started reading a lot of books on [Audible](http://www.audible.com)[^1]. I wanted a way to briefly list my thoughts about the books and never really caught onto [Goodreads](https://www.goodreads.com).
+
+So I made my own - [Books]({{ site.baseurl }}/books).
+
+It's short, it's simple. There's emoji responses and short thoughts.
+
+[^1]: Or whatever you want to call "reading" for audiobooks. Listening?
